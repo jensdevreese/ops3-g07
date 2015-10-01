@@ -6,10 +6,11 @@
 | :---     | :---                                    |
 | student1 | [JasperCottenie](https://github.com/JasperCottenie) |
 | student2 | [Jens De Vreese](https://github.com/jensdevreese) |
-| student3 | [student3](https://github.com/student3) |
-| student4 | [student4](https://github.com/student4) |
+| student3 | [Sébastiaan Pattyn](https://github.com/student3) |
+| student4 | [Mathias Van Rumst](https://github.com/mathias27) |
 
 ## Gebruikte tools
 
 * Kanban-bord: <http://huboard.com/...>
+* Trello-bord: 
 * Tijdregistratie: <http://toggl.com/...>
