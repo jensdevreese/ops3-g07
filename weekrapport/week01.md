@@ -51,7 +51,7 @@ We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met 
 ### Algemeen
 ### Mathias : Verder werken aan PowerShell
 ### Jens
-### Sebastien
+### Sebastien : Powershell video tutorials verder bekijken en boek powershell
 ### Jasper : Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
 
 ## Waar hebben jullie nog problemen mee?
