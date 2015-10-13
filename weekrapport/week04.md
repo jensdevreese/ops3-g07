@@ -69,7 +69,7 @@ Rapportering
     * Links naar Kanban-bord en tijdregistratie?
 * weeknn.md:
     * verwijder de ingevulde datum en de ingevulde secties. De sectie "Feedback Analyse" mag weg.
-    * vervang **OVERAL** "student x" door jullie namen
+    * vervang **OVERAL** "student x" door jullie namen, ook in de reeds ingevulde weekrapporten
 * week01.md:
     * In "Wat plan je volgende week te doen" voeg je de tekst niet toe achter je naam in de titel maar er onder (bv. bullet-list)
     * Tijdregistratie toevoegen!!
