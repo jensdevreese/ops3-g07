@@ -1,0 +1,8 @@
+CheatSheet Windows powershell
+CLS		clear-host
+CD		Set location
+dir,ls		get childitem
+type,cat	get-content
+copry,cp	Copy-item
+md/mkdir	make directory
+gal		get aliases
