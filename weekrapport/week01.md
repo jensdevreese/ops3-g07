@@ -1,7 +1,7 @@
 # Voortgangsrapport week 01
 
 * Groep: 07
-* Datum: 28/09/2015
+* Datum: 25/09/2015
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -50,7 +50,7 @@ We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met 
 
 ### Algemeen
 ### Mathias : Verder werken aan PowerShell
-### Jens
+### Jens : Het bekijken van de tutorials over Windows powershell v3.0 Jump Start : https://www.microsoftvirtualacademy.com/en-us/training-courses/getting-started-with-powershell-30-jump-start-8276?l=r54IrOWy_2304984382
 ### Sebastien : Powershell video tutorials verder bekijken en boek powershell
 ### Jasper : Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
 

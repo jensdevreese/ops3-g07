@@ -1,8 +1,7 @@
 # Voortgangsrapport week 01
 
 * Groep: 07
-* Datum: 02/10/2015
-
+* Datum: 28/09/2015
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -17,9 +16,10 @@
 
 ### Algemeen
 
-https://trello.com/b/cnD0Ycaw/week-1
+https://trello.com/b/cnD0Ycaw/week-1-2
 
-We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack
+We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack.
+
 
 [Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 
@@ -50,10 +50,10 @@ We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met 
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
-### Mathias : Verder werken aan PowerShell
-### Jens : Het bekijken van de tutorials over Windows powershell v3.0 Jump Start
-### Sebastien : Powershell video tutorials verder bekijken en boek powershell
-### Jasper : Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
+### Mathias : Verder werken aan PowerShell/werkomgeving.
+### Jens
+### Sebastien
+### Jasper
 
 ## Waar hebben jullie nog problemen mee?
 
@@ -76,6 +76,4 @@ We moeten wachten met linux tot we verder ziten bij Enterprise Linux
 ### Student 2
 ### Student 3
 ### Student 4
-
-
 
