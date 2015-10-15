@@ -23,25 +23,25 @@ We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met 
 
 [Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 
-### Student 1
+### Mathias
 
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
 
-### Student 2
+### Jens
 
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
 
-### Student 3
+### Sebastien
 
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
 
-### Student 4
+### Jasper
 
 * ...
 
@@ -63,17 +63,17 @@ We moeten wachten met linux tot we verder ziten bij Enterprise Linux
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+### Mathias
+### Jens
+### Sebastien
+### Jasper
 
 ## Feedback analyseluik
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+### Mathias
+### Jens
+### Sebastien
+### Jasper
 

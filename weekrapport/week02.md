@@ -27,25 +27,25 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 [Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 
-### Student 1
+### Mathias
 
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
 
-### Student 2
+### Jens
 
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
 
-### Student 3
+### Sebastien
 
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
 
-### Student 4
+### Jasper
 
 * ...
 
