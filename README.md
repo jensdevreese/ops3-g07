@@ -2,7 +2,7 @@
 
 ## Groepsleden
 
-| Naam     | GitHub gebruikersnaam                   |                              |
+| Naam     | GitHub gebruikersnaam                   |
 | Jasper Cottenie | [JasperCottenie](https://github.com/JasperCottenie) |
 | Jens De Vreese | [Jens De Vreese](https://github.com/jensdevreese) |
 | Sébastien Pattyn | [Sébastien Pattyn](https://github.com/Sebastienpattyn) |
