@@ -1,4 +1,4 @@
-# Voortgangsrapport week 01
+# Voortgangsrapport week 04
 
 * Groep: 07
 * Datum: 16/10/2015
@@ -10,37 +10,36 @@
 | Sebastien|  Ja   |           |
 | Jasper   |  Ja   |           |
 
+## Trello
 
+Link: https://trello.com/b/arZNe5BT
 
 ## Wat heb je deze week gerealiseerd?
 
 ### Algemeen
 
-https://trello.com/b/cnD0Ycaw/week-1
-
-We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack
 
 [Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 
-### Student 1
+### Mathias
 
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
 
-### Student 2
+### Jens
 
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
 
-### Student 3
+### Sebastien
 
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
 
-### Student 4
+### Jasper
 
 * ...
 
