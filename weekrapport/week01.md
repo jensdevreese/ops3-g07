@@ -13,10 +13,12 @@
 ## Trello
 ![screenschot TrelloWeek1] (url)
 
+https://trello.com/b/cnD0Ycaw
+
 
 ## Wat heb je deze week gerealiseerd?
-Op vrijadg 25 september kregen we de nodige info over de opdrachten voor het vak Projecten 3: systeem en netwerkbeheer.
-Tijdens de week hebben we alles rond de organisatie van het project geregeld. We kregen de github-repository 'Ops-g07' toegewezen voor onze groep. Iedere student werd hieraan toegevoegd. 
+Op vrijdag 25 september kregen we de nodige info over de opdrachten voor het vak Projecten 3: systeem en netwerkbeheer.
+Tijdens de week hebben we alles rond de organisatie van het project geregeld. We kregen de github-repository 'Ops3-g07' toegewezen voor onze groep. Iedere student werd hieraan toegevoegd. 
 Op de lokale computers wordt het programma Github geinstalleerd, zodanig dat iedereen een lokale kopie heeft van deze repository. Er werd een Trello-team aangemaakt met de naam 'Connexus V3.0'. Iedereen van de groep heeft een account aangemaakt, en is hieraan toegevoegd.
 Daarbij is een kanban bord gemaakt van week 1 volgens de werken met agile. Voor de tijdregistratie maken we gebruik van Toggle. 
 
@@ -48,7 +50,7 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Jasper
 
-* ...
+* https://gyazo.com/a6344100f542622b6951c19823932509
 
 [Afbeelding individueel rapport tijdregistratie]
 
@@ -56,10 +58,14 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
-### Mathias : Verder werken aan PowerShell
-### Jens : Het bekijken van de tutorials over Windows powershell v3.0 Jump Start : https://www.microsoftvirtualacademy.com/en-us/training-courses/getting-started-with-powershell-30-jump-start-8276?l=r54IrOWy_2304984382
-### Sebastien : Powershell video tutorials verder bekijken en boek powershell
-### Jasper : Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
+### Mathias
+Verder werken aan PowerShell
+### Jens
+Het bekijken van de tutorials over Windows powershell v3.0 Jump Start : https://www.microsoftvirtualacademy.com/en-us/training-courses/getting-started-with-powershell-30-jump-start-8276?l=r54IrOWy_2304984382
+### Sebastien
+Powershell video tutorials verder bekijken en boek powershell
+### Jasper
+Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
 
 ## Waar hebben jullie nog problemen mee?
 
