@@ -1,6 +1,6 @@
 # Create New Forest, add Domain Controller
-$domainname = "CONNEXUSV3.HQ"
-$netbiosName = "CONNEXUSV3"
+$domainname = "Assengraaf.nl"
+$netbiosName = ASSENGRAAF
 Import-Module ADDSDeployment
 Install-ADDSForest -CreateDnsDelegation:$false `
 -DatabasePath "C:\Windows\NTDS" `
