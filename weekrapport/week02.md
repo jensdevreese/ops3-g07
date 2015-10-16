@@ -1,4 +1,4 @@
-# Voortgangsrapport week 01
+# Voortgangsrapport week 02
 
 * Groep: 07
 * Datum: 02/10/2015
@@ -11,18 +11,23 @@
 | Sebastien|  Ja   |           |
 | Jasper   |  Ja   |           |
 
+## Trello
 
+https://trello.com/b/cnD0Ycaw
 
 ## Wat heb je deze week gerealiseerd?
 
 ### Algemeen
 
+<<<<<<< HEAD
 https://trello.com/b/cnD0Ycaw/week-1&2
 
 We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack.
 Dit omdat we tijdens de lessen entreprise-linux nog niet veel hebben gezien over LAMP-stacks.
 Daarom focussen we ons op dit moment op het volgen van de filpmjes van Powershell Jumpstart.
 Iedereen heeft ook zijn boeken besteld in verband met powershell.
+=======
+>>>>>>> e74854f07da415e8ea5da9382e6fef3853402764
 
 
 [Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
@@ -54,6 +59,7 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
+<<<<<<< HEAD
 ### Mathias : Verder werken aan PowerShell. Dit wil zeggen verder de tutorials afwerken van de Powershell Jumpstart. Hierbij werk ik momenteel aan hoe de pipeline in elkaar zit.
     Daarbij probeer ik code uit die wordt aangehaald in de tutorials en test deze op een eigen VM met windows Server 2012.
 ### Jens : Het bekijken van de tutorials over Windows powershell v3.0 Jump Start
@@ -64,6 +70,20 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 We moeten wachten met linux tot we verder zitten bij Enterprise Linux. 
 Daarom is iedereen momenteel bezig met het leren van Powershell.
+=======
+### Mathias :
+Verder werken aan PowerShell
+### Jens :
+Het bekijken van de tutorials over Windows powershell v3.0 Jump Start
+### Sebastien :
+Powershell video tutorials verder bekijken en boek powershell
+### Jasper :
+Boek verder doornemen en een aantal technet labs op powershell maken zodat ik al wat meer praktisch scripts schrijf.
+
+## Waar hebben jullie nog problemen mee?
+
+We zitten nog niet zo ver in beide opdrachten, we hebben het gevoel nog te weinig kennis te hebben om de opdracht onmiddellijk aan te vatten.
+>>>>>>> e74854f07da415e8ea5da9382e6fef3853402764
 
 ## Feedback technisch luik
 
