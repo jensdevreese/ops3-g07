@@ -34,13 +34,13 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Mathias
 
-* ![screenschot MathiasToggleWeek2]
+* ![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
 ### Jens
 
-* ![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMllgu0vNeSYgNA0PAyK81c7_OmUjjks5WKf2ewA%3D%3D)
+* ![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlpPG04ZztEFMhLemoiLVZjBKA3xQks5WKf3pwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
