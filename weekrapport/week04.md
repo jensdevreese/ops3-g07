@@ -7,7 +7,7 @@
 | :---     | :---  | :---      |
 | Mathias  |  Ja   |           |
 | Jens     |  Ja   |           |
-| Sebastien|  Ja   |           |
+| Sebastien|  Nee   |           |
 | Jasper   |  Ja   |           |
 
 ## Trello
