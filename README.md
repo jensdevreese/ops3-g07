@@ -17,6 +17,5 @@ Joeri Van Steen | Gespecialiseerd in Windows.
 Johan Decorte  | Gespecialiseerd in Analyse, agile werking.
 
 ## Gebruikte tools
-* Github-repository: <https://github.com/HoGentTIN/ops3-g07 >
 * Trello-bord: <https://trello.com/connexusv30>
-* Tijdregistratie: <http://toggl.com/...> #Project bij Mathias.
+* Tijdregistratie: <https://toggl.com/app/dashboard/team/1135392/period/thisYear>
