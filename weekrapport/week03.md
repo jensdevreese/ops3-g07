@@ -34,7 +34,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Jens
 
-* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week3.PNG?token=AGfMljRzI0oiwQEo-NDC88lwqdMdDphXks5WKfJuwA%3D%3D)
+* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Toggle/Tijdregistratie%20Jens/Toggle%20week3.PNG?token=AGfMljRzI0oiwQEo-NDC88lwqdMdDphXks5WKfJuwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 

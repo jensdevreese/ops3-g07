@@ -40,7 +40,7 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Jens
 
-* ![screenschot ToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlmnjMQ81FlwOCwcCuSQUBFCUB5txks5WKfJtwA%3D%3D)
+* ![screenschot ToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlmnjMQ81FlwOCwcCuSQUBFCUB5txks5WKfJtwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
