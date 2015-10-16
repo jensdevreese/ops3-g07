@@ -23,8 +23,7 @@
 
 ### Mathias
 
-* ...
-
+* ![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMljhfUeVFfoAYCrIfTp7p5WQLqL7mks5WKfsLwA%3D%3D)
 [Afbeelding individueel rapport tijdregistratie]
 
 ### Jens

@@ -28,7 +28,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Mathias
 
-* ...
+* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week3ToggleMathias.png?token=AGfMloBtDG8zN50UvK7QOYVoOlVaBXlKks5WKfsJwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
