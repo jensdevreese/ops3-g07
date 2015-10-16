@@ -52,7 +52,7 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Jasper
 
-* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%202.PNG?token=AGfTaVOSfH7-OMbjmVOlSM7FclReT8qbks5WKfDIwA%3D%3D)
+* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%202.PNG?token=AGfMlpMgFvagZZFZul4XQvBZkRx3nypTks5WKfw7wA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
