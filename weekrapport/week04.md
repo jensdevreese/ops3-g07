@@ -12,7 +12,7 @@
 
 ## Trello
 
-Link: https://trello.com/b/arZNe5BT
+![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfMljqOO8wQWjADB8AFnroJieXi-yBkks5WKfREwA%3D%3D)
 
 ## Wat heb je deze week gerealiseerd?
 

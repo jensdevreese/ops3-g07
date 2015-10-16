@@ -11,7 +11,7 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-https://trello.com/b/ij0Qx4di
+![screenschot KanbanWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week3.PNG?token=AGfMlgHeQ8i0ii93iycy0bKfTsjazGbBks5WKfQewA%3D%3D)
 
 ## Wat heb je deze week gerealiseerd?
 
@@ -34,7 +34,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Jens
 
-* ...
+* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week3.PNG?token=AGfMljRzI0oiwQEo-NDC88lwqdMdDphXks5WKfJuwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
@@ -46,7 +46,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Jasper
 
-* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%203.PNG?token=AGfTaXiTowkL3UCXL35ZWwSNZPKksb1Gks5WKfDbwA%3D%3D)
+* ![screenschot week3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%203.PNG?token=AGfTaXiTowkL3UCXL35ZWwSNZPKksb1Gks5WKfDbwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
