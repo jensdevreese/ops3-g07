@@ -8,7 +8,7 @@ $wmi.EnableStatic($ipaddress, $ipprefix)
 $wmi.SetGateways($ipgw, 1)
 $wmi.SetDNSServerSearchOrder($ipdns)
 #rename the computer
-$newname = "DC-ConnexusV3-1"
+$newname = "ASSV1"
 Rename-Computer -NewName $newname -force
 #install features
 $featureLogPath = "c:\logs\featurelog.txt"

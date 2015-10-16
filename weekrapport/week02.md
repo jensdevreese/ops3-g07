@@ -34,13 +34,17 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Mathias
 
+<<<<<<< HEAD
 * ![screenschot Mathias week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMltQGoFiqFCJ4WR3FXQ4d6ZQ77T3Fks5WKfsIwA%3D%3D)
+=======
+* ![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
+>>>>>>> 3c406b40f8e1236ddb2f394ca35ee9f5c7651b8f
 
 [Afbeelding individueel rapport tijdregistratie]
 
 ### Jens
 
-* ![screenschot ToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlmnjMQ81FlwOCwcCuSQUBFCUB5txks5WKfJtwA%3D%3D)
+* ![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlpPG04ZztEFMhLemoiLVZjBKA3xQks5WKf3pwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
@@ -52,7 +56,7 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Jasper
 
-* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%202.PNG?token=AGfTaVOSfH7-OMbjmVOlSM7FclReT8qbks5WKfDIwA%3D%3D)
+* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 

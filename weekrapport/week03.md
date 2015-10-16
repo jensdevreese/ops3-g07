@@ -28,13 +28,17 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Mathias
 
+<<<<<<< HEAD
 * ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week3ToggleMathias.png?token=AGfMloBtDG8zN50UvK7QOYVoOlVaBXlKks5WKfsJwA%3D%3D)
+=======
+* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week3ToggleMathias.png?token=AGfMli5i086girnCW0HJJiO-XNatVd4pks5WKf4CwA%3D%3D)
+>>>>>>> 3c406b40f8e1236ddb2f394ca35ee9f5c7651b8f
 
 [Afbeelding individueel rapport tijdregistratie]
 
 ### Jens
 
-* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Toggle/Tijdregistratie%20Jens/Toggle%20week3.PNG?token=AGfMljRzI0oiwQEo-NDC88lwqdMdDphXks5WKfJuwA%3D%3D)
+* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week3.PNG?token=AGfMlmRyc27zFFk7k56Y48cqAihxuqMZks5WKf46wA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
@@ -46,7 +50,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Jasper
 
-* ![screenschot week3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%203.PNG?token=AGfTaXiTowkL3UCXL35ZWwSNZPKksb1Gks5WKfDbwA%3D%3D)
+* ![screenschot week3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%203.PNG?token=AGfMlveJjVqgaRbn9Bftz5RiJGHgbk84ks5WKfw9wA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
