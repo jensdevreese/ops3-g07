@@ -11,9 +11,7 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-![screenschot TrelloWeek1] (url)
-
-https://trello.com/b/cnD0Ycaw
+![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfMliPqD9DOxJWWYNGYp5TUdGyJjr5Mks5WKfLMwA%3D%3D)
 
 
 ## Wat heb je deze week gerealiseerd?
@@ -38,7 +36,7 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Jens
 
-* ...
+* ![screenschot Jens week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week1.PNG?token=AGfMlrGsxHRiInTt2VZJWl9xIG94ZgQhks5WKfJqwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
@@ -50,7 +48,7 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Jasper
 
-* https://gyazo.com/a6344100f542622b6951c19823932509
+* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%201.PNG?token=AGfTaUsvck0Wk2dwQop2ipGuyN4wuCnnks5WKfCWwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 

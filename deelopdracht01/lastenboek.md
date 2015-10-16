@@ -19,9 +19,9 @@
 
 | Student  | Geschat | Gerealiseerd |
 | :---     |    ---: |         ---: |
-| student1 |         |              |
-| student2 |         |              |
-| student3 |         |              |
-| student4 |         |              |
+| Mathias |         |              |
+| Jens |         |              |
+| Sébastien |         |              |
+| Jasper |         |              |
 
 (na oplevering van de taak een schermafbeelding toevoegen van rapport tijdbesteding voor deze taak)

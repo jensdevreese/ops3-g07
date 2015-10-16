@@ -13,7 +13,7 @@
 
 ## Trello
 
-https://trello.com/b/cnD0Ycaw
+![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfMlnf28nFqBcZcfJVouSaWoAhEuggDks5WKfMrwA%3D%3D)
 
 ## Wat heb je deze week gerealiseerd?
 
@@ -40,7 +40,7 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Jens
 
-* ...
+* ![screenschot ToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlmnjMQ81FlwOCwcCuSQUBFCUB5txks5WKfJtwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
@@ -52,7 +52,7 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Jasper
 
-* ...
+* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%202.PNG?token=AGfTaVOSfH7-OMbjmVOlSM7FclReT8qbks5WKfDIwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
