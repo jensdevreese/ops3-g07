@@ -41,7 +41,7 @@ Link: https://trello.com/b/arZNe5BT
 
 ### Jasper
 
-* ...
+* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%204.PNG?token=AGfTaQM3qxi4Gaj6ylGBxl0DCQ2mRemnks5WKfD1wA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 

@@ -46,7 +46,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Jasper
 
-* 
+* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%203.PNG?token=AGfTaXiTowkL3UCXL35ZWwSNZPKksb1Gks5WKfDbwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
