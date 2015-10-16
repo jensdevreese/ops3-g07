@@ -41,7 +41,7 @@
 
 ### Jasper
 
-* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Tijdsregistratie%20screenshots%20Jasper/Week%204.PNG?token=AGfTaQM3qxi4Gaj6ylGBxl0DCQ2mRemnks5WKfD1wA%3D%3D)
+* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfMlnTQUZ1B7oqtrX-qGt2vaoEQsKPGks5WKfw_wA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
