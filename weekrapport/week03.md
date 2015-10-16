@@ -46,7 +46,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Jasper
 
-* https://gyazo.com/7eadbbb4f46a3c386de992d4408a0f41
+* 
 
 [Afbeelding individueel rapport tijdregistratie]
 

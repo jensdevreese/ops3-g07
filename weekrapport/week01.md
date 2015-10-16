@@ -13,7 +13,7 @@
 ## Trello
 ![screenschot TrelloWeek1] (url)
 
-https://trello.com/b/cnD0Ycaw
+https://trello.com/b/arZNe5BT
 
 
 ## Wat heb je deze week gerealiseerd?
@@ -50,7 +50,7 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Jasper
 
-* https://gyazo.com/a6344100f542622b6951c19823932509
+* 
 
 [Afbeelding individueel rapport tijdregistratie]
 
