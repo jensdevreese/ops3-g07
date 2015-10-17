@@ -1,4 +1,4 @@
-# host_vars/pu004.yml
+# host_vars/lampstack.yml
 ---
 el7_firewalld:
   - service: http

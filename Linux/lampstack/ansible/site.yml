@@ -1,0 +1,11 @@
+# site.yml
+---
+- hosts: lampstack
+  sudo: true
+  
+  
+  roles: 
+    - bertvv.el7
+    - bertvv.httpd
+    - bertvv.mariadb
+    - bertvv.wordpress

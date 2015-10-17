@@ -25,6 +25,14 @@
 #
 # [1] http://docs.vagrantup.com/v2/synced-folders/basic_usage.html
 ---
+- name: lampstack
+  ip: 192.168.56.77
+  synced_folders:
+    - src: www
+      dest: /var/www/html
+      options:
+        :owner: root
+        :group: root
+        :mount_options: ['dmode=0755', 'fmode=0644']
 
-- name: pu004
-  ip: 192.0.2.50
+
