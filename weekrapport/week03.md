@@ -44,7 +44,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Sebastien
 
-* ...
+* ![screenshot Toggle week3](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week3.PNG?token=AGfNEno4mMJA9l8MnyYa6xK5TwPixQbAks5WLRVmwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
