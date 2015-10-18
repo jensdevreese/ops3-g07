@@ -59,7 +59,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 ### Algemeen
 ### Mathias : Verder werken aan PowerShell/werkomgeving.
 ### Jens
-### Sebastien
+### Sebastien: Werkomgeving verder opzetten, afwerken powershell videos
 ### Jasper
 -Verder werken in mijn boek sowieso maar daarbij wel gelet op het bewaren van alle scripts die ik maak alsook bijhorende documentatie. Want momenteel is er nog te weinig van de geleerde informatie ook neergeschreven/bewaard.
 -Daarnaast ook al concreet werken aan de powershell opdracht met de nieuwe kennis van het boek. Er was eerst een leerperiode nodig om de basisbegrippen onder de knie te krijgen vooraleer ik die scripts zelf zou kunnen schrijven. Maar ik besef dat deze methode momenteel te traag gaat.
