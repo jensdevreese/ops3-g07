@@ -1,6 +1,6 @@
 # site.yml
 ---
-- hosts: pu004
+- hosts: lampstack
   sudo: true
   roles: 
     -  bertvv.el7
