@@ -50,7 +50,7 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Sebastien
 
-* ...
+* ![screenshot Sebastien week 2](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfNEh-30XDHddoLhdWsqEFf4oME3U9qks5WLRUPwA%3D%3D)
 
 [Afbeelding individueel rapport tijdregistratie]
 
