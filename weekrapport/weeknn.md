@@ -16,9 +16,11 @@
 
 ### Algemeen
 
-https://trello.com/b/cnD0Ycaw/week-1
+Begin van de week:
+![screenschot trelloweek] ()
 
-We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack
+Deze week hebben we ons bezig gehouden met:
+
 
 [Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 

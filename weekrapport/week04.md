@@ -22,13 +22,8 @@
 [Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 
 ### Mathias
-
-<<<<<<< HEAD
 * ![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMljhfUeVFfoAYCrIfTp7p5WQLqL7mks5WKfsLwA%3D%3D)
-=======
-* ![screenschot TrelloWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMli3y_EnXV8JVQgf4nLmAdef5FS7Bks5WKf5PwA%3D%3D)
 
->>>>>>> 3c406b40f8e1236ddb2f394ca35ee9f5c7651b8f
 [Afbeelding individueel rapport tijdregistratie]
 
 ### Jens
@@ -53,7 +48,7 @@
 
 ### Algemeen
 ### Mathias
-### Jens
+### Jens : Op zoek gaan naar Lazyloading-mechanismen voor centos7 & scripts schrijven voor het opstellen van DNS/AD/DHCP voor windows server 2012.
 ### Sebastien
 ### Jasper
 
