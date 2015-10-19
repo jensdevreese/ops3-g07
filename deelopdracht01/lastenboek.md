@@ -8,7 +8,7 @@
 ###Windows Powershell:
 
 * Documentatie van elk boek staat op github in /Windows/Individuele Documentatie
-* Cheatsheets aangemaakt van Powersheel, Is een document dat continu zal aangepast worden:
+* Cheatsheets aangemaakt van Powershell, Is een document dat continu zal aangepast worden:
 
 
 ###Windows Deployment:
