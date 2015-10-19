@@ -9,9 +9,15 @@ Windows Powershell:
 
 * Documentatie van elk boek staat op github in /Windows/Individuele Documentatie
 * Cheatsheets aangemaakt van Powersheel, Is een document dat continu zal aangepast worden:
-![cheatsheets](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Windows/Cheatsheets/cheatsheet%20powershell.txt?token=AGfNEmhYH689QHaydw38AeCjmyUd6XKOks5WLiKYwA%3D%3D)
+!(https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Windows/Cheatsheets/cheatsheet%20powershell.txt?token=AGfNEmhYH689QHaydw38AeCjmyUd6XKOks5WLiKYwA%3D%3D)
 
 Windows Deployment:
+*Scripts:
+
+!(https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Windows/Scripts/Windows_Server_deel_1/0.IP-adres_RenamePC.ps1?token=AGfNEqJXUCMIhXw5niAp9gKje6Jw1wjyks5WLiMJwA%3D%3D)
+
+
+
 
 Linux LAMP Stack:
 
