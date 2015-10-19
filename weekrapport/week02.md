@@ -26,21 +26,20 @@ https://trello.com/b/cnD0Ycaw/week-1&2
 
 
 
-- Mathias
-* ![screenschot Mathias week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMltQGoFiqFCJ4WR3FXQ4d6ZQ77T3Fks5WKfsIwA%3D%3D)
-* ![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
+### Mathias
+![screenschot Mathias week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMltQGoFiqFCJ4WR3FXQ4d6ZQ77T3Fks5WKfsIwA%3D%3D)
+![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
 
-- Jens
+### Jens
+![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlpPG04ZztEFMhLemoiLVZjBKA3xQks5WKf3pwA%3D%3D)
 
-* ![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlpPG04ZztEFMhLemoiLVZjBKA3xQks5WKf3pwA%3D%3D)
+### Sebastien
 
-- Sebastien
+ ![screenshot Sebastien week 2](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfNEh-30XDHddoLhdWsqEFf4oME3U9qks5WLRUPwA%3D%3D)
 
-* ![screenshot Sebastien week 2](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfNEh-30XDHddoLhdWsqEFf4oME3U9qks5WLRUPwA%3D%3D)
+### Jasper
 
-- Jasper
-
-* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
+ ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 
