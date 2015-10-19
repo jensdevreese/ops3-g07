@@ -15,6 +15,7 @@
 ####Scripts:
 
 #####IP-Adress rename PC:
+'''
 $ipaddress = "192.168.1.6"
 $ipprefix = "255.255.255.0"
 $ipgw = "192.168.1.1"
@@ -34,8 +35,10 @@ Add-WindowsFeature $addsTools
 Get-WindowsFeature | Where installed >> $featureLogPath
 #restart the computer
 Restart-Computer
+'''
 
 #####Install AD Feature:
+'''
 $featureLogPath = "c:\logs\featurelog.txt"
 start-job -Name addFeature -ScriptBlock {
 Add-WindowsFeature -Name "ad-domain-services" -IncludeAllSubFeature -IncludeManagementTools
@@ -43,8 +46,10 @@ Add-WindowsFeature -Name "dns" -IncludeAllSubFeature -IncludeManagementTools
 Add-WindowsFeature -Name "gpmc" -IncludeAllSubFeature -IncludeManagementTools }
 Wait-Job -Name addFeature
 Get-WindowsFeature | where installed >> $featureLogPath
+'''
 
 #####Configure Domain
+'''
 $domainname = "Assengraaf.nl"
 $netbiosName = ASSENGRAAF
 Import-Module ADDSDeployment
@@ -59,7 +64,7 @@ Install-ADDSForest -CreateDnsDelegation:$false `
 -NoRebootOnCompletion:$false `
 -SysvolPath "C:\Windows\SYSVOL" `
 -Force:$true
-
+'''
 
 
 ###Linux LAMP Stack:
