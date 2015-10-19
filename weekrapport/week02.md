@@ -16,28 +16,29 @@
 ![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfMlnf28nFqBcZcfJVouSaWoAhEuggDks5WKfMrwA%3D%3D)
 
 ## Wat heb je deze week gerealiseerd?
-
-### Algemeen
-https://trello.com/b/cnD0Ycaw/week-1&2
-
 We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack.
 Dit omdat we tijdens de lessen entreprise-linux nog niet veel hebben gezien over LAMP-stacks.
 Daarom focussen we ons op dit moment op het volgen van de filpmjes van Powershell Jumpstart.
 Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
-### Mathias
+### Algemeen
+https://trello.com/b/cnD0Ycaw/week-1&2
+
+
+
+- Mathias
 * ![screenschot Mathias week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMltQGoFiqFCJ4WR3FXQ4d6ZQ77T3Fks5WKfsIwA%3D%3D)
 * ![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
 
-### Jens
+- Jens
 
 * ![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlpPG04ZztEFMhLemoiLVZjBKA3xQks5WKf3pwA%3D%3D)
 
-### Sebastien
+- Sebastien
 
 * ![screenshot Sebastien week 2](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfNEh-30XDHddoLhdWsqEFf4oME3U9qks5WLRUPwA%3D%3D)
 
-### Jasper
+- Jasper
 
 * ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
 
@@ -49,20 +50,6 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 - Jens : Het bekijken van de tutorials over Windows powershell v3.0 Jump Start
 - Sebastien : Powershell video tutorials verder bekijken en boek powershell
 - Jasper : Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
-
-### Wat zijn jullie van plan voor volgende week te doen.
-
-We moeten wachten met linux tot we verder zitten bij Enterprise Linux. 
-Daarom is iedereen momenteel bezig met het leren van Powershell.
-
-- Mathias :
-Verder werken aan PowerShell
-- Jens :
-Het bekijken van de tutorials over Windows powershell v3.0 Jump Start
-- Sebastien :
-Powershell video tutorials verder bekijken en boek powershell
-- Jasper :
-Boek verder doornemen en een aantal technet labs op powershell maken zodat ik al wat meer praktisch scripts schrijf.
 
 ## Waar hebben jullie nog problemen mee?
 
