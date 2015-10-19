@@ -1,7 +1,7 @@
 # Voortgangsrapport week 04
 
 * Groep: 07
-* Datum: 16/10/2015
+* Datum: 12/10/2015
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -22,15 +22,11 @@
 [Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 
 ### Mathias
-* ![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMljhfUeVFfoAYCrIfTp7p5WQLqL7mks5WKfsLwA%3D%3D)
-
-[Afbeelding individueel rapport tijdregistratie]
+![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMljhfUeVFfoAYCrIfTp7p5WQLqL7mks5WKfsLwA%3D%3D)
 
 ### Jens
 
-* ...
-
-[Afbeelding individueel rapport tijdregistratie]
+![screenschot ToggleWeek4] ()
 
 ### Sebastien
 
@@ -40,11 +36,10 @@
 
 ### Jasper
 
-* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfMlnTQUZ1B7oqtrX-qGt2vaoEQsKPGks5WKfw_wA%3D%3D)
-
-[Afbeelding individueel rapport tijdregistratie]
+![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfMlnTQUZ1B7oqtrX-qGt2vaoEQsKPGks5WKfw_wA%3D%3D)
 
 ## Wat plan je volgende week te doen?
+We maken deze week alles in orde qua organisatie! Ieder weekrapport correct invullen en tijdsregistraties bijhouden en weergeven op de weekopdrachten. Voor het linux-gedeelte gaan we op zoek naar lazyloadingTools terwijl we voor windows gaan proberen om volledig de opdracht van windows server deel 1 in powershell te maken.
 
 ### Algemeen
 ### Mathias
