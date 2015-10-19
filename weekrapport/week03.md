@@ -21,22 +21,21 @@ We zijn elk al een stuk vooruit gegaan in het lezen van ons boek en bijna iedere
 De github repo werd opgeschoond en er werden al een aantal startscripts voor powershell op geplaatst. Daarnaast hebben we ook een werkende linux vm online geplaatst waarmee we de opdracht verder kunnen afwerken.
 
 ### Algemeen
-- Mathias
-* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week3ToggleMathias.png?token=AGfMloBtDG8zN50UvK7QOYVoOlVaBXlKks5WKfsJwA%3D%3D)
-* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week3ToggleMathias.png?token=AGfMli5i086girnCW0HJJiO-XNatVd4pks5WKf4CwA%3D%3D)
+### Mathias
+![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week3ToggleMathias.png?token=AGfMloBtDG8zN50UvK7QOYVoOlVaBXlKks5WKfsJwA%3D%3D)
+![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week3ToggleMathias.png?token=AGfMli5i086girnCW0HJJiO-XNatVd4pks5WKf4CwA%3D%3D)
 
-- Jens
+### Jens
 
-* ![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week3.PNG?token=AGfMlmRyc27zFFk7k56Y48cqAihxuqMZks5WKf46wA%3D%3D)
+![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week3.PNG?token=AGfMlmRyc27zFFk7k56Y48cqAihxuqMZks5WKf46wA%3D%3D)
 
-- Sebastien
+### Sebastien
 
-* ![screenshot Toggle week3](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week3.PNG?token=AGfNEno4mMJA9l8MnyYa6xK5TwPixQbAks5WLRVmwA%3D%3D)
+![screenshot Toggle week3](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week3.PNG?token=AGfNEno4mMJA9l8MnyYa6xK5TwPixQbAks5WLRVmwA%3D%3D)
 
-- Jasper
+### Jasper
 
-* ![screenschot week3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%203.PNG?token=AGfMlveJjVqgaRbn9Bftz5RiJGHgbk84ks5WKfw9wA%3D%3D)
-
+![screenschot week3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%203.PNG?token=AGfMlveJjVqgaRbn9Bftz5RiJGHgbk84ks5WKfw9wA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 
