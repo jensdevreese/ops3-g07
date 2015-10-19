@@ -30,25 +30,16 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Mathias
 
-<<<<<<< HEAD
 * ![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlh0PSQ3qQ61ozL2CxZqP-NdOaiUmks5WKfsGwA%3D%3D)
-=======
 * ![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlqLQD4BQf69_tN6aPWS1jpGMDIUEks5WKf1JwA%3D%3D)
->>>>>>> 3c406b40f8e1236ddb2f394ca35ee9f5c7651b8f
-
-[Afbeelding individueel rapport tijdregistratie]
 
 ### Jens
 
 * ![screenschot Jens week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week1.PNG?token=AGfMlrGsxHRiInTt2VZJWl9xIG94ZgQhks5WKfJqwA%3D%3D)
 
-[Afbeelding individueel rapport tijdregistratie]
-
 ### Sébastien
 
 * ![screenshot Sebastien Week1 ](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week1.PNG?token=AGfNEvcyK8O2moQiriY9veXAKzadczKyks5WLRSUwA%3D%3D)
-
-[Afbeelding individueel rapport tijdregistratie]
 
 ### Jasper
 
@@ -60,13 +51,13 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
-### Mathias
+- Mathias
 Verder werken aan PowerShell
-### Jens
+- Jens
 Het bekijken van de tutorials over Windows powershell v3.0 Jump Start : https://www.microsoftvirtualacademy.com/en-us/training-courses/getting-started-with-powershell-30-jump-start-8276?l=r54IrOWy_2304984382
-### Sebastien
+- Sebastien
 Powershell video tutorials verder bekijken en boek powershell
-### Jasper
+- Jasper
 Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
 
 ## Waar hebben jullie nog problemen mee?
