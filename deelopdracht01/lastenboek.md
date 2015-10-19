@@ -122,7 +122,7 @@ week 5:
 | :---     |    ---: |         ---: |
 | Mathias |         |              |
 | Jens |         |              |
-| Sébastien |         |              |
+| Sébastien |      20 | 16     |
 | Jasper |         |              |
 
 (na oplevering van de taak een schermafbeelding toevoegen van rapport tijdbesteding voor deze taak)
