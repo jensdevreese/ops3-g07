@@ -9,7 +9,7 @@
 
 #}}}
 #{{{ Variables
-sut=192.0.2.50
+sut=192.168.56.77
 mariadb_root_password=root
 wordpress_database=wordpress
 wordpress_user=wp_user
