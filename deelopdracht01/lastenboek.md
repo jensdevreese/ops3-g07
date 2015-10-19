@@ -1,30 +1,73 @@
-## Lastenboek Taak 1: opdracht 1
+# Lastenboek Taak 1: opdracht 1
 
 * Verantwoordelijke uitvoering: `Sébastien Pattyn`
 * Verantwoordelijke testen: `Sébastien Pattyn`
 
-### Deliverables
+## Deliverables
 
-Windows Powershell:
+###Windows Powershell:
 
 * Documentatie van elk boek staat op github in /Windows/Individuele Documentatie
 * Cheatsheets aangemaakt van Powersheel, Is een document dat continu zal aangepast worden:
-!(https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Windows/Cheatsheets/cheatsheet%20powershell.txt?token=AGfNEmhYH689QHaydw38AeCjmyUd6XKOks5WLiKYwA%3D%3D)
-
-Windows Deployment:
-*Scripts:
-
-!(https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Windows/Scripts/Windows_Server_deel_1/0.IP-adres_RenamePC.ps1?token=AGfNEqJXUCMIhXw5niAp9gKje6Jw1wjyks5WLiMJwA%3D%3D)
 
 
+###Windows Deployment:
+####Scripts:
+
+#####IP-Adress rename PC:
+$ipaddress = "192.168.1.6"
+$ipprefix = "255.255.255.0"
+$ipgw = "192.168.1.1"
+$ipdns = "192.168.1.6"
+$wmi = Get-WmiObject win32_networkadapterconfiguration -filter "ipenabled = 'true'"
+$wmi.EnableStatic($ipaddress, $ipprefix)
+$wmi.SetGateways($ipgw, 1)
+$wmi.SetDNSServerSearchOrder($ipdns)
+#rename the computer
+$newname = "ASSV1"
+Rename-Computer -NewName $newname -force
+#install features
+$featureLogPath = "c:\logs\featurelog.txt"
+New-Item $featureLogPath -ItemType file -Force
+$addsTools = "RSAT-AD-Tools"
+Add-WindowsFeature $addsTools
+Get-WindowsFeature | Where installed >> $featureLogPath
+#restart the computer
+Restart-Computer
+
+#####Install AD Feature:
+$featureLogPath = "c:\logs\featurelog.txt"
+start-job -Name addFeature -ScriptBlock {
+Add-WindowsFeature -Name "ad-domain-services" -IncludeAllSubFeature -IncludeManagementTools
+Add-WindowsFeature -Name "dns" -IncludeAllSubFeature -IncludeManagementTools
+Add-WindowsFeature -Name "gpmc" -IncludeAllSubFeature -IncludeManagementTools }
+Wait-Job -Name addFeature
+Get-WindowsFeature | where installed >> $featureLogPath
+
+#####Configure Domain
+$domainname = "Assengraaf.nl"
+$netbiosName = ASSENGRAAF
+Import-Module ADDSDeployment
+Install-ADDSForest -CreateDnsDelegation:$false `
+-DatabasePath "C:\Windows\NTDS" `
+-DomainMode "Win2012" `
+-DomainName $domainname `
+-DomainNetbiosName $netbiosName `
+-ForestMode "Win2012" `
+-InstallDns:$true `
+-LogPath "C:\Windows\NTDS" `
+-NoRebootOnCompletion:$false `
+-SysvolPath "C:\Windows\SYSVOL" `
+-Force:$true
 
 
-Linux LAMP Stack:
+
+###Linux LAMP Stack:
 
 
-### Deeltaken
+## Deeltaken
 
-Windows Powershell:
+###Windows Powershell:
 
 * bekijken Virtual Academy powershell Jumpstart 3.0
 * lezen van volgende boeken en rapporteren naar teamleden:
@@ -34,7 +77,7 @@ Windows Powershell:
     - Sébastien : Windows Powershell Desired State Configuration Revealed
 * Optioneel: Technet Lab: Windows Server 2012 R2: Windows Powershell Fundamentals
 
-Windows Deployment:
+###Windows Deployment:
 
 * Lezen + uitwerking boeken Netwerkbeheer Windows Server 2012
 * Opdracht Deel 1 en Deel 2 van Windows Server opnieuw uitwerken
@@ -46,7 +89,7 @@ Windows Deployment:
 * 1 van de vorige opdrachten uitwerken met windows Powershell
 * extra video's en tutorials hierover bekijken op virtual academy of technet labs
 
-Linux LAMP Stack:
+###Linux LAMP Stack:
 * Opzetten Werkomgeving CentOS 7 door middel van Ansible en Vagrant
 * Downloaden en installeren van nodige Roles
 * LAMP stack met PHP-webapplicatie opzetten met behulp van Ansible:
@@ -55,7 +98,7 @@ Linux LAMP Stack:
     - server opzetten voor monitoring
    
 
-### Kanban-bord
+## Kanban-bord
 
 week 1:
 ![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfMliPqD9DOxJWWYNGYp5TUdGyJjr5Mks5WKfLMwA%3D%3D)
@@ -68,7 +111,7 @@ week 4:
 week 5:
 
 
-### Tijdbesteding
+## Tijdbesteding
 
 | Student  | Geschat | Gerealiseerd |
 | :---     |    ---: |         ---: |
