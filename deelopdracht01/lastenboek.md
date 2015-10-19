@@ -9,6 +9,16 @@
 
 * Documentatie van elk boek staat op github in /Windows/Individuele Documentatie
 * Cheatsheets aangemaakt van Powershell, Is een document dat continu zal aangepast worden:
+```
+CheatSheet Windows powershell
+CLS		clear-host
+CD		Set location
+dir,ls		get childitem
+type,cat	get-content
+copry,cp	Copy-item
+md/mkdir	make directory
+gal		get aliases
+```
 
 
 ###Windows Deployment:
@@ -68,7 +78,7 @@ Install-ADDSForest -CreateDnsDelegation:$false `
 
 
 ###Linux LAMP Stack:
-
+- Alle gegevens met nodige Roles
 
 ## Deeltaken
 
