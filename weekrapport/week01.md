@@ -26,8 +26,6 @@ Voor het gedeelte Linux, is er weinig wat we momenteel kunnen doen. We moeten wa
 Voor Windows maken we voor de eerste maal kennis met Windows Powershell. Iedereen moet op zoek gaan naar een boek, die hij zal lezen en gebruiken gedurende het semester voor de opdrachten.
 Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.0' te bekijken.
 
-[Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
-
 ### Mathias
 
 * ![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlh0PSQ3qQ61ozL2CxZqP-NdOaiUmks5WKfsGwA%3D%3D)
