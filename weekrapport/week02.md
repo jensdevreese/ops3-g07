@@ -1,7 +1,7 @@
 # Voortgangsrapport week 02
 
 * Groep: 07
-* Datum: 02/10/2015
+* Datum: 28/09/2015
 
 
 | Student  | Aanw. | Opmerking |
@@ -18,76 +18,55 @@
 ## Wat heb je deze week gerealiseerd?
 
 ### Algemeen
-
-<<<<<<< HEAD
 https://trello.com/b/cnD0Ycaw/week-1&2
 
 We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack.
 Dit omdat we tijdens de lessen entreprise-linux nog niet veel hebben gezien over LAMP-stacks.
 Daarom focussen we ons op dit moment op het volgen van de filpmjes van Powershell Jumpstart.
 Iedereen heeft ook zijn boeken besteld in verband met powershell.
-=======
->>>>>>> e74854f07da415e8ea5da9382e6fef3853402764
-
-
-[Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 
 ### Mathias
-
-<<<<<<< HEAD
 * ![screenschot Mathias week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMltQGoFiqFCJ4WR3FXQ4d6ZQ77T3Fks5WKfsIwA%3D%3D)
-=======
 * ![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
->>>>>>> 3c406b40f8e1236ddb2f394ca35ee9f5c7651b8f
-
-[Afbeelding individueel rapport tijdregistratie]
 
 ### Jens
 
 * ![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlpPG04ZztEFMhLemoiLVZjBKA3xQks5WKf3pwA%3D%3D)
 
-[Afbeelding individueel rapport tijdregistratie]
-
 ### Sebastien
 
 * ![screenshot Sebastien week 2](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfNEh-30XDHddoLhdWsqEFf4oME3U9qks5WLRUPwA%3D%3D)
-
-[Afbeelding individueel rapport tijdregistratie]
 
 ### Jasper
 
 * ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
 
-[Afbeelding individueel rapport tijdregistratie]
-
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
-<<<<<<< HEAD
-### Mathias : Verder werken aan PowerShell. Dit wil zeggen verder de tutorials afwerken van de Powershell Jumpstart. Hierbij werk ik momenteel aan hoe de pipeline in elkaar zit.
+- Mathias : Verder werken aan PowerShell. Dit wil zeggen verder de tutorials afwerken van de Powershell Jumpstart. Hierbij werk ik momenteel aan hoe de pipeline in elkaar zit.
     Daarbij probeer ik code uit die wordt aangehaald in de tutorials en test deze op een eigen VM met windows Server 2012.
-### Jens : Het bekijken van de tutorials over Windows powershell v3.0 Jump Start
-### Sebastien : Powershell video tutorials verder bekijken en boek powershell
-### Jasper : Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
+- Jens : Het bekijken van de tutorials over Windows powershell v3.0 Jump Start
+- Sebastien : Powershell video tutorials verder bekijken en boek powershell
+- Jasper : Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
 
-## Waar hebben jullie nog problemen mee?
+### Wat zijn jullie van plan voor volgende week te doen.
 
 We moeten wachten met linux tot we verder zitten bij Enterprise Linux. 
 Daarom is iedereen momenteel bezig met het leren van Powershell.
-=======
-### Mathias :
+
+- Mathias :
 Verder werken aan PowerShell
-### Jens :
+- Jens :
 Het bekijken van de tutorials over Windows powershell v3.0 Jump Start
-### Sebastien :
+- Sebastien :
 Powershell video tutorials verder bekijken en boek powershell
-### Jasper :
+- Jasper :
 Boek verder doornemen en een aantal technet labs op powershell maken zodat ik al wat meer praktisch scripts schrijf.
 
 ## Waar hebben jullie nog problemen mee?
 
 We zitten nog niet zo ver in beide opdrachten, we hebben het gevoel nog te weinig kennis te hebben om de opdracht onmiddellijk aan te vatten.
->>>>>>> e74854f07da415e8ea5da9382e6fef3853402764
 
 ## Feedback technisch luik
 
