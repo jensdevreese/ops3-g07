@@ -1,0 +1,7 @@
+Number,Title,Gender,GivenName,Surname,Afdeling,StreetAddress,Postcode,City,Country,CountryFull,TelephoneNumber,Birthday
+1,CEO,male,Frank,Assengraaf,Beheer,Perksesteenweg 399,9080,Lochristi,BE,Belgium,0486 76 61 61,2/3/1987
+2,Secretariaat,female,Femke,Van de Vorst,Beheer,Meersstraat 152,9000,Gent,BE,Belgium,0499 51 53 38,6/1/1978
+3,Verzekeringen,male,Hans,Berghuis,Verzekeringen,Wijteveldstraat 3,9250,Waasmunster,BE,Belgium,0477 64 59 55,9/29/1986
+4,Financieringen,male,Peter,Jongsma,Financien,Schietboompleinstraat 82,9830,Sint-Martens-Latem,BE,Belgium,0492 30 45 97,6/15/1988
+5,Medewerker,female,Kimberly,Van Herk,Staf,Hammersweg 25,8310,Brugge,BE,Belgium,0489 69 39 54,10/24/1976
+6,Medewerker,female,Tania,Vansantvoort,Staf,Reukenstraat 23,9000,Gent,BE,Belgium,0489 30 46 47,11/6/1984
