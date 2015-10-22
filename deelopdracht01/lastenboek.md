@@ -79,6 +79,59 @@ Install-ADDSForest -CreateDnsDelegation:$false `
 
 ###Linux LAMP Stack:
 - Alle gegevens met nodige Roles
+- all.yml
+```
+el7_repositories:
+  - epel-release
+el7_install_packages:
+  - bash-completion
+  - git
+  - bind-utils
+  - nano
+  - tree
+  - vim-enhanced
+  - wget
+el7_user_groups:
+  - wheel
+el7_users:
+  - name: jens
+    comment: Administrator
+    groups:
+    - wheel
+    password: []
+el7_admin_user: jens
+el7_admin_ssh_key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrxsImXRCQze+W79Tjdo/MfCx8hvS+5p6WyupJfuIUr9EgUunzVITDCXA5iYZEetsNcXee7Y0nLkAB1AhO4zfq30VR5rS2MRI9twwcuCDcTdAywtEq0YGOSLoYgPCU8VaZrVXbMSm8kcvLNlL5XGkadfyrGahyL+ndE13sWeruK8tHZd0V/7a/BAkNtUQSiJaN1WYL6v1XtkOVSIH/flkPhO5FUUHSArV//e0nKUkh9vMVziiLpMNuflIOhmfZ6mN4fAVtOw4auBOcbcfxK7Ytmh0efkE0Ymy22vVEf3rmeTvZFINQN5cub2IlIWBOn0o02nKE8vPfqIiB5dVnB6QF'
+el7_motd: true
+```
+
+ - Lampstack.yml
+```
+el7_firewalld:
+  - service: http
+  - permanent: true
+  - state: enabled
+
+el7_firewall_allow_services:
+  - http
+  - https
+  - ssh
+
+httpd_scripting: 'php'
+
+mariadb_databases:
+  - wordpress
+
+mariadb_users:
+  - name: wp_user
+    password: root
+    priv: 'wordpress.*:ALL'
+
+mariadb_root_password: root
+
+wordpress_database: wordpress
+wordpress_user: wp_user
+wordpress_password: root
+```
 
 ## Deeltaken
 
