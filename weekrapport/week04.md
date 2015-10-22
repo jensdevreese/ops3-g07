@@ -27,7 +27,7 @@ Het opgezochte loadtestingtool (Siege) configuren op de lampstack & scripts schr
 
 ### Sebastien
 
-* ...
+* ![screenshot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week4.PNG?token=AGfNEjg9BdLYO38pw-aKy7Lek9r4coFpks5WMqsjwA%3D%3D)
 
 ### Jasper
 
