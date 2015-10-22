@@ -15,37 +15,35 @@
 ![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfMljqOO8wQWjADB8AFnroJieXi-yBkks5WKfREwA%3D%3D)
 
 ## Wat heb je deze week gerealiseerd?
-
+Het opgezochte loadtestingtool (Siege) configuren op de lampstack & scripts schrijven voor het opstellen van DNS/AD/DHCP voor windows server 2012.
 ### Algemeen
-
-
-[Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 
 ### Mathias
 ![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMljhfUeVFfoAYCrIfTp7p5WQLqL7mks5WKfsLwA%3D%3D)
 
 ### Jens
 
-![screenschot ToggleWeek4] ()
+![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week4.PNG?token=AGfMlmuDOoe6aOHqRleU340gScL0on_lks5WMk9JwA%3D%3D)
 
 ### Sebastien
 
 * ...
 
-[Afbeelding individueel rapport tijdregistratie]
-
 ### Jasper
 
-![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfMlnTQUZ1B7oqtrX-qGt2vaoEQsKPGks5WKfw_wA%3D%3D)
+![screenschot week4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfMlnTQUZ1B7oqtrX-qGt2vaoEQsKPGks5WKfw_wA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 We maken deze week alles in orde qua organisatie! Ieder weekrapport correct invullen en tijdsregistraties bijhouden en weergeven op de weekopdrachten. Voor het linux-gedeelte gaan we op zoek naar lazyloadingTools terwijl we voor windows gaan proberen om volledig de opdracht van windows server deel 1 in powershell te maken.
 
 ### Algemeen
 ### Mathias
-### Jens : Op zoek gaan naar Lazyloading-mechanismen voor centos7 & scripts schrijven voor het opstellen van DNS/AD/DHCP voor windows server 2012.
+### Jens :
+Volgende week hebben we enorm veel deadlines te halen en voorbereidingen te maken. We gaan trachten de opdracht van windows server deel 1 volledig af te werken in powershell.
+De loadtestingtool voor de lampstack is geconfigureerd. Navragen of dit een goede is of zijn er andere en betere?
 ### Sebastien
 ### Jasper
+Scripts schrijven voor OU en gebruikers, doornemen en documenteren van Active Directory Management
 
 ## Waar hebben jullie nog problemen mee?
 
@@ -93,8 +91,8 @@ Windows-taak
 * Testplan? Een testplan is wel degelijk mogelijk. Criteria kunnen zijn "is er een samenvatting voor het boek geschreven?", "is die begrijpbaar voor de andere teamleden?", "werken de scripts?"
 * De extensie voor een PowerShell-script is ".ps1", niet ".txt". Gebruik de juiste extensie => syntaxkleuren
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+## Mathias Van Rumst
+## Jens De Vreese
+## Jasper Cottenie
+## Sébastien Pattyn
 

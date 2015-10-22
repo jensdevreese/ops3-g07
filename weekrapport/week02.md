@@ -22,9 +22,6 @@ Daarom focussen we ons op dit moment op het volgen van de filpmjes van Powershel
 Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Algemeen
-https://trello.com/b/cnD0Ycaw/week-1&2
-
-
 
 ### Mathias
 ![screenschot Mathias week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMltQGoFiqFCJ4WR3FXQ4d6ZQ77T3Fks5WKfsIwA%3D%3D)
@@ -46,7 +43,8 @@ https://trello.com/b/cnD0Ycaw/week-1&2
 ### Algemeen
 - Mathias : Verder werken aan PowerShell. Dit wil zeggen verder de tutorials afwerken van de Powershell Jumpstart. Hierbij werk ik momenteel aan hoe de pipeline in elkaar zit.
     Daarbij probeer ik code uit die wordt aangehaald in de tutorials en test deze op een eigen VM met windows Server 2012.
-- Jens : Het bekijken van de tutorials over Windows powershell v3.0 Jump Start
+- Jens : Het bekijken van de tutorials over Windows powershell v3.0 Jump Start. Met name: 
+Deze week heb ik het boek besteld: Windows Powershell 3.0 Step by step van Ed Wilson.
 - Sebastien : Powershell video tutorials verder bekijken en boek powershell
 - Jasper : Powershell toolmaking (boek) beginnen doornemen. Afwerking online cursus.
 
@@ -58,19 +56,19 @@ We zitten nog niet zo ver in beide opdrachten, we hebben het gevoel nog te weini
 
 ### Algemeen
 
-### Mathias
-### Jens
-### Sebastien
-### Jasper
+## Mathias Van Rumst
+## Jens De Vreese
+## Jasper Cottenie
+## Sébastien Pattyn
 
 ## Feedback analyseluik
 
 ### Algemeen
 
-#### Mathias
-### Jens
-### Sebastien
-### Jasper
+## Mathias Van Rumst
+## Jens De Vreese
+## Jasper Cottenie
+## Sébastien Pattyn
 
 
 
