@@ -58,8 +58,6 @@ Deze week hebben we ons bezig gehouden met:
 
 ## Waar hebben jullie nog problemen mee?
 
-We moeten wachten met linux tot we verder ziten bij Enterprise Linux
-
 ## Feedback technisch luik
 
 ### Algemeen

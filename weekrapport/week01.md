@@ -28,22 +28,20 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Mathias
 
-* ![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlh0PSQ3qQ61ozL2CxZqP-NdOaiUmks5WKfsGwA%3D%3D)
-* ![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlqLQD4BQf69_tN6aPWS1jpGMDIUEks5WKf1JwA%3D%3D)
+![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlh0PSQ3qQ61ozL2CxZqP-NdOaiUmks5WKfsGwA%3D%3D)
+![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlqLQD4BQf69_tN6aPWS1jpGMDIUEks5WKf1JwA%3D%3D)
 
 ### Jens
 
-* ![screenschot Jens week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week1.PNG?token=AGfMlrGsxHRiInTt2VZJWl9xIG94ZgQhks5WKfJqwA%3D%3D)
+![screenschot Jens week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week1.PNG?token=AGfMlrGsxHRiInTt2VZJWl9xIG94ZgQhks5WKfJqwA%3D%3D)
 
 ### Sébastien
 
-* ![screenshot Sebastien Week1 ](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week1.PNG?token=AGfNEvcyK8O2moQiriY9veXAKzadczKyks5WLRSUwA%3D%3D)
+![screenshot Sebastien Week1 ](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week1.PNG?token=AGfNEvcyK8O2moQiriY9veXAKzadczKyks5WLRSUwA%3D%3D)
 
 ### Jasper
 
-* ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%201.PNG?token=AGfMlk2kguWHhmWplDUMk-6qEG3Ubtapks5WKfw5wA%3D%3D)
-
-[Afbeelding individueel rapport tijdregistratie]
+![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%201.PNG?token=AGfMlk2kguWHhmWplDUMk-6qEG3Ubtapks5WKfw5wA%3D%3D)
 
 
 ## Wat plan je volgende week te doen?
@@ -66,17 +64,17 @@ We moeten wachten met linux tot we verder ziten bij Enterprise Linux
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+## Mathias Van Rumst
+## Jens De Vreese
+## Jasper Cottenie
+## Sébastien Pattyn
 
 ## Feedback analyseluik
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+## Mathias Van Rumst
+## Jens De Vreese
+## Jasper Cottenie
+## Sébastien Pattyn
 

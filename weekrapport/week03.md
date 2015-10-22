@@ -40,10 +40,14 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
-### Mathias : Verder werken aan PowerShell/werkomgeving.
-### Jens
-### Sebastien: Werkomgeving verder opzetten, afwerken powershell videos
-### Jasper
+## Mathias : 
+Verder werken aan PowerShell/werkomgeving.
+## Jens :
+Volgende week ben ik van plan om het gedeelte van Linux onder de loep te nemen. De LAMP-stack ga ik proberen bugfree te krijgen en eerste opzoekingswerken verrichten naar loadtestingtools.
+Voor het gedeelte windows ga ik de eerste scripts voor het opstellen van een AD en een script voor het wijzigen van de systeemeigenschappen (computernaam, netwerkinstellingen)
+## Sebastien: 
+Werkomgeving verder opzetten, afwerken powershell videos
+## Jasper
 -Verder werken in mijn boek sowieso maar daarbij wel gelet op het bewaren van alle scripts die ik maak alsook bijhorende documentatie. Want momenteel is er nog te weinig van de geleerde informatie ook neergeschreven/bewaard.
 -Daarnaast ook al concreet werken aan de powershell opdracht met de nieuwe kennis van het boek. Er was eerst een leerperiode nodig om de basisbegrippen onder de knie te krijgen vooraleer ik die scripts zelf zou kunnen schrijven. Maar ik besef dat deze methode momenteel te traag gaat.
 
@@ -57,17 +61,17 @@ Dus algemeen hadden we deze week last met het op tijd en volledig neerschrijven 
 
 ### Algemeen
 
-### Mathias
-### Jens
-### Sebastien
-### Jasper
+## Mathias Van Rumst
+## Jens De Vreese
+## Jasper Cottenie
+## Sébastien Pattyn
 
 ## Feedback analyseluik
 
 ### Algemeen
 
-### Mathias
-### Jens
-### Sebastien
-### Jasper
+## Mathias Van Rumst
+## Jens De Vreese
+## Jasper Cottenie
+## Sébastien Pattyn
 
