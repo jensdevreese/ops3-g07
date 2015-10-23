@@ -31,7 +31,7 @@ Het opgezochte loadtestingtool (Siege) configuren op de lampstack & scripts schr
 
 ### Jasper
 
-![screenschot week4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfMlnTQUZ1B7oqtrX-qGt2vaoEQsKPGks5WKfw_wA%3D%3D)
+![screenschot week4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfTaTSrdVj2iaCqrKPznuu7cRL6uJzHks5WM04EwA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 We maken deze week alles in orde qua organisatie! Ieder weekrapport correct invullen en tijdsregistraties bijhouden en weergeven op de weekopdrachten. Voor het linux-gedeelte gaan we op zoek naar lazyloadingTools terwijl we voor windows gaan proberen om volledig de opdracht van windows server deel 1 in powershell te maken.
@@ -43,7 +43,7 @@ Volgende week hebben we enorm veel deadlines te halen en voorbereidingen te make
 De loadtestingtool voor de lampstack is geconfigureerd. Navragen of dit een goede is of zijn er andere en betere?
 ### Sebastien
 ### Jasper
-Scripts schrijven voor OU en gebruikers, doornemen en documenteren van Active Directory Management
+Scripts schrijven voor OU en gebruikers, doornemen en documenteren van Active Directory Management. Afwerken tot hoofdstuk 6
 
 ## Waar hebben jullie nog problemen mee?
 
