@@ -78,6 +78,7 @@ Install-ADDSForest -CreateDnsDelegation:$false `
 
 
 ###Linux LAMP Stack:
+```
 ! heel belangrijk bij het clonen => probleem met inventory.py !
  => destroy box
  => verwijder lampstack in directory
@@ -85,7 +86,7 @@ Install-ADDSForest -CreateDnsDelegation:$false `
  => $ cd lampstack
  => $ ./scripts/dependencies.sh
  => vagrant up
- 
+ ```
 - Alle gegevens met nodige Roles
 - all.yml
 ```
