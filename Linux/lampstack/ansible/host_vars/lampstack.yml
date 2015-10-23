@@ -1,4 +1,4 @@
-# host_vars/lampstack.yml
+# host_vars/pu004.yml
 ---
 el7_firewalld:
   - service: http
@@ -13,15 +13,19 @@ el7_firewall_allow_services:
 httpd_scripting: 'php'
 
 mariadb_databases:
-  - wordpress
+  - monitoring
 
 mariadb_users:
-  - name: wp_user
-    password: root
-    priv: 'wordpress.*:ALL'
+  - name: admin
+    password: admin
+    priv: 'monitoring.*:ALL'
 
 mariadb_root_password: root
 
-wordpress_database: wordpress
-wordpress_user: wp_user
-wordpress_password: root
+wordpress_database: monitoring
+wordpress_user: admin
+wordpress_password: admin
+wordpress_plugins:
+  - name: wp-super-cache
+    version: 1.4.5
+  - name: demo-data-creator
