@@ -31,7 +31,7 @@ Het opgezochte loadtestingtool (Siege) configuren op de lampstack & scripts schr
 
 ### Jasper
 
-![screenschot week4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfTaTSrdVj2iaCqrKPznuu7cRL6uJzHks5WM04EwA%3D%3D)
+![screenschot week4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfTaSwyX4ZyAqu6iYPTiVMtRmjYmW5Kks5WM09dwA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 We maken deze week alles in orde qua organisatie! Ieder weekrapport correct invullen en tijdsregistraties bijhouden en weergeven op de weekopdrachten. Voor het linux-gedeelte gaan we op zoek naar lazyloadingTools terwijl we voor windows gaan proberen om volledig de opdracht van windows server deel 1 in powershell te maken.
