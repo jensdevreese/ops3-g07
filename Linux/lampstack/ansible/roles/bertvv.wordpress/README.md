@@ -14,13 +14,29 @@ no specific requirements
 
 ## Role Variables
 
-| Variable             | Required | Default     | Comments (type)                         |
-| :---                 | :---     | :---        | :---                                    |
-| `wordpress_database` | no       | 'wordpress' | The name of the database for Wordpress. |
-| `wordpress_user`     | no       | 'wordpress' | The name of the database user.          |
-| `wordpress_password` | no       | 'wordpress' | The password of the database user.      |
+| Variable             | Default     | Comments (type)                                   |
+| :---                 | :---        | :---                                              |
+| `wordpress_database` | 'wordpress' | The name of the database for Wordpress.           |
+| `wordpress_user`     | 'wordpress' | The name of the database user.                    |
+| `wordpress_password` | 'wordpress' | The password of the database user.                |
+| `wordpress_plugins`  | []          | Plugins to be installed. See below. (since 1.1.0) |
+| `wordpress_themes`   | []          | Themes to be installed. See below. (since 1.1.0)  |
 
 **Remark:** it is **very strongly** suggested to change the default password.
+
+To install plugins and themes (from the Wordpress Plugin and Theme Directory), you need to specify at least the name. Most plugins and themes also have a version, in which case you need to provide it as well. The version number should not be given if the plugins does't have one. An example:
+
+```yaml
+wordpress_plugins:
+  - name: wp-super-cache
+    version: 1.4.5
+  - name: jetpack
+    version: 3.7.2
+  - name: lipsum  # Plugin without a version
+wordpress_themes:
+  - name: xcel
+    version: 1.0.9
+```
 
 ### Configuring Apache and Mariadb
 
@@ -71,20 +87,6 @@ $ ansible-galaxy install -p roles/ bertvv.mariadb
 
 After executing the command `vagrant up`, a Wordpress site should be available at https://127.0.0.1:8080/wordpress
 
-## Issues
-
-Occasionally, the role will fail with this error message:
-
-```
-TASK: [wordpress | Wordpress config file] ************************************* 
-fatal: [testwordpress] => {'msg': "AnsibleError: template error while templating string: unexpected char u'`' at 164", 'failed': True}
-fatal: [testwordpress] => {'msg': "AnsibleError: template error while templating string: unexpected char u'`' at 164", 'failed': True}
-
-FATAL: all hosts have already failed -- aborting
-```
-
-This is (probably) caused by the secret keys/salts that were automatically generated and by chance contain characters that cannot be processed by Jinja2. Re-run the role and you should be fine...
-
 ## Contributing
 
 Issues, feature requests, ideas are appreciated and can be posted in the Issues section. Pull requests are also very welcome. Preferably, create a topic branch and when submitting, squash your commits into one (with a descriptive message).
@@ -97,3 +99,6 @@ BSD
 
 Bert Van Vreckem (bert.vanvreckem@gmail.com)
 
+Contributions by:
+
+- [Jordi Stevens](https://github.com/Xplendit)
