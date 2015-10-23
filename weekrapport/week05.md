@@ -1,7 +1,7 @@
-# Voortgangsrapport week 01
+# Voortgangsrapport week 05
 
 * Groep: 07
-* Datum: 28/09/2015
+* Datum: 19/10/2015-25/10/2015
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -48,7 +48,6 @@ Tijdens het uitwerken van deze opdracht, lezen we onze boeken verder en schrijve
 [Afbeelding individueel rapport tijdregistratie]
 
 ### Sebastien
-
 * ...
 
 [Afbeelding individueel rapport tijdregistratie]
@@ -62,28 +61,30 @@ Tijdens het uitwerken van deze opdracht, lezen we onze boeken verder en schrijve
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
-### Mathias : Verder werken aan PowerShell
-### Jens
-### Sebastien
-### Jasper
+### Mathias : Verder werken aan mijn boek aan hoofdstuk 5&6 en dat documenteren. Verder werken aan het schrijven van scripts voor windows powershell in verband met de GPO's en OU en gebruikers met jasper. Scripts testen
+### Jens : 
+### Sebastien : Verder werken aan mijn boek over Desired State configuration en documenteren van hoofdstuk 1 & 2. En lastenboek verder aanvullen. Documentatie powershel jumpstart
+### Jasper : Verder werken aan mijn boek vanaf hoofdstuk 6 en dat documenteren. Verder werken aan het schrijven van scripts voor windows powershell in verband met de GPO's en OU en gebruikers met mathias. Scripts testen
 
 ## Waar hebben jullie nog problemen mee?
+
+Momenteel hebben we nog wat problemen met de lampstack van linux draaibaar te krijgen op iedereen zijn hostsysteem aangezien we altijd fouten kregen door het verkeerd clonen.
 
 ## Feedback technisch luik
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+### Mathias
+### Jens
+### Sebastien
+### Jasper
 
 ## Feedback analyseluik
 
 ### Algemeen
 
-### Student 1
-### Student 2
-### Student 3
-### Student 4
+### Mathias
+### Jens
+### Sebastien
+### Jasper
 
