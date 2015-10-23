@@ -35,7 +35,7 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Jasper
 
-![screenschot week3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%203.PNG?token=AGfMlveJjVqgaRbn9Bftz5RiJGHgbk84ks5WKfw9wA%3D%3D)
+![screenschot week3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%203.PNG?token=AGfTaZGuuG1PJS7DWCpcrAJfCzJxmxRNks5WM1BqwA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 

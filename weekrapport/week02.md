@@ -36,7 +36,7 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Jasper
 
- ![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
+![screenschot JasperToggleweek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%202.PNG?token=AGfTaS3Ne9yR14z7CvjAZxcfmELU4TdUks5WM1CPwA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 

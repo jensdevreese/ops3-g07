@@ -41,7 +41,7 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Jasper
 
-![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%201.PNG?token=AGfMlk2kguWHhmWplDUMk-6qEG3Ubtapks5WKfw5wA%3D%3D)
+![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%201.PNG?token=AGfTadlY1xI-EGClrSWki2BTw8l3DR1Hks5WM1DfwA%3D%3D)
 
 
 ## Wat plan je volgende week te doen?
