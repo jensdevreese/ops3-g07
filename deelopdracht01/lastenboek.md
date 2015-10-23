@@ -1,7 +1,7 @@
 # Lastenboek Taak 1: opdracht 1
 
 * Verantwoordelijke uitvoering: `Sébastien Pattyn`
-* Verantwoordelijke testen: `Sébastien Pattyn`
+* Verantwoordelijke testen: `Jens De Vreese`
 
 ## Deliverables
 
@@ -89,6 +89,7 @@ Install-ADDSForest -CreateDnsDelegation:$false `
  ```
 - Alle gegevens met nodige Roles
 - all.yml
+- Loadtestingtool: Siege
 ```
 el7_repositories:
   - epel-release
@@ -173,7 +174,8 @@ wordpress_password: root
     - aanpassingen in yml bestanden zodat alle services draaien bij starten
     - aanmaken van een DB
     - server opzetten voor monitoring
-   
+* Loadtestingtool gebruiken voor het monitoren van de lampstack.
+Wij hebben gekozen om gebruik te maken van Siege. (http://sysadmindesk.com/web-server-load-testing-tool-siege/)
 
 ## Kanban-bord
 

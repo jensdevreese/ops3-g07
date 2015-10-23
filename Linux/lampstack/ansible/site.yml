@@ -2,10 +2,30 @@
 ---
 - hosts: lampstack
   sudo: true
-  roles:
+  
+  
+  roles: 
     - bertvv.el7
-    - sepolicy
     - bertvv.httpd
     - bertvv.mariadb
     - bertvv.wordpress
-    - phpmyadmin
+#   - phpmyadmin
+
+# post_tasks:
+    # - name: setup public interface
+      # sudo: yes
+      # command: 'firewall-cmd --zone=public --change-interface=enp0s8'
+
+#- hosts: pu001
+#  sudo: true
+  
+#  roles:
+#    - bertvv.el7
+#    - common
+#    - bind
+  
+#- hosts: pu002
+#  sudo: true
+#  
+#  roles:
+#    - bertvv.el7
