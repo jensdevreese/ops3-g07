@@ -13,7 +13,7 @@
 
 ## Trello
 
-![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfMlnf28nFqBcZcfJVouSaWoAhEuggDks5WKfMrwA%3D%3D)
+![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfMlgIKNowuEOChS-FiMqh0Y_gCfjENks5WNMZAwA%3D%3D)
 
 ## Wat heb je deze week gerealiseerd?
 We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack.
@@ -24,11 +24,10 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 ### Algemeen
 
 ### Mathias
-![screenschot Mathias week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMltQGoFiqFCJ4WR3FXQ4d6ZQ77T3Fks5WKfsIwA%3D%3D)
-![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlvSS-7c_d1rbQGKzj7NDifZeOCqjks5WKf1bwA%3D%3D)
+![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMlg74gZNUlbHN2RG5zGyfMPP-OYVvks5WNMZuwA%3D%3D)
 
 ### Jens
-![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlpPG04ZztEFMhLemoiLVZjBKA3xQks5WKf3pwA%3D%3D)
+![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlnsEeFqbhC8S2xfLuyrIAQ4QlYZCks5WNMaGwA%3D%3D)
 
 ### Sebastien
 
