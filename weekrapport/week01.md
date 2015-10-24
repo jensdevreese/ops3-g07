@@ -11,7 +11,7 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfMliPqD9DOxJWWYNGYp5TUdGyJjr5Mks5WKfLMwA%3D%3D)
+![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfMlpUF4NKtk1pg3Xomxl_02HP_Zag6ks5WNMWFwA%3D%3D)
 
 
 ## Wat heb je deze week gerealiseerd?
@@ -28,12 +28,11 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Mathias
 
-![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlh0PSQ3qQ61ozL2CxZqP-NdOaiUmks5WKfsGwA%3D%3D)
-![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlqLQD4BQf69_tN6aPWS1jpGMDIUEks5WKf1JwA%3D%3D)
+![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMln-i55Y-BRPSB86lZdDZVrX9P6Wwks5WNMYUwA%3D%3D)
 
 ### Jens
 
-![screenschot Jens week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week1.PNG?token=AGfMlrGsxHRiInTt2VZJWl9xIG94ZgQhks5WKfJqwA%3D%3D)
+![screenschot Jens week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week1.PNG?token=AGfMlpkpWFvXbs-n0_9_Tg9Ohpun8VNhks5WNMX5wA%3D%3D)
 
 ### Sébastien
 
