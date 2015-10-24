@@ -9,8 +9,8 @@
 
 #}}}
 #{{{ Variables
-sut=192.0.2.50
-mariadb_root_password=root
+sut=192.168.56.77
+mariadb_root_password=admin
 wordpress_database=Monitoring
 wordpress_user=admin
 wordpress_password=admin
