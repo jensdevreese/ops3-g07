@@ -12,14 +12,14 @@
 
 ## Trello
 
-![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfMljqOO8wQWjADB8AFnroJieXi-yBkks5WKfREwA%3D%3D)
+![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfMlpVT14oXTgB_BT_SMvc9YrbpNG5Nks5WNMb6wA%3D%3D)
 
 ## Wat heb je deze week gerealiseerd?
 Het opgezochte loadtestingtool (Siege) configuren op de lampstack & scripts schrijven voor het opstellen van DNS/AD/DHCP voor windows server 2012.
 ### Algemeen
 
 ### Mathias
-![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMljhfUeVFfoAYCrIfTp7p5WQLqL7mks5WKfsLwA%3D%3D)
+![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMlqjhBxmvzyKGRE63eQs4dW_l62fWks5WNMc1wA%3D%3D)
 
 ### Jens
 
