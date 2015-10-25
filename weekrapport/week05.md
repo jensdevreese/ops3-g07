@@ -82,7 +82,13 @@ Momenteel hebben we nog wat problemen met de lampstack van linux draaibaar te kr
 ## Feedback analyseluik
 
 ### Algemeen
-
+* Kanban bord:
+    * Tickets vaak te algemeen. Een sprint bestaat niet uit 6 weken. Noteer bij het lezen van het boek en het doornemen van de online opleiding welke hoofdstukken je zal doornemen. 'Opdracht Windows Powershell' is geen goed ticket. Het heeft in dat geval weinig zin om kanban toe te passen. Ik maakte de opmerkingen ook mondeling en gaf een duidelijk voorbeeld hoe de sprints georganiseerd moeten worden en dat je duidelijke afspraken onderling moet maken. Ook in dit document zijn de taken voor volgende week te algemeen geformuleerd. Kanban bord ontbreekt! Tijdsrgistratie ontbreekt!
+* Windows:
+    * Wake up call! De opdrachten worden uitgevoerd maar de documentatie stelt niet veel voor.  
+    * Tijdens het doornemen van het boek maak je met je team een samenvatting van alle boeken.Maak duideljke afspraken tijdens de sprint meetings wie wat zal aanvullen in het document tijdens de volgende sprint. Hoe wordt de kwaliteit van het document gewaarborgd? Schrijf een duidelijk testplan en maak hiervoor tickets aan. Momenteel is de structuur in de repo moeilijk te begrijpen en niets consistent naar naamgeving van documenten en folders toe. Maak onderling duidelijke afspraken.
+    * Document cheatsheet bestaat niet enkel uit commandos'. Voeg tekts toe die een commando verduidelijkt. Elk teamlid vult tijdens het doornemen van de leerstof (boek/virtual academy) het document aan met de geleerde commando's. Maak hiervoor duidelijk afspraken rond de onderverdeling van het document in hoofdstukken (bvb verschillend document per hoofdstuk), de onderlingen samenwerking en de kwaliteitsgarantie.
+    * Na 5 weken bijna geen scripts aanwezig in de scripts folder. Van een team bestaande uit 4 leden verwacht ik meer na 5 weken. Alle scripts die je gebruikt of leert uit het boek of de online opleiding hou je bij. Zorg voor een duidelijke structuur.
 ### Mathias
 ### Jens
 ### Sebastien
