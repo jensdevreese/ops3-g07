@@ -62,7 +62,7 @@ Tijdens het uitwerken van deze opdracht, lezen we onze boeken verder en schrijve
 
 ### Algemeen
 ### Mathias : Verder werken aan mijn boek aan hoofdstuk 5&6 en dat documenteren. Verder werken aan het schrijven van scripts voor windows powershell in verband met de GPO's en OU en gebruikers met jasper. Scripts testen
-### Jens : Linuxtool uitttesten
+### Jens : 
 ### Sebastien : Verder werken aan mijn boek over Desired State configuration en documenteren van hoofdstuk 1 & 2. En lastenboek verder aanvullen. Documentatie powershel jumpstart
 ### Jasper : Verder werken aan mijn boek vanaf hoofdstuk 6 en dat documenteren. Verder werken aan het schrijven van scripts voor windows powershell in verband met de GPO's en OU en gebruikers met mathias. Scripts testen
 
