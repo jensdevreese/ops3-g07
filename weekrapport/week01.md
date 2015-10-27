@@ -36,7 +36,7 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Sébastien
 
-![screenshot Sebastien Week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week1.PNG?token=AGfNEvcyK8O2moQiriY9veXAKzadczKyks5WLRSUwA%3D%3D)
+![screenshot Sebastien Week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week1.PNG?token=AGfMlhmuiNPOQcnKbqkx2DN3iqQ0hIg-ks5WOKNswA%3D%3D)
 
 ### Jasper
 
