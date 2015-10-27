@@ -18,7 +18,7 @@ Ook hebben we onze individuele tijdsregistratie bijgevoegd in de documentatie. W
 ### Algemeen
 
 Begin van de week:
-![screenschot trelloweek5] ()
+![screenschot trelloweek5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week5.PNG?token=AGfMlh2Ljgi9vujnEVNxjxm5bxTlJE2Lks5WOOyewA%3D%3D)
 
 Voor het gedeelte van linux  hebben we ons deze week bezig gehouden met: 
 - het zoeken naar om onze lampstack te montoren. Met andere woorden we gaan op zoek naar load-testingtools.
@@ -43,9 +43,7 @@ Tijdens het uitwerken van deze opdracht, lezen we onze boeken verder en schrijve
 
 ### Jens
 
-* ...
-
-[Afbeelding individueel rapport tijdregistratie]
+![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week5.PNG?token=AGfMlhgv0rALjOKUZd7aHA6iIFwreRjHks5WOOxkwA%3D%3D)
 
 ### Sebastien
 * ...
