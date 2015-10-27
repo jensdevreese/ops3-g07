@@ -31,7 +31,7 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 
 ### Sebastien
 
- ![screenshot Sebastien week 2](https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfNEh-30XDHddoLhdWsqEFf4oME3U9qks5WLRUPwA%3D%3D)
+ ![screenshot Sebastien week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfMlmAFK540HqmeMBcG7q4ga1-QJRaxks5WOKNuwA%3D%3D)
 
 ### Jasper
 
