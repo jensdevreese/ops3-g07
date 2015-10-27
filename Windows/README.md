@@ -22,3 +22,10 @@ Hierin vind je ook de gestructureerde samenvatting van onze boeken. De boeken di
 - Deploying and managing Active Directory with Windows PowerShell
 - Windows PowerShell Desired State Configuration Revealed
 
+Een overzicht van de geschreven/gekozen scripts die wij gebruiken in onze opdracht vind je onder het mapje 'Scripts'.
+
+Onder het mapje 'Cheatsheets' vind je een verzameling van documentatie die wij gebruiken als cheatsheets. Hier staan commando's die je dikwijls kan gebruiken bij het gebruik van PowerShell.
+
+Iedereen van onze groep heeft eerst individueel informatie opgezocht en samenvattingen geschreven. Deze documentatie kan je vinden onder 'Individuele Documentatie'.
+
+

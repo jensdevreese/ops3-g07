@@ -15,5 +15,12 @@ Mathias Van Rumst | [Mathias Van Rumst](https://github.com/mathias27)
 Joeri Van Steen | Gespecialiseerd in Windows.
 
 ## Wegwijzer
-- De opdrachten die hier uitgewerkt zijn, zijn beschreven onder het mapje 'Opgave'. De volledige uitwerking hiervan staat onder het mapje 'Uitwerking powershell'.
+- Er is zoveel aan informatie uit de boeken, dat het onmogelijk is om ieder aspect hiervan te bespreken.
+Daarom hebben wij gekozen om onze samenvatting op te delen in 5 categoriën:
+1. Introductie tot powershell, geschreven door Jens 
+2. Configuartie van AD DS, geschreven door Mathias en Jasper
+3. Scripting, geschreven door Jens
+4. Desired State Configuartie, geschreven door Sebastien
+5. [Optioneel] Exchange server, geschreven door Jens. 
 
+Dit laatste zal enkel aan bod komen als er tijd over is om deze sectie volledig te kunnen afwerken.
