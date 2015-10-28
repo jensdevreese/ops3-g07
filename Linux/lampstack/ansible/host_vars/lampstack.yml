@@ -1,19 +1,11 @@
-# host_vars/lampstack.yml
+# host_vars/pu004.yml
 ---
-
-el7_repositories:
-  - epel-release
-
-el7_install_packages:
-  - bash-completion
-  - policycoreutils
-  - setroubleshoot-server
-  - tree
-  - vim-enhanced
 
 el7_firewall_allow_services:
   - http
   - https
+  - ssh
+
 
 httpd_scripting: 'php'
 
@@ -21,12 +13,13 @@ mariadb_databases:
   - wordpress
 
 mariadb_users:
-  - name: wordpressusr
-    password: BulpashCod
+  - name: wp_user
+    password: test
     priv: 'wordpress.*:ALL'
 
-mariadb_root_password: Teilvadci
+
+mariadb_root_password: root
 
 wordpress_database: wordpress
-wordpress_user: wordpressusr
-wordpress_password: BulpashCod
+wordpress_user: wp_user
+wordpress_password: test

@@ -1,0 +1,35 @@
+# group_vars/all.yml
+# Variables visible to all nodes
+---
+
+el7_admin_user: mathias
+el7_admin_ssh_key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2hcADlvfQOBj2N1Kztu82x0HC+BAOTAsmRJ2txkzD9dr3sNiBURK7bY+idfD6II0k5IpsuyJ5vqNB2gZqnCFPpjixg/Emb7UDq0NmHLhgAlY3z6+AqVibtdRIGwisqHxnonBMCG0U7Kxb7foI4anALReh43YYNunmAG1Lw5TbJoa70ei9he5TggQBpu5U2kkzyCvg/11S0goDT0ViZYCZzy30M9NUJj8aH7kQtsCACW5Cb8DhWhG/y+CvzigLnWchKl31lL3mFoTzo31liomc2tbOPEfASnO1cso/v8tSnVo6pp1QU80emtJmwlD+5viTswLPAYMt9h5v9a3kwftZ User@Asus'
+
+el7_firewall_allow_services:
+  - http
+  - https
+  - ssh
+  
+el7_install_packages:
+  - bash-completion
+  - bind-utils
+  - git
+  - nano
+  - tree
+  - vim-enhanced
+  - wget
+
+el7_user_groups:
+  - wheel
+   
+el7_repositories:
+  - epel-release
+
+el7_users:
+  - name: mathias
+    comment: Mathias Van Rumst
+    groups: 
+    - wheel
+    password: []
+el7_motd: true
+
