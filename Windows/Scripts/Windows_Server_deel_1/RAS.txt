@@ -1,0 +1,357 @@
+#========================
+# Interface configuration
+#========================
+pushd interface
+popd
+# End of interface configuration
+ 
+# ----------------------------------
+# IPHTTPS Configuration
+# ----------------------------------
+pushd interface httpstunnel
+reset
+popd
+# End of IPHTTPS configuration
+ 
+# ----------------------------------
+# IPv4 Configuration
+# ----------------------------------
+pushd interface ipv4
+reset
+set global icmpredirects=disabled
+popd
+# End of IPv4 configuration
+ 
+# ----------------------------------
+# IPv6 Configuration
+# ----------------------------------
+pushd interface ipv6
+reset
+popd
+# End of IPv6 configuration
+ 
+# ----------------------------------
+# ISATAP Configuration
+# ----------------------------------
+pushd interface isatap
+popd
+# End of ISATAP configuration
+ 
+# ----------------------------------
+# 6to4 Configuration
+# ----------------------------------
+pushd interface 6to4
+reset
+popd
+# End of 6to4 configuration
+ 
+# ----------------------------------
+# ISATAP Configuration
+# ----------------------------------
+pushd interface isatap
+popd
+# End of ISATAP configuration
+ 
+#========================
+# Port Proxy configuration
+#========================
+pushd interface portproxy
+reset
+popd
+# End of Port Proxy configuration
+ 
+# ----------------------------------
+# TCP Configuration
+# ----------------------------------
+pushd interface tcp
+reset
+set global rss=enabled chimney=automatic autotuninglevel=normal congestionprovider=ctcp ecncapability=disabled timestamps=disabled netdma=disabled dca=enabled
+popd
+# End of TCP configuration
+ 
+# ----------------------------------
+# Teredo Configuration
+# ----------------------------------
+pushd interface teredo
+set state type=client servername=teredo.ipv6.microsoft.com. servervirtualip=0.0.0.0
+popd
+# End of Teredo configuration
+ 
+# ----------------------------------
+# 6to4 Configuration
+# ----------------------------------
+pushd interface 6to4
+reset
+popd
+# End of 6to4 configuration
+ 
+# ------------------------------------
+# End of Bridge configuration
+# ------------------------------------
+pushd ipsecdosprotection
+reset
+popd
+ 
+# ----------------------------------------
+# Wired LAN Configuration
+# ----------------------------------------
+pushd lan
+popd
+# End of Wired LAN Configuration.
+ 
+# ==========================================================
+# Health Registration Authority configuration
+# ==========================================================
+pushd nap hra
+popd
+# End of NAP HRA configuration
+ 
+# ==========================================================
+# Network Access Protection client configuration
+# ==========================================================
+pushd nap client
+ 
+# ----------------------------------------------------------
+# Trusted server group configuration
+# ----------------------------------------------------------
+reset trustedservergroup
+ 
+# ----------------------------------------------------------
+# Cryptographic service provider (CSP) configuration
+# ----------------------------------------------------------
+set csp name = "Microsoft RSA SChannel Cryptographic Provider" keylength = "2048"
+ 
+# ----------------------------------------------------------
+# Hash algorithm configuration
+# ----------------------------------------------------------
+set hash oid = "1.3.14.3.2.29"
+ 
+# ----------------------------------------------------------
+# Enforcement configuration
+# ----------------------------------------------------------
+set enforcement id = "79617" admin = "disable" id = "79619" admin = "disable" id = "79621" admin = "disable" id = "79623" admin = "disable"
+ 
+# ----------------------------------------------------------
+# Tracing configuration
+# ----------------------------------------------------------
+set tracing state = "disable" level = "basic"
+ 
+# ----------------------------------------------------------
+# User interface configuration
+# ----------------------------------------------------------
+reset userinterface
+popd
+# End of NAP client configuration
+ 
+# -----------------------------------------
+# Remote Access Configuration
+# -----------------------------------------
+pushd ras
+set authmode mode = standard
+delete authtype type = PAP
+delete authtype type = MD5CHAP
+delete authtype type = MSCHAPv2
+delete authtype type = EAP
+delete authtype type = CERT
+add authtype type = MSCHAPv2
+add authtype type = EAP
+delete link type = SWC
+delete link type = LCP
+add link type = SWC
+add link type = LCP
+delete multilink type = MULTI
+add multilink type = MULTI
+set conf confstate = enabled
+set type ipv4rtrtype = lanonly ipv6rtrtype = none rastype = none
+set wanports device = "WAN Miniport (SSTP)" rasinonly = disabled ddinout = disabled ddoutonly = disabled maxports = 5
+set wanports device = "WAN Miniport (PPTP)" rasinonly = disabled ddinout = enabled ddoutonly = disabled maxports = 5
+set wanports device = "WAN Miniport (PPPOE)" ddoutonly = enabled
+set wanports device = "WAN Miniport (L2TP)" rasinonly = disabled ddinout = enabled ddoutonly = disabled maxports = 5
+set wanports device = "WAN Miniport (IKEv2)" rasinonly = disabled ddinout = disabled ddoutonly = disabled maxports = 5
+set user name = Administrator dialin = policy cbpolicy = none
+set user name = Guest dialin = policy cbpolicy = none
+set ikev2connection idletimeout = 5 nwoutagetime = 30
+set ikev2saexpiry saexpirytime = 480 sadatasizelimit = 100
+popd
+ 
+# End of Remote Access configuration.
+ 
+# -----------------------------------------
+# Remote Access Diagnostics Configuration
+# -----------------------------------------
+pushd ras diagnostics
+set rastracing component = * state = disabled
+set modemtracing state = disabled
+set cmtracing state = disabled
+set securityeventlog state = disabled
+set loglevel events = warn
+popd
+# End of Remote Access Diagnostics Configuration.
+ 
+# -----------------------------------------
+# Remote Access IP Configuration
+# -----------------------------------------
+pushd ras ip
+delete pool
+set negotiation mode = allow
+set access mode = all
+set addrreq mode = deny
+set broadcastnameresolution mode = enabled
+set addrassign method = auto
+set preferredadapter
+popd
+ 
+# End of Remote Access IP configuration.
+ 
+# -----------------------------------------
+# Remote Access IPv6 Configuration
+# -----------------------------------------
+pushd ras ipv6
+ 
+set negotiation mode = deny
+set access mode = all
+set routeradvertise mode = enabled
+set prefix prefix = ::
+popd
+# End of Remote Access IPv6 configuration.
+ 
+# -----------------------------------------
+# Remote Access AAAA Configuration
+# -----------------------------------------
+pushd ras aaaa
+set authentication provider = windows
+set accounting provider = windows
+delete authserver name = *
+delete acctserver name = *
+popd
+# End of Remote Access AAAA configuration.
+ 
+# Routing Configuration
+pushd routing
+reset
+popd
+# IP Configuration
+pushd routing ip
+reset
+set loglevel error
+add preferenceforprotocol proto=LOCAL preflevel=1
+add preferenceforprotocol proto=STATIC preflevel=3
+add preferenceforprotocol proto=NONDOD preflevel=5
+add preferenceforprotocol proto=AUTOSTATIC preflevel=7
+add preferenceforprotocol proto=NetMgmt preflevel=10
+add preferenceforprotocol proto=RIP preflevel=120
+add interface name="Ethernet 2" state=enable
+set filter name="Ethernet 2" fragcheck=disable
+add interface name="Ethernet" state=enable
+set filter name="Ethernet" fragcheck=disable
+add interface name="Internal" state=enable
+add interface name="Loopback" state=enable
+popd
+# End of IP configuration
+ 
+# ----------------------------------
+# DNS Proxy configuration
+# ----------------------------------
+pushd routing ip dnsproxy
+uninstall
+popd
+# End of DNS proxy configuration
+ 
+# ----------------------------------
+# IGMP Configuration
+# ----------------------------------
+pushd routing ip igmp
+uninstall
+install
+set global loglevel = ERROR
+# IGMP configuration for interface "Ethernet 2"
+delete interface name="Ethernet 2"
+add interface name="Ethernet 2" igmpprototype=IGMPRTRV3 ifenabled=enable robustvar=2 startupquerycount=2 startupqueryinterval=31 genqueryinterval=125 genqueryresptime=10 lastmemquerycount=2 lastmemqueryinterval=1000 accnonrtralertpkts=YES
+# IGMP configuration for interface "Ethernet"
+delete interface name="Ethernet"
+add interface name="Ethernet" igmpprototype=IGMPPROXY ifenabled=enable
+popd
+# End of IGMP configuration
+ 
+# ----------------------------------
+# NAT configuration
+# ----------------------------------
+pushd routing ip nat
+uninstall
+install
+set global tcptimeoutmins=1440 udptimeoutmins=1 loglevel=ERROR
+#NAT Configuration For Interface Ethernet 2
+add interface name="Ethernet 2" mode=PRIVATE
+#NAT Configuration For Interface Ethernet
+add interface name="Ethernet" mode=FULL
+#NAT Configuration For Interface Internal
+add interface name="Internal" mode=PRIVATE
+popd
+ 
+# ----------------------------------
+# DHCP Relay Agent configuration
+# ----------------------------------
+pushd routing ip relay
+uninstall
+popd
+# End of DHCP Relay configuration
+ 
+# ----------------------------------
+# RIP configuration
+# ----------------------------------
+pushd routing ip rip
+uninstall
+popd
+# End of RIP configuration
+ 
+# ----------------------------------
+# Router Discovery Configuration
+# ----------------------------------
+pushd routing ip routerdiscovery
+uninstall
+add interface name="Ethernet 2" disc=disable minint=7 maxint=10 life=30 level=0
+add interface name="Ethernet" disc=disable minint=7 maxint=10 life=30 level=0
+add interface name="Internal" disc=disable minint=7 maxint=10 life=30 level=0
+add interface name="Loopback" disc=disable minint=7 maxint=10 life=30 level=0
+popd
+ 
+# ----------------------------------
+# DHCP Allocator Configuration
+# ----------------------------------
+pushd routing ip autodhcp
+uninstall
+popd
+# End of DHCP Allocator Configuration
+ 
+# IPv6 Configuration
+pushd routing ipv6
+set filter name="Ethernet 2" fragcheck=disable
+set filter name="Ethernet" fragcheck=disable
+popd
+# End of IPv6 configuration
+ 
+# ----------------------------------
+# DHCPv6 Relay Agent configuration
+# ----------------------------------
+pushd routing ipv6 relayv6
+uninstall
+popd
+# End of DHCPv6 Relay configuration
+ 
+# -----------------------------------------------------------------------
+# Remote Access Demand Dial Configuration
+# -----------------------------------------------------------------------
+pushd ro demanddial
+ 
+# -----------------------------------------
+# WinHTTP Proxy Configuration
+# -----------------------------------------
+pushd winhttp
+reset proxy
+popd
+ 
+# End of WinHTTP Proxy Configuration
+popd
+ 
+popd
+exit
