@@ -50,9 +50,9 @@ Tijdens het uitwerken van deze opdracht, lezen we onze boeken verder en schrijve
 
 ### Jasper
 
-* ...
+![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%205.PNG?token=AGfTaUvH2lOALlQ5MF9Nzue8-DadQAi5ks5WO5JZwA%3D%3D)
 
-[Afbeelding individueel rapport tijdregistratie]
+
 
 ## Wat plan je volgende week te doen?
 
