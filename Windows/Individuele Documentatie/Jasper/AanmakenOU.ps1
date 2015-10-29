@@ -1,0 +1,1 @@
+﻿New-ADOrganizationalUnit –Name NieuweOU –Path “DC=Assengraaf, DC=nl” –ProtectedFromAccidentalDeletion:$true –PassThru
