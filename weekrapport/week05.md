@@ -37,9 +37,7 @@ Tijdens het uitwerken van deze opdracht, lezen we onze boeken verder en schrijve
 
 ### Mathias
 
-* ...
-
-[Afbeelding individueel rapport tijdregistratie]
+![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week5ToggleMathias.png?token=AGfMlkS_eoRqrVgGoJGIPdD-T-eZ8Pghks5WOwxswA%3D%3D)
 
 ### Jens
 
