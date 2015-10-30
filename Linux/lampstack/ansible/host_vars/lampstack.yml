@@ -23,3 +23,7 @@ mariadb_root_password: root
 wordpress_database: wordpress
 wordpress_user: wp_user
 wordpress_password: test
+wordpress_plugins:
+  - name: wp-super-cache
+    version: 1.4.5
+  - name: demo-data-creator
