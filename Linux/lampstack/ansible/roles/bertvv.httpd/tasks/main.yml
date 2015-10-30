@@ -48,21 +48,3 @@
     mode: '0644'
   notify: restart httpd
   tags: httpd
-  
-- name: copy private key
-  copy:
-    src: ca.crt
-    dest: /etc/pki/tls/certs
-  tags: private key
-  
-- name: copy CSR
-  copy:
-    src: ca.csr
-    dest: /etc/pki/tls/private/ca.csr
-  tags: CSR
-
-- name: copy self signed key
-  copy:
-    src: ca.key
-    dest: /etc/pki/tls/private/ca.key
-  tags: CSR

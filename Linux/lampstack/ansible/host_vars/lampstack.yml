@@ -6,7 +6,6 @@ el7_firewall_allow_services:
   - https
   - ssh
 
-
 httpd_scripting: 'php'
 
 mariadb_databases:

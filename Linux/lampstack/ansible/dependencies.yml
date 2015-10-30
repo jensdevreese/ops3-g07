@@ -5,4 +5,5 @@
 - src: bertvv.httpd
 - src: bertvv.mariadb
 - src: bertvv.wordpress
+- src: bertvv.collectd
 

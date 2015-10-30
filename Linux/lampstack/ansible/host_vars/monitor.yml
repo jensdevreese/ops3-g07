@@ -1,0 +1,8 @@
+# host_vars/pu004.yml
+---
+
+el7_firewall_allow_services:
+  - http
+  - https
+  - ssh
+collectd_server: 192.168.56.80

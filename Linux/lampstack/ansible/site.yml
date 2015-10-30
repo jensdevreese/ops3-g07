@@ -7,4 +7,8 @@
     - bertvv.httpd
     - bertvv.mariadb
     - bertvv.wordpress
-    - phpmyadmin
+- hosts: monitor
+  sudo: true
+  roles:
+    - bertvv.el7
+    - bertvv.collectd
