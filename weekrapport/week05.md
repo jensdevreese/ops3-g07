@@ -44,9 +44,7 @@ Tijdens het uitwerken van deze opdracht, lezen we onze boeken verder en schrijve
 ![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week5.PNG?token=AGfMlhgv0rALjOKUZd7aHA6iIFwreRjHks5WOOxkwA%3D%3D)
 
 ### Sebastien
-* ...
-
-[Afbeelding individueel rapport tijdregistratie]
+![Screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week5.PNG?token=AGfNEksnGtzxRjGJLClhzlXXdZMNpj5eks5WPGdPwA%3D%3D)
 
 ### Jasper
 
