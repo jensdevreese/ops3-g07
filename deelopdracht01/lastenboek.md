@@ -78,6 +78,7 @@ Install-ADDSForest -CreateDnsDelegation:$false `
 
 
 ###Linux LAMP Stack:
+- Zorg dat er gelijk wanneer in elk bestand gebruik gemaakt wordt van spaties en geen tabs. Overbodige spaties zorgen ook voor errors, dus verwijder deze ook!!
 ```
 ! heel belangrijk bij het clonen => probleem met inventory.py !
  => destroy box
@@ -142,6 +143,16 @@ wordpress_database: wordpress
 wordpress_user: wp_user
 wordpress_password: root
 ```
+-Probleem gehad met github en syncen is opgelost door volgende manier.
+ - Map LAMPstack volledig verwijderen en de laatste versie van github(lampstack map) kopiëren in repository
+ - zorg dat er geen Lampstack box bestaat!!
+ - uitvoeren van script role_deps.sh vanuit lampstack directory
+ - collectd role manueel gedownload en in ansible/roles geplaatst
+ - dependencies aanpassen
+ - vagrant_host voeg je de nieuwe VM toe
+ - in host_vars een monitor.yml aanmaken
+ - in site.yml de monitor toevoegen met nodige rollen
+ - vagrant up
 
 ## Deeltaken
 
