@@ -1,8 +1,20 @@
 # host_vars/pu004.yml
 ---
-
 el7_firewall_allow_services:
   - http
   - https
-  - ssh
-collectd_server: 192.168.56.80
+  
+el7_install_packages:
+  - bash-completion
+  - git
+  - tree
+  - policycoreutils
+  - setroubleshoot-server
+
+el7_user_groups:
+  - wheel
+   
+el7_repositories:
+  - epel-release
+el7_firewall_allow_ports:
+  - 25827/udp

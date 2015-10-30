@@ -7,8 +7,26 @@
     - bertvv.httpd
     - bertvv.mariadb
     - bertvv.wordpress
+    - { role: bertvv.collectd,
+             collectd_plugins:
+             [{ plugin: "cpu "},
+              {plugin: "logfile"},
+              {plugin: "memory"}],
+
+             collectd_plugins_multi:
+             {network: { Server: '192.168.56.80'}},
+
+            tags: ["collectd"] }
 - hosts: monitor
   sudo: true
   roles:
     - bertvv.el7
-    - bertvv.collectd
+    - { role: bertvv.collectd,
+             collectd_plugins:
+              [{plugin: "logfile"}],
+
+             collectd_plugins_multi:
+             { rrdtool: { Datadir: '"/var/lib/collectd/rrd"'},
+               network: { Server: '192.168.56.80'}},
+
+            tags: ["collectd"]}
