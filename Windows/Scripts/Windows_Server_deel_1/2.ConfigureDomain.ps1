@@ -1,4 +1,5 @@
 # Create New Forest, add Domain Controller
+#Hier spreken de commando's voor zichzelf de namen van het domein worden toegekend, domainmode en forestmode worden ingesteld en DNS wordt geinstalleerd.
 $domainname = "Assengraaf.nl"
 $netbiosName = ASSENGRAAF
 Import-Module ADDSDeployment

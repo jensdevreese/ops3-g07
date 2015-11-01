@@ -1,6 +1,7 @@
 ###############################
 # Create Userfolder directory #
 ###############################
+#Variabelen aan maken om het verloop van het script gemakkelijker te maken.
 $Path = "E:\UserFolders"
 $Name = "UserFolders$"
 $Admins = "ASSENGRAAF\Domain Admins"
