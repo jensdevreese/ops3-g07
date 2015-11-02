@@ -30,3 +30,8 @@
                network: { Server: '192.168.56.80'}},
 
             tags: ["collectd"]}
+- hosts: loadtester
+  sudo: true
+  roles:
+    - bertvv.el7
+    - siege
