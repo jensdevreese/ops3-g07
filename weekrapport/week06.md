@@ -21,7 +21,7 @@ In het algemeen hebben we ook een duidelijkere structuur gemaakt op onze github 
 ### Algemeen
 
 Kanban week 6:
-![] ()
+![screenshot week6kanban] ()
 
 
 
@@ -48,7 +48,7 @@ Kanban week 6:
 
 ### Algemeen
 ### Mathias : Verder werken aan mijn boek aan hoofdstuk 7&8 en dat documenteren. Alle scripts van opdracht deel 1 overlopen en nog eens testen zodat we kunnen beginnen aan deel 2. Dit wil zegen samen met jasper ook een testplan en testrapport opstellen.
-### Jens :  
+### Jens :  een role proberen uitschrijven voor de loadtestingtool Siege. Collectd verder configureren (probleem met firewall oplossen). Windows hoofdstukken 4,5 en 6 uit het boek lezen. Script voor OU, GPO en Gebruikers testen. 
 ### Sebastien : 
 ### Jasper : 
 
@@ -56,7 +56,7 @@ Kanban week 6:
 
 Momenteel hebben we als enige probleem dat er een fout zit in de wordpress role zodat we niet kunnen inlogen en via een plugin meerdere posts of users kunnen maken.
 We onderzoeken dit zelf maar als het niet lukt zullen we raad vragen aan meneer Van Vreckem.
-
+In de collectd-server moeten we momenteel de firewall uitzetten. We gaan zoeken hoe we de lampstack kunnen zien in de collectd webpagina zonder de firewall uit te schakelen.
 ## Feedback technisch luik
 
 ### Algemeen
