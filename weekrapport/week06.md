@@ -29,7 +29,7 @@ Kanban week 6:
 
 ### Mathias
 
-![] ()
+![Screen week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week6ToggleMathias.png?token=AGfMypf2yNhndk05NbfFURmX3gdOt6uAks5WQzcxwA%3D%3D)
 
 ### Jens
 
