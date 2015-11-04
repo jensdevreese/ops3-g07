@@ -9,17 +9,21 @@ $Users = "ASSENGRAAF\Domain Users"
 
 New-Item -Path $Path -ItemType directory
 New-SmbShare -Name $Name -Path $Path -FullAccess $Admins
+#Read rechten toekennen aan de gebruikers voor de userfolders
 Grant-SmbShareAccess -Name $Name -AccountName $Users -AccessRight Read -Force
+#Schrijf rechten toekennen voor de gebruikers aan de userfolders
 Grant-SmbShareAccess -Name $Name -AccountName $Users -AccessRight Change -Force
 
 #############
 # Create OU #
 #############
+#Array van groeen aanmaken, dit is gemakkelijker om later groepen toe te voegen (met groepen bedoelen we OU's)
 $groups = @("Directie","Financieringen","Staf","Verzekeringen","Beheer")
 $Path = "OU=AsAfdelingen,DC=ASSENGRAAF,DC=NL"
 
 New-ADOrganizationalUnit -Name AsAfdelingen -ProtectedFromAccidentalDeletion $false
 
+#Alle OU's overlopen en toevoegen
 foreach ($group_name in $groups)
 {
     New-ADOrganizationalUnit -Name $group_name `

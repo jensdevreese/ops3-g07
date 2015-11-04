@@ -47,10 +47,13 @@ Kanban week 6:
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
-### Mathias : Verder werken aan mijn boek aan hoofdstuk 7&8 en dat documenteren. Alle scripts van opdracht deel 1 overlopen en nog eens testen zodat we kunnen beginnen aan deel 2. Dit wil zegen samen met jasper ook een testplan en testrapport opstellen.
-### Jens :  een role proberen uitschrijven voor de loadtestingtool Siege. Collectd verder configureren (probleem met firewall oplossen). Windows hoofdstukken 4,5 en 6 uit het boek lezen. Script voor OU, GPO en Gebruikers testen. 
+### Mathias : 
+Verder werken aan mijn boek aan hoofdstuk 7&8 en dat documenteren. Alle scripts van opdracht deel 1 overlopen en nog eens testen zodat we kunnen beginnen aan deel 2. Dit wil zegen samen met jasper ook een testplan en testrapport opstellen.
+### Jens :  
+Een role proberen uitschrijven voor de loadtestingtool Siege. Collectd verder configureren (probleem met firewall oplossen). Windows hoofdstukken 4,5 en 6 uit het boek lezen. Script voor OU, GPO en Gebruikers testen. 
 ### Sebastien : 
-### Jasper : Hoofdstukken 9-10 in boek uitwerken en documenteren.
+### Jasper : 
+Hoofdstukken 9-10 in boek uitwerken en documenteren.
 Scripts deel 1 afwerken, commentaar bij schrijven en bij het testrapport toevoegen
 
 ## Waar hebben jullie nog problemen mee?
