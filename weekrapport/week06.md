@@ -40,7 +40,7 @@ Kanban week 6:
 
 ### Jasper
 
-![] ()
+![week6 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%206.PNG?token=AGfTaWH9sCmQmnQ0KoiEFUT6pH5iEKzxks5WQwk-wA%3D%3D)
 
 
 
@@ -50,13 +50,15 @@ Kanban week 6:
 ### Mathias : Verder werken aan mijn boek aan hoofdstuk 7&8 en dat documenteren. Alle scripts van opdracht deel 1 overlopen en nog eens testen zodat we kunnen beginnen aan deel 2. Dit wil zegen samen met jasper ook een testplan en testrapport opstellen.
 ### Jens :  een role proberen uitschrijven voor de loadtestingtool Siege. Collectd verder configureren (probleem met firewall oplossen). Windows hoofdstukken 4,5 en 6 uit het boek lezen. Script voor OU, GPO en Gebruikers testen. 
 ### Sebastien : 
-### Jasper : 
+### Jasper : Hoofdstukken 9-10 in boek uitwerken en documenteren.
+Scripts deel 1 afwerken, commentaar bij schrijven en bij het testrapport toevoegen
 
 ## Waar hebben jullie nog problemen mee?
 
-Momenteel hebben we als enige probleem dat er een fout zit in de wordpress role zodat we niet kunnen inlogen en via een plugin meerdere posts of users kunnen maken.
+Momenteel hebben we een fout in de wordpress role zodat we niet kunnen inlogen en via een plugin meerdere posts of users kunnen maken.
 We onderzoeken dit zelf maar als het niet lukt zullen we raad vragen aan meneer Van Vreckem.
 In de collectd-server moeten we momenteel de firewall uitzetten. We gaan zoeken hoe we de lampstack kunnen zien in de collectd webpagina zonder de firewall uit te schakelen.
+Bij het testen van een gebruikersscript dat we zelf geschreven hebben komt er een error dat het sluitende '}' haakje van de foreach lus niet gevonden wordt. We onderzoeken de fout in notatie
 ## Feedback technisch luik
 
 ### Algemeen
