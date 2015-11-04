@@ -1,0 +1,1 @@
+wscript.echo "Welkom op het netwerk van Assengraaf"
