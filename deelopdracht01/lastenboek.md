@@ -9,6 +9,7 @@
 
 * Documentatie van elk boek staat op github in /Windows/Individuele Documentatie
 * Cheatsheets aangemaakt van Powershell, Is een document dat continu zal aangepast worden:
+
 ####Cheatsheets
 #####basic commands:
 ```
