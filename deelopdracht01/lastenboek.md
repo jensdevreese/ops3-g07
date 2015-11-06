@@ -79,18 +79,76 @@ Install-ADDSForest -CreateDnsDelegation:$false `
 
 ###Linux LAMP Stack:
 - Zorg dat er gelijk wanneer in elk bestand gebruik gemaakt wordt van spaties en geen tabs. Overbodige spaties zorgen ook voor errors, dus verwijder deze ook!!
+
+- Overzicht van alle vagrant hosts:
+=> vagrant_hosts.yml
+```
+- name: lampstack
+  ip: 192.168.56.77
+  synced_folders:
+    - src: www
+      dest: /var/www/html
+      options:
+        :owner: root
+        :group: root
+        :mount_options: ['dmode=0755', 'fmode=0644']
+- name: monitor
+  ip: 192.168.56.80
+- name: loadtester
+  ip: 192.168.56.81
+```
+=> site.yml
+```
+- hosts: lampstack
+  sudo: true
+  roles:
+    - bertvv.el7
+    - bertvv.httpd
+    - bertvv.mariadb
+    - bertvv.wordpress
+    - { role: bertvv.collectd,
+             collectd_plugins:
+             [{ plugin: "cpu "},
+              {plugin: "logfile"},
+              {plugin: "memory"}],
+
+             collectd_plugins_multi:
+             {network: { Server: '192.168.56.80'}},
+
+            tags: ["collectd"] }
+- hosts: monitor
+  sudo: true
+  roles:
+    - bertvv.el7
+    - { role: bertvv.collectd,
+             collectd_plugins:
+              [{plugin: "logfile"}],
+
+             collectd_plugins_multi:
+             { rrdtool: { Datadir: '"/var/lib/collectd/rrd"'},
+               network: { Server: '192.168.56.80'}},
+
+            tags: ["collectd"]}
+- hosts: loadtester
+  sudo: true
+  roles:
+    - bertvv.el7
+    - siege
+```
+
+-Vagrant Up problemen bij aanmaken boxen
 ```
 ! heel belangrijk bij het clonen => probleem met inventory.py !
  => destroy box
  => verwijder lampstack in directory
  => $ git clone --config core.autocrlf=input https://github.com/bertvv/lampstack
  => $ cd lampstack
- => $ ./scripts/dependencies.sh
+ => $ ./scripts/role-deps.sh
  => vagrant up
  ```
 - Alle gegevens met nodige Roles
+
 - all.yml
-- Loadtestingtool: Siege
 ```
 el7_repositories:
   - epel-release
@@ -114,18 +172,14 @@ el7_admin_user: jens
 el7_admin_ssh_key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrxsImXRCQze+W79Tjdo/MfCx8hvS+5p6WyupJfuIUr9EgUunzVITDCXA5iYZEetsNcXee7Y0nLkAB1AhO4zfq30VR5rS2MRI9twwcuCDcTdAywtEq0YGOSLoYgPCU8VaZrVXbMSm8kcvLNlL5XGkadfyrGahyL+ndE13sWeruK8tHZd0V/7a/BAkNtUQSiJaN1WYL6v1XtkOVSIH/flkPhO5FUUHSArV//e0nKUkh9vMVziiLpMNuflIOhmfZ6mN4fAVtOw4auBOcbcfxK7Ytmh0efkE0Ymy22vVEf3rmeTvZFINQN5cub2IlIWBOn0o02nKE8vPfqIiB5dVnB6QF'
 el7_motd: true
 ```
-
  - Lampstack.yml
 ```
-el7_firewalld:
-  - service: http
-  - permanent: true
-  - state: enabled
-
 el7_firewall_allow_services:
   - http
   - https
   - ssh
+el7_firewall_allow_ports:
+  - 25827/udp
 
 httpd_scripting: 'php'
 
@@ -134,14 +188,19 @@ mariadb_databases:
 
 mariadb_users:
   - name: wp_user
-    password: root
+    password: test
     priv: 'wordpress.*:ALL'
+
 
 mariadb_root_password: root
 
 wordpress_database: wordpress
 wordpress_user: wp_user
-wordpress_password: root
+wordpress_password: test
+wordpress_plugins:
+  - name: wp-super-cache
+    version: 1.4.5
+  - name: demo-data-creator
 ```
 -Probleem gehad met github en syncen is opgelost door volgende manier.
  - Map LAMPstack volledig verwijderen en de laatste versie van github(lampstack map) kopiëren in repository
@@ -154,6 +213,37 @@ wordpress_password: root
  - in host_vars een monitor.yml aanmaken
  - in site.yml de monitor toevoegen met nodige rollen
  - vagrant up lampstack
+
+-Monitor.yml
+```
+el7_firewall_allow_services:
+  - http
+  - https
+  
+el7_install_packages:
+  - bash-completion
+  - git
+  - tree
+  - policycoreutils
+  - setroubleshoot-server
+
+el7_user_groups:
+  - wheel
+   
+el7_repositories:
+  - epel-release
+el7_firewall_allow_ports:
+  - 25827/udp
+```
+- Loading tool siege
+- loadtester.yml
+```
+
+```
+-Automatisatie van siege dmv aanmaken role => siege
+
+
+
 ## Deeltaken
 
 ###Windows Powershell:
@@ -181,11 +271,15 @@ wordpress_password: root
 ###Linux LAMP Stack:
 * Opzetten Werkomgeving CentOS 7 door middel van Ansible en Vagrant
 * Downloaden en installeren van nodige Roles
+* Opstelling 1:
 * LAMP stack met PHP-webapplicatie opzetten met behulp van Ansible:
     - aanpassingen in yml bestanden zodat alle services draaien bij starten
     - aanmaken van een DB
     - server opzetten voor monitoring
 * Loadtestingtool gebruiken voor het monitoren van de lampstack.
+* Opstelling 2: multi tier web server
+    - zelf kiezen welk deel apart wordt gezet
+    - afhankelijk van resultaten van monitoring
 Wij hebben gekozen om gebruik te maken van Siege. (http://sysadmindesk.com/web-server-load-testing-tool-siege/)
 
 ## Kanban-bord
