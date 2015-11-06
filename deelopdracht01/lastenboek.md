@@ -294,6 +294,10 @@ week 4:
 ![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfNEl2eDQi9xkQkcp7LMRYE6-6wtRnIks5WPIXuwA%3D%3D)
 week 5:
 ![screenshot TrelloWeek5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week5.PNG?token=AGfNEnt1pPDrcGhj3vcVKNK0FPNO5FOfks5WPIX-wA%3D%3D)
+week 6:
+![screenshot week6kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week6.PNG?token=AGfMlovXtiaIxhH_BCbP2BednWsjzA4kks5WQwkUwA%3D%3D)
+week 7:
+
 
 
 ## Tijdbesteding
@@ -302,7 +306,7 @@ week 5:
 | :---     |    ---: |         ---: |
 | Mathias |         |              |
 | Jens |         |              |
-| Sébastien |      30 | 23     |
+| Sébastien |         |        |
 | Jasper |         |              |
 
 (na oplevering van de taak een schermafbeelding toevoegen van rapport tijdbesteding voor deze taak)
