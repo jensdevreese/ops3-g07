@@ -36,7 +36,7 @@ Kanban week 6:
 ![screenshot toggleWeek6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week6.PNG?token=AGfMlmMVTT_yluWOqS8hGXIYe7YJFaPmks5WQwjnwA%3D%3D)
 
 ### Sebastien
-![] ()
+![Screenshot Toggle Week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week6.PNG?token=AGfNEpNYr_WmtR_60sxypSdGGGG_Hj5Wks5WRUrkwA%3D%3D)
 
 ### Jasper
 
@@ -52,6 +52,7 @@ Verder werken aan mijn boek aan hoofdstuk 7&8 en dat documenteren. Alle scripts 
 ### Jens :  
 Een role proberen uitschrijven voor de loadtestingtool Siege. Collectd verder configureren (probleem met firewall oplossen). Windows hoofdstukken 4,5 en 6 uit het boek lezen. Script voor OU, GPO en Gebruikers testen. 
 ### Sebastien : 
+LINUX opstelling 1 te proberen automatiseren volledig, Windows powershell DSC part 2 boek(hfdst 3,4,5) doornemen en samenvatten
 ### Jasper : 
 Hoofdstukken 9-10 in boek uitwerken en documenteren.
 Scripts deel 1 afwerken, commentaar bij schrijven en bij het testrapport toevoegen
