@@ -9,16 +9,112 @@
 
 * Documentatie van elk boek staat op github in /Windows/Individuele Documentatie
 * Cheatsheets aangemaakt van Powershell, Is een document dat continu zal aangepast worden:
+####Cheatsheets
+#####basic commands:
 ```
-CheatSheet Windows powershell
-CLS		clear-host
-CD		Set location
-dir,ls		get childitem
-type,cat	get-content
-copry,cp	Copy-item
-md/mkdir	make directory
-gal		get aliases
+cls -> clear-host
+cd -> set-location
+dir, ls -> get-childitem
+type, cat -> get-content
+copy, cp -> copy - item
+get-alias ->>>
+gal >
+gal g* -> all get commands
+man -> help
+update-help -Force
+save help
+get-help
+* -> wildcard
+get-help get-service (-Detailed) (-full) (-online) (-showwindow)
 ```
+#####advanced (parameters):
+```
+Get-Service -Name b*, c*
+Get-Service -Name bits, bfe -> gsv bits,bfe
+Get-EventLog -LogName system -Newest 3 -EntryType error
+Get-Service | Export-Csv C:\Users\Nick\Desktop\service.csv
+notepad C:\Users\Nick\Desktop\service.csv
+
+bv: malware bestrijden
+get-process | export-climxml -Path c:\good.xml
+notepad
+calc
+compare-Object -ReferenceObject (import-climxl c:\good.xml) -Difference (get-process) -propery name
+Get-Context c:\test.txt
+get-service | converto-html -property name,status | out-file c:\test.html
+get-service | converto-html -property name,status | kan ook verder mee werken
+export = convert + export
+
+get-service | stop-service -whatif
+get-service | stop-service -confirm
+
+V2 problems
+cd\
+get-Module -> currently loaded modules
+get-adcomputer - filer *
+get-Module -> automaticly loaded module activeDirectory
+```
+#####greater then, select property's, info about property's, extra property's, sorting:
+```
+Get-Process |  where handles -gt 999
+Get-Process |  where handles -gt 999 | sort handles
+Get-Service -name BITS | get-member -> gives info like property's or methods
+get-service | select -propery name,status  -> just select certain property's
+Get-ChildItem | select -Property name, length | sort length (-Descending)
+Get-EventLog -LogName System -Newest 5 | select -Property EventID, TimeWritten, Message
+
+get a file like romeo and julia
+
+$x = [xml](cat .\romeoandjulia.xml)
+
+cast to xml, work with xml files
+
+$x.play -> overview of xml
+$x.play.act -> overview of acts
+$x.play.act[0].scene[0].speech
+$x.play.act.scene.speech | group speaker | sort count
+
+filters ( before sort)
+
+get-service | where {$_.status -eq "Running" -and $_.name -like "b*"}
+get-service | where {$PSitem.status -eq "Running"}
+each service is assigned in $_ or PSitem
+
+```
+#####pipelining inputs like serviceController in gm can be used in stop-process
+```
+get-service | gm vs get-help get-service -full
+bv get-process calc | dir
+
+Get-AdComputer -filter * | select -Property name, @{name='computername'; expression={$PSitem.name}}
+Get-AdComputer -filter * | select -Property name, @{n='computername'; e={$PSitem.name}}
+
+make existing "name" change to computername so it accepts 
+soooooo...
+
+Get-AdComputer -filter * | select -Property @{n='computername'; e={$PSitem.name}} | get-service -name bits
+
+CAST adcomputer to a string
+
+Get-adcomputer -filter * | select -ExpandProperty name
+Get-WmiObject -class win32_bios -computerName (get-adcomputer -filter * | select -ExpandProperty name)
+Get-WmiObject -class win32_bios -computerName (get-adcomputer -filter * ).name
+Get-ADcomputer -filter * | get-wmiobject win32_bios -computerName {$_.Name}
+```
+#####Remoting
+```
+enter-PSSession -ComputerName dc
+invoke-command -computerName cd,s1,s2 {get-eventlog -logname system -new 3}
+install-windowsFeature WindowsPowerShellwebAcces
+install -PsawaWebapplication -UsetestCertificate
+add -PswaAuthorizationRule * * *
+everyone can do anything
+start iexplore https://pwa/pswa -> put in credentials and dc
+Get-Volume
+icm dc,s1,s2 {Get-Volume} | sort sizeremaining
+```
+
+* EindDocument komt in ops3-g07/Windows/Uitwerking, als alle boeken uit zijn
 
 
 ###Windows Deployment:
