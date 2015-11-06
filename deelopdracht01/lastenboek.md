@@ -83,7 +83,7 @@ Install-ADDSForest -CreateDnsDelegation:$false `
 ! heel belangrijk bij het clonen => probleem met inventory.py !
  => destroy box
  => verwijder lampstack in directory
- => clone lampstack repository: autocrlf = input (niet op false of true)
+ => $ git clone --config core.autocrlf=input https://github.com/bertvv/lampstack
  => $ cd lampstack
  => $ ./scripts/dependencies.sh
  => vagrant up
