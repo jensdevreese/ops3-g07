@@ -382,15 +382,15 @@ Wij hebben gekozen om gebruik te maken van Siege. (http://sysadmindesk.com/web-s
 ## Kanban-bord
 
 week 1:
-![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfNEmjxOJZa3_ToUnIQZMKEavZLBKH8ks5WPIW4wA%3D%3D)
+![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfNEuAkU6IujkKQP1Zmg342XIHKXM9jks5WRcN0wA%3D%3D)
 week 2:
-![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfNEloV_07eCswbtMF01vt9tFLZ2z83ks5WPIXGwA%3D%3D)
+![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfNEhhz_MP8eEIDAwEbo6wvELt9w2Eqks5WRcODwA%3D%3D)
 week 3:
-![screenschot KanbanWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week3.PNG?token=AGfNEsbHukCKBcAr991A4JLxTYFp2tsCks5WPIXbwA%3D%3D)
+![screenschot KanbanWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week3.PNG?token=AGfNEnHimVhQbTQew6vMgTdVcnyiPP4-ks5WRcOTwA%3D%3D)
 week 4:
-![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfNEl2eDQi9xkQkcp7LMRYE6-6wtRnIks5WPIXuwA%3D%3D)
+![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfNEvhY5CJBQ5gKqxt2zzOtsRT0vxGrks5WRcOnwA%3D%3D)
 week 5:
-![screenshot TrelloWeek5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week5.PNG?token=AGfNEnt1pPDrcGhj3vcVKNK0FPNO5FOfks5WPIX-wA%3D%3D)
+![screenshot TrelloWeek5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week5.PNG?token=AGfNEq98cDkdsuUSmVcfe5Q2FttIpjjrks5WRcO6wA%3D%3D)
 week 6:
 ![screenshot week6kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week6.PNG?token=AGfMlovXtiaIxhH_BCbP2BednWsjzA4kks5WQwkUwA%3D%3D)
 week 7:
