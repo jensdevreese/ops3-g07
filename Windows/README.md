@@ -28,4 +28,7 @@ Onder het mapje 'Cheatsheets' vind je een verzameling van documentatie die wij g
 
 Iedereen van onze groep heeft eerst individueel informatie opgezocht en samenvattingen geschreven. Deze documentatie kan je vinden onder 'Individuele Documentatie'.
 
+Ten slotte staan de gebruikte bronnen onder het mapje 'informatiebronnen'. Hierin staan onder andere de digitale versie's van de boeken (waar mogelijk) en de online gebruikte tutorials.
+
+
 
