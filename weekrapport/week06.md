@@ -66,6 +66,7 @@ Bij het testen van een gebruikersscript dat we zelf geschreven hebben komt er ee
 ## Feedback technisch luik
 
 ### Algemeen
+Opmerking opgenomen en uitwerking aangepast. Goed. Enkel structuur soms chaotisch. Zorg op het einde van de rit voor een duidelijke structuur.
 
 ### Mathias
 ### Jens
