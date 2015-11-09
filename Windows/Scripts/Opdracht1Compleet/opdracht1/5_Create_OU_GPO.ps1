@@ -91,7 +91,7 @@ foreach ($share_name in $shares)
     $ACL = Get-Acl $full_path
     #$ACL.SetAccessRuleProtection($true, $false)
     #$ACL.Access | ForEach { [Void]$ACL.RemoveAccessRule($_) }
-    $ACL.AddAccessRule((New-Object System.Security.AccessControl.FileSystemAccessRule("ASSENGRAAF\Administrators","FullControl", "ContainerInherit, ObjectInherit", "None", "Allow")))
+    $ACL.AddAccessRule((New-Object System.Security.AccessControl.FileSystemAccessRule("ASSENGRAAF\Administrator","FullControl", "ContainerInherit, ObjectInherit", "None", "Allow")))
     $ACL.AddAccessRule((New-Object System.Security.AccessControl.FileSystemAccessRule($full_group_path,"Modify", "ContainerInherit, ObjectInherit", "None", "Allow")))
     Set-Acl $full_path $ACL
 
@@ -108,7 +108,7 @@ $Delimiter = ","
 $principal = "@ASSENGRAAF.NL"
 $main_OU = "OU=AsAfdelingen,DC=Assengraaf,DC=nl"
 $profile_path = "\\AsSv1\UserFolders$\%username%"
-$password = "Connexus1234"
+$password = "Test123"
 
 foreach ($User in Import-Csv -Delimiter $Delimiter -Path $Path)
 {
@@ -175,15 +175,15 @@ foreach ($printer in $printers)
 # Create GPO's #
 ################
 
-Import-GPO -BackupId BE233678-6586-4572-87F8-FFE93F5C53F3 -TargetName "GPOGebruikers" -Path "G:\Windows\Scripts\GPO\" -CreateIfNeeded
+Import-GPO -BackupId BE233678-6586-4572-87F8-FFE93F5C53F3 -TargetName "GPOGebruikers" -Path "C:\Users\Administrator\Desktop\opdracht1\GPO\" -CreateIfNeeded
 Get-GPO -Name "GPOGebruikers" | New-GPLink -Target "OU=AsAfdelingen,DC=ASSENGRAAF,DC=NL"
 
-Import-GPO -BackupId 7A6D71AA-5DC3-43D9-872E-8FEDC144805C -TargetName "GPOBeheerders" -Path "G:\Windows\Scripts\GPO\" -CreateIfNeeded
+Import-GPO -BackupId 7A6D71AA-5DC3-43D9-872E-8FEDC144805C -TargetName "GPOBeheerders" -Path "C:\Users\Administrator\Desktop\opdracht1\GPO\" -CreateIfNeeded
 Get-GPO -Name "GPOBeheerders" | New-GPLink -Target "OU=Beheer,OU=AsAfdelingen,DC=ASSENGRAAF,DC=NL" -Enforced Yes
 
-Import-GPO -BackupId 26F1E35D-F9F9-4A5A-845E-04115BFDC529 -TargetName "Default Domain Policy" -Path "G:\Windows\Scripts\GPO\" -CreateIfNeeded
+Import-GPO -BackupId 26F1E35D-F9F9-4A5A-845E-04115BFDC529 -TargetName "Default Domain Policy" -Path "C:\Users\Administrator\Desktop\opdracht1\GPO\" -CreateIfNeeded
 Get-GPO -Name "Default Domain Policy" | Set-GPLink -Enforced Yes -Target "DC=ASSENGRAAF,DC=NL"
 
-Import-GPO -BackupId A799151D-70B9-43D0-A41C-7F3890F1AB95 -TargetName "Default Domain Controllers Policy" -Path "G:\Windows\Scripts\GPO\" -CreateIfNeeded
+Import-GPO -BackupId A799151D-70B9-43D0-A41C-7F3890F1AB95 -TargetName "Default Domain Controllers Policy" -Path "C:\Users\Administrator\Desktop\opdracht1\GPO\" -CreateIfNeeded
 
 gpupdate /force
