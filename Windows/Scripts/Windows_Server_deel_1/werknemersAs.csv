@@ -5,3 +5,4 @@ Number,Title,Gender,GivenName,Surname,Afdeling,StreetAddress,Postcode,City,Count
 4,Financieringen,male,Peter,Jongsma,Financien,Schietboompleinstraat 82,9830,Sint-Martens-Latem,BE,Belgium,0492 30 45 97,6/15/1988
 5,Medewerker,female,Kimberly,Van Herk,Staf,Hammersweg 25,8310,Brugge,BE,Belgium,0489 69 39 54,10/24/1976
 6,Medewerker,female,Tania,Vansantvoort,Staf,Reukenstraat 23,9000,Gent,BE,Belgium,0489 30 46 47,11/6/1984
+7,Medewerker,male,Jens,De Vreese,Beheer,Hogeschool,9000,Gent,BE,Belgium,0498 76 54 32,05/19/1993

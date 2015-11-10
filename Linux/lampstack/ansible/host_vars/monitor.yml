@@ -8,6 +8,7 @@ el7_install_packages:
   - bash-completion
   - git
   - tree
+  - vim
   - policycoreutils
   - setroubleshoot-server
 
@@ -17,4 +18,4 @@ el7_user_groups:
 el7_repositories:
   - epel-release
 el7_firewall_allow_ports:
-  - 25827/udp
+  - 25826/udp
