@@ -14,7 +14,8 @@
 
 ## Wat heb je deze week gerealiseerd?
 - Na de week-upcall van week 4, zijn we eerst en vooral begonnen met alles in orde te zetten dat te maken had met naslagwerk. We hebben iedere weekverslag goed ingevuld en ons trello-bord volledig in orde gezet. 
-Ook hebben we onze individuele tijdsregistratie bijgevoegd in de documentatie. We zijn begonnen met het documenteren van onze windows-powershell ervaringen (boeken, tutorials,...).
+Ook hebben we onze individuele tijdsregistratie bijgevoegd in de documentatie. We zijn begonnen met het documenteren van onze windows-powershell ervaringen (boeken, tutorials,...)
+
 ### Algemeen
 
 Begin van de week:
