@@ -346,6 +346,7 @@ foreach ($share_name in $shares)
 ################
 # Create Users #
 ################
+#### Opmerking: We geven het csv-bestand mee met het script. In dit csv-bestand staan de gebruikers die we gaan toevoegen.
 $Path = ".\5_werknemers.csv"
 $Delimiter = ","
 $principal = "@ASSENGRAAF.NL"
@@ -418,6 +419,8 @@ foreach ($printer in $printers)
 ################
 # Create GPO's #
 ################
+
+##### Opmerking: We geven 1 map 'GPO' mee met daarin de backupId's die we importeren in het script. In deze mappen staan de ##### te installeren eigenschappen van de group policy's. 
 
 Import-GPO -BackupId BE233678-6586-4572-87F8-FFE93F5C53F3 -TargetName "GPOGebruikers" -Path "C:\Users\Administrator\Desktop\opdracht1\GPO\" -CreateIfNeeded
 Get-GPO -Name "GPOGebruikers" | New-GPLink -Target "OU=AsAfdelingen,DC=ASSENGRAAF,DC=NL"
