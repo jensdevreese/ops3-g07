@@ -25,7 +25,6 @@ Kanban week 6:
 
 
 
-[Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
 
 ### Mathias
 
