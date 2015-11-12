@@ -18,19 +18,15 @@
 ### Algemeen
 
 Kanban week 7:
-![screenshot week7kanban] ()
-
-
-
-[Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
+![screenshot week7kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week7.PNG?token=AGfMlpXLRQ7YdkYfupsfqx6OC38PJXiIks5WTYL7wA%3D%3D)
 
 ### Mathias
 
-![Screen week7] ()
+![Screen week7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week7ToggleMathias.png?token=AGfMlkyB3Vx9FTSXFUJ-OfLl0cmZ59stks5WTYMRwA%3D%3D)
 
 ### Jens
 
-![screenshot toggleWeek7] ()
+![screenshot toggleWeek7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week7.PNG?token=AGfMlhOdmPrDA1n3AN_HPmMLcgpSTIyZks5WTYLYwA%3D%3D)
 
 ### Sebastien
 ![Screenshot Toggle Week7] ()
@@ -47,7 +43,7 @@ Kanban week 7:
 ### Mathias : 
 Verder werken aan mijn boek aan hoofdstuk 9 en dat documenteren. Testplan en testrapport opstellen van de scripts van windows opdracht 1 met Jens. Verder aan de role werken van siege.
 ### Jens :  
-Werken aan mijn boek aan hoofdstuk 5 en dat documenteren. Testplan en testrapport opstellen van de scripts van windows opdracht 1 met Mathias. Verder aan de role werken van siege.
+Boek hoofdstuk 5 lezen: scripting. Hoofdstuk 4 en 5 documenteren. Testplan en testrapport opstellen van de scripts van windows opdracht 1 met Mathias. Verder aan de role werken van siege. Testplan rapport schrijven voor Mathias zijn boek
 ### Sebastien : 
 
 ### Jasper : 
