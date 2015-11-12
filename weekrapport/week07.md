@@ -29,7 +29,7 @@ Kanban week 7:
 ![screenshot toggleWeek7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week7.PNG?token=AGfMlhOdmPrDA1n3AN_HPmMLcgpSTIyZks5WTYLYwA%3D%3D)
 
 ### Sebastien
-![Screenshot Toggle Week7] ()
+![Screenshot Toggle Week7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week7.PNG?token=AGfNEjf1LsmsTEX-KrenEe49FNEFWlG2ks5WTZ16wA%3D%3D)
 
 ### Jasper
 
@@ -45,6 +45,7 @@ Verder werken aan mijn boek aan hoofdstuk 9 en dat documenteren. Testplan en tes
 ### Jens :  
 Boek hoofdstuk 5 lezen: scripting. Hoofdstuk 4 en 5 documenteren. Testplan en testrapport opstellen van de scripts van windows opdracht 1 met Mathias. Verder aan de role werken van siege. Testplan rapport schrijven voor Mathias zijn boek
 ### Sebastien : 
+Ik ga mij nu enkel voornamelijk focussen op powershell DSC. Bijna elke week als er iets van roles veranderd, loopt mijn linux lampstack volledig vast. en moet ik telkens weer opnieuw beginnen. in de projectmomenten werk ik dan nu vooral mee met Jens aan Linux, maar thuis enkel Windows voor de moment
 
 ### Jasper : 
 
