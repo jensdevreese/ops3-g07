@@ -120,6 +120,26 @@ icm dc,s1,s2 {Get-Volume} | sort sizeremaining
 
 ###Windows Deployment:
 ####Scripts:
+##### 0_Create_Disk:
+Opmerking: Als je in virtualbox werkt, moet je zorgen dat er 2 harde schijven aanwezig zijn in de box.
+########################
+# Initialize the disks #
+########################
+Initialize-Disk 1 -PartitionStyle MBR
+Initialize-Disk 2 -PartitionStyle MBR
+
+#####################
+# Create partitions #
+#####################
+New-Partition -DiskNumber 1 -UseMaximumSize -DriveLetter E
+New-Partition -DiskNumber 2 -UseMaximumSize -DriveLetter F
+
+#########################
+# Format the partitions #
+#########################
+Format-Volume -DriveLetter E -Force
+Format-Volume -DriveLetter F -Force
+
 
 #####IP-Adress rename PC:
 ```
