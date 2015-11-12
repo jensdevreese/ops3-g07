@@ -553,12 +553,26 @@ el7_motd: true
 ```
  - Lampstack.yml
 ```
+# host_vars/lampstack.yml
+---
+
 el7_firewall_allow_services:
   - http
   - https
   - ssh
+el7_install_packages:
+  - bash-completion
+  - git
+  - tree
+  - vim
+  - policycoreutils
+  - setroubleshoot-server
+el7_user_groups:
+  - wheel
+el7_repositories:
+  - epel-release
 el7_firewall_allow_ports:
-  - 25827/udp
+  - 25826/udp
 
 httpd_scripting: 'php'
 
@@ -617,7 +631,27 @@ el7_firewall_allow_ports:
 - Loading tool siege
 - loadtester.yml
 ```
+# host_vars/loadtester.yml
+---
+el7_firewall_allow_services:
+  - http
+  - https
+  - ssh
+el7_install_packages:
+  - bash-completion
+  - git
+  - vim
+  - tree
+  - policycoreutils
+  - setroubleshoot-server
 
+el7_user_groups:
+  - wheel
+   
+el7_repositories:
+  - epel-release
+el7_firewall_allow_ports:
+  - 25826/udp
 ```
 -Automatisatie van siege dmv aanmaken role => siege
 
@@ -638,7 +672,7 @@ el7_firewall_allow_ports:
 ###Windows Deployment:
 
 * Lezen + uitwerking boeken Netwerkbeheer Windows Server 2012
-* Opdracht Deel 1 en Deel 2 van Windows Server opnieuw uitwerken
+* Opdracht Deel 1 en Deel 2 van Windows Server uitwerken via powershell.
     - instellen van netwerk en computernamen
     - AD configureren
     - DHCP instellen
