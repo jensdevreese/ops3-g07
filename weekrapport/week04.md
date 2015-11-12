@@ -12,26 +12,26 @@
 
 ## Trello
 
-![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfMlpVT14oXTgB_BT_SMvc9YrbpNG5Nks5WNMb6wA%3D%3D)
+![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfMlilfh1AaAbi8qDtORacfhIpMgi14ks5WTYCcwA%3D%3D)
 
 ## Wat heb je deze week gerealiseerd?
 Het opgezochte loadtestingtool (Siege) configuren op de lampstack & scripts schrijven voor het opstellen van DNS/AD/DHCP voor windows server 2012.
 ### Algemeen
 
 ### Mathias
-![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMlqjhBxmvzyKGRE63eQs4dW_l62fWks5WNMc1wA%3D%3D)
+![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMlm3eUd2-If-gZMeIdouluKnDSEIxks5WTYCywA%3D%3D)
 
 ### Jens
 
-![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week4.PNG?token=AGfMlmuDOoe6aOHqRleU340gScL0on_lks5WMk9JwA%3D%3D)
+![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week4.PNG?token=AGfMlhnspzavU2Ao2FVU8W4gpmwKXFqFks5WTYDBwA%3D%3D)
 
 ### Sebastien
 
-![screenshot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week4.PNG?token=AGfMlr5bzp3XNqxtGEjC7lJF5iaNimh_ks5WOKTfwA%3D%3D)
+![screenshot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week4.PNG?token=AGfMlokJE5UznwL5QfOn-W4MVM8tJ20wks5WTYDPwA%3D%3D)
 
 ### Jasper
 
-![screenschot week4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfTaSwyX4ZyAqu6iYPTiVMtRmjYmW5Kks5WM09dwA%3D%3D)
+![screenschot week4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfMlpLKwFR4VizazI5Mc3f3H_qVpA59ks5WTYDiwA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 We maken deze week alles in orde qua organisatie! Ieder weekrapport correct invullen en tijdsregistraties bijhouden en weergeven op de weekopdrachten. Voor het linux-gedeelte gaan we op zoek naar lazyloadingTools terwijl we voor windows gaan proberen om volledig de opdracht van windows server deel 1 in powershell te maken.
