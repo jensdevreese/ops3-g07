@@ -33,7 +33,7 @@ Kanban week 7:
 
 ### Jasper
 
-![week7 toggle] ()
+![week7 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%207.PNG?token=AGfTaQOA2pWgE92xw3FhcfMcTrn1SEsIks5WTgJ4wA%3D%3D)
 
 
 
@@ -48,7 +48,7 @@ Boek hoofdstuk 5 lezen: scripting. Hoofdstuk 4 en 5 documenteren. Testplan en te
 Ik ga mij nu enkel voornamelijk focussen op powershell DSC. Bijna elke week als er iets van roles veranderd, loopt mijn linux lampstack volledig vast. en moet ik telkens weer opnieuw beginnen. in de projectmomenten werk ik dan nu vooral mee met Jens aan Linux, maar thuis enkel Windows voor de moment
 
 ### Jasper : 
-
+Mijn vooruitgang aan mijn boek lag deze week stil dus wil volgende week zeker daar weer vooruitgang maken en verder documenteren naar een 15tal paginas toe. Samen met het verkennen van deel 2 powershell.
 
 
 ## Waar hebben jullie nog problemen mee?
