@@ -122,76 +122,79 @@ icm dc,s1,s2 {Get-Volume} | sort sizeremaining
 ####Scripts:
 ##### 0_Create_Disk:
 Opmerking: Als je in virtualbox werkt, moet je zorgen dat er 2 harde schijven aanwezig zijn in de box.
-########################
-# Initialize the disks #
-########################
+```
 Initialize-Disk 1 -PartitionStyle MBR
 Initialize-Disk 2 -PartitionStyle MBR
 
-#####################
-# Create partitions #
-#####################
 New-Partition -DiskNumber 1 -UseMaximumSize -DriveLetter E
 New-Partition -DiskNumber 2 -UseMaximumSize -DriveLetter F
 
-#########################
-# Format the partitions #
-#########################
 Format-Volume -DriveLetter E -Force
 Format-Volume -DriveLetter F -Force
-
-
-#####IP-Adress rename PC:
 ```
-$ipaddress = "192.168.1.6"
-$ipprefix = "255.255.255.0"
-$ipgw = "192.168.1.1"
-$ipdns = "192.168.1.6"
-$wmi = Get-WmiObject win32_networkadapterconfiguration -filter "ipenabled = 'true'"
-$wmi.EnableStatic($ipaddress, $ipprefix)
-$wmi.SetGateways($ipgw, 1)
-$wmi.SetDNSServerSearchOrder($ipdns)
-#rename the computer
-$newname = "ASSV1"
-Rename-Computer -NewName $newname -force
-#install features
-$featureLogPath = "c:\logs\featurelog.txt"
-New-Item $featureLogPath -ItemType file -Force
-$addsTools = "RSAT-AD-Tools"
-Add-WindowsFeature $addsTools
-Get-WindowsFeature | Where installed >> $featureLogPath
-#restart the computer
+
+#####1_rename_PC:
+```
+Rename-Computer -NewName "AsSv1" -Force
+Set-NetIPInterface -InterfaceAlias "Ethernet 2" -Dhcp Disabled
+New-NetIPAddress -InterfaceAlias "Ethernet 2" -IPAddress 192.168.10.5 -PrefixLength 24 -DefaultGateway 192.168.10.1
+Set-DnsClientServerAddress -InterfaceAlias "Ethernet 2" -ServerAddresses 127.0.0.1
 Restart-Computer
 ```
 
-#####Install AD Feature:
+#####2_Create_Domain:
 ```
-$featureLogPath = "c:\logs\featurelog.txt"
-start-job -Name addFeature -ScriptBlock {
-Add-WindowsFeature -Name "ad-domain-services" -IncludeAllSubFeature -IncludeManagementTools
-Add-WindowsFeature -Name "dns" -IncludeAllSubFeature -IncludeManagementTools
-Add-WindowsFeature -Name "gpmc" -IncludeAllSubFeature -IncludeManagementTools }
-Wait-Job -Name addFeature
-Get-WindowsFeature | where installed >> $featureLogPath
+Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
+
+Import-Module ADDSDeployment
+
+$domainName = "Assengraaf.nl"
+$netbiosName = "ASSENGRAAF"
+$forestMode = "Win2012R2"
+$domainMode = "Win2012R2"
+$databasePath = "C:\Windows\NTDS"
+$logPath = "C:\Windows\NTDS"
+$sysVolPath = "C:\Windows\SYSVOL"
+
+Install-ADDSForest `
+-InstallDns `
+-DatabasePath $databasePath `
+-DomainMode $domainMode `
+-DomainName $domainName `
+-DomainNetbiosName $netbiosName `
+-ForestMode $forestMode `
+-LogPath $logPath `
+-SysvolPath $sysVolPath `
+-Force
 ```
 
-#####Configure Domain
+#####3_Configure_DHCP_DNS
 ```
-$domainname = "Assengraaf.nl"
-$netbiosName = ASSENGRAAF
-Import-Module ADDSDeployment
-Install-ADDSForest -CreateDnsDelegation:$false `
--DatabasePath "C:\Windows\NTDS" `
--DomainMode "Win2012" `
--DomainName $domainname `
--DomainNetbiosName $netbiosName `
--ForestMode "Win2012" `
--InstallDns:$true `
--LogPath "C:\Windows\NTDS" `
--NoRebootOnCompletion:$false `
--SysvolPath "C:\Windows\SYSVOL" `
--Force:$true
+#####################
+# Install DHCP role #
+#####################
+Install-WindowsFeature -Name DHCP -IncludeManagementTools
+Add-DhcpServerSecurityGroup
+netsh dhcp add securitygroups
+Restart-service dhcpserver
+
+##################
+# Configure DHCP #
+##################
+Set-DhcpServerv4Binding -BindingState $true -InterfaceAlias “Ethernet 2”
+Add-DhcpServerInDC -DnsName “AsSv1.Assengraaf.nl”
+Set-ItemProperty –Path registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ServerManager\Roles\12 –Name ConfigurationState –Value 2
+Add-DhcpServerv4Scope -Name "Friendly Name of Scope" -StartRange 192.168.10.100 -EndRange 192.168.10.150 -SubnetMask 255.255.255.0
+Set-DhcpServerv4OptionValue -OptionId 6 -value 192.168.10.5 #DNS
+Set-DhcpServerv4OptionValue -OptionId 3 -value 192.168.10.5 #Default Gateway
+
+#############################
+# Add forwarders DNS Server #
+#############################
+Add-DnsServerForwarder -IPAddress 8.8.8.8
+Add-DnsServerForwarder -IPAddress 8.8.4.4
 ```
+
 
 
 ###Linux LAMP Stack:
