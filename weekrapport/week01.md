@@ -11,7 +11,7 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfMlpUF4NKtk1pg3Xomxl_02HP_Zag6ks5WNMWFwA%3D%3D)
+![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfMlpaKuG0cSsqW-OBPkRRNDhDZMqbRks5WTX69wA%3D%3D)
 
 
 ## Wat heb je deze week gerealiseerd?
@@ -28,19 +28,19 @@ Ook is er gevraagd om de online filmpjes van 'Microsoft Powershell Jump Start 3.
 
 ### Mathias
 
-![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMln-i55Y-BRPSB86lZdDZVrX9P6Wwks5WNMYUwA%3D%3D)
+![screenschot Mathias week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week1ToggleMathias.png?token=AGfMlklBDeGRrGOYMZniUpqI-68xemg6ks5WTX7hwA%3D%3D)
 
 ### Jens
 
-![screenschot Jens week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week1.PNG?token=AGfMlpkpWFvXbs-n0_9_Tg9Ohpun8VNhks5WNMX5wA%3D%3D)
+![screenschot Jens week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week1.PNG?token=AGfMlkXjiFkeCtkvxWIlWmpaG86liXyEks5WTX6UwA%3D%3D)
 
 ### Sébastien
 
-![screenshot Sebastien Week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week1.PNG?token=AGfMlhmuiNPOQcnKbqkx2DN3iqQ0hIg-ks5WOKNswA%3D%3D)
+![screenshot Sebastien Week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week1.PNG?token=AGfMluVSi9Nx0OpX_Oeq5uK3-WY-F01hks5WTX8jwA%3D%3D)
 
 ### Jasper
 
-![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%201.PNG?token=AGfTadlY1xI-EGClrSWki2BTw8l3DR1Hks5WM1DfwA%3D%3D)
+![screenschot week1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%201.PNG?token=AGfMllCJ5ViBqjZJ7oPlRUB-vv9-SeV4ks5WTX8NwA%3D%3D)
 
 
 ## Wat plan je volgende week te doen?
