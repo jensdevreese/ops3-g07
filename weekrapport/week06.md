@@ -36,7 +36,7 @@ Kanban week 6:
 ![screenshot toggleWeek6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week6.PNG?token=AGfMloLFXx0EOQuFdcCAs6nBCpJh81kXks5WTYJGwA%3D%3D)
 
 ### Sebastien
-![Screenshot Toggle Week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week6.PNG?token=AGfMlv2rG-WaqNTKiSPeeP8lJU-1PK99ks5WTYJ1wA%3D%3DD)
+![Screenshot Toggle Week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week6.PNG?token=AGfMlv2rG-WaqNTKiSPeeP8lJU-1PK99ks5WTYJ1wA%3D%3D)
 
 ### Jasper
 
