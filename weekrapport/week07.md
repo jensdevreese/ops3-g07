@@ -1,7 +1,7 @@
 # Voortgangsrapport week 07
 
 * Groep: 07
-* Datum: 01/10/2015-08/11/2015
+* Datum: 02/11/2015-08/11/2015
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
