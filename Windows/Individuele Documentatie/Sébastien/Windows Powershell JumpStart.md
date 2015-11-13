@@ -103,9 +103,38 @@ PS C:\> Get-Service | ConvertTo-Html -Property DisplayName, status |
 >> Out-File c:\serv.htm
 >>
 ```
+##### Cmdlets that kill
+- Stop-Process / kill
+- Stop-service
+- extra opties: -Confirm 		-Whatif
 
 ### Chapter 4: Extending the shell
+- Modules
+```PowerShell
+PS C:\> Get-Module -ListAvailable
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Manifest   1.0.0.0    AppBackgroundTask                   {Disable-AppBackgroundTaskDiagnosticLog, Enable-AppBack...
+Manifest   2.0.0.0    AppLocker                           {Get-AppLockerFileInformation, Get-AppLockerPolicy, New...
+Manifest   2.0.0.0    Appx                                {Add-AppxPackage, Get-AppxPackage, Get-AppxPackageManif...
+Script     1.0.0.0    AssignedAccess                      {Clear-AssignedAccess, Get-AssignedAccess, Set-Assigned...
+Manifest   1.0.0.0    BitLocker                           {Unlock-BitLocker, Suspend-BitLocker, Resume-BitLocker,...
+Manifest   2.0.0.0    BitsTransfer                        {Add-BitsFile, Complete-BitsTransfer, Get-BitsTransfer,...
+Manifest   1.0.0.0    BranchCache                         {Add-BCDataCacheExtension, Clear-BCCache, Disable-BC, D...
+...
+
+PS C:\> Import-Module act*
+
+```
+- Snap-in
+```PowerShell
+PS C:\> Get-PSSnapin -Registered
+
+PS C:\> Add-PSSnapin sql*
+```
+
 ### Chapter 5: Objects for the Admin
+
 ### Chapter 6: The pipeline: Deeper
 ### Chapter 7: The Power in the Shell - Remoting
 ### Chapter 8: Getting prepared for automation
