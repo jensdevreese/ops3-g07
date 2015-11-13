@@ -159,7 +159,7 @@ BeginErrorReadLine         Method         void BeginErrorReadLine()
 ```
 - TypeName is een unieke naam door windows toegekent
 - Toont de eigenschappen en methodes van een object
-- Properties zijn potentiële kolommen met informatie
+- Properties zijn potentiÃ«le kolommen met informatie
 - Methodes zijn mogelijke acties die genomen kunnen worden
 
 - Via Sort-Object kan je sorteren op -Property met als optie -Descending (indien dalende volgorde)
@@ -335,7 +335,7 @@ PS C:\> Invoke-Command -ComputerName Server1, Server2 -ScriptBlock {
   - Bypass ( niets is geblokkeerd en er zijn geen waarschuwingen of prompts)
 
 ##### Scripts
-- $ om variabele te cre�ren
+- $ om variabele te creëren
  ```PowerShell
 $mijnVariabele
  ```
@@ -404,7 +404,7 @@ Function Get-DiskInfo{
 }
 ```
 - Mogelijkheid om scripts weg te schrijven naar een Module
-- Daarna kunnen modules ge�mporteerd worden
+- Daarna kunnen modules geïmporteerd worden
 - Opslaan als .psm1 bestand
 ```PowerShell
 Function Set-DiskInfp{}
@@ -423,12 +423,12 @@ Function Get-DiskInfo{
   $Property=@{
         'Computer'= $ComputerName;
         'TotalSpace'= $Disk.size / 1gb -as [int];
-        'FreeSpace'= $Disk.freespace /1 gb -as [int]}
+        'FreeSpace'= $Disk.freespace /1gb -as [int]}
 
 
   $obj=New-Object -TypeName PSObject -Property $Property
   Write-Output $Obj
 }
 ```
-- Wanneer deze module ge�mporteerd wordt dan kunnen de functies gebruikt worden wonder dat de scripts uitgevoerd moeten worden
+- Wanneer deze module geïmporteerd wordt dan kunnen de functies gebruikt worden wonder dat de scripts uitgevoerd moeten worden
 
