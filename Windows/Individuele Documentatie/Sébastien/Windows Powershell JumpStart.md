@@ -209,7 +209,10 @@ PS C:\> Get-Help About_Comparison_Operators
 
 ### Chapter 6: The pipeline: Deeper
 
-##### ByValue en ByPropertyName
+#### ByValue en ByPropertyName
+
+###### ByValue
+
 ```PowerShell
 PS C:\> Get-Service bits | gm
 
@@ -217,8 +220,69 @@ PS C:\> Get-Service bits | gm
 ```
  - Get-Service passeert ServiceController objects naar de pipeline
  - Kijken of Stop-Service, objecten van ServiceController aanvaard
+ - Help Stop-Service -Full toont een parameter die ServiceController aanvaard ByValue
+```PowerShell
+PS c:\> get-service bits | stop-service
+
+Help page stop-service:
+
+ -InputObject <ServiceController[]>
+     Specifies ServiceController objects representing the services to be stopped. Enter a variable that contains the
+      objects, or type a command or expression that gets the objects.
+
+     Required?                    true
+     Position?                    1
+     Default value                none
+     Accept pipeline input?       True (ByValue)
+     Accept wildcard characters?  false
+
+```
+###### ByPropertyName
+
+- Get-Process returnt een process
+- We zien dat stop-service geen processen aanvaard als object ByValue (help stop-service)
+```PowerShell
+PS C:\> Get-Process | Get-Member -MemberType Properties
 
 
+   TypeName: System.Diagnostics.Process
+
+Name                       MemberType     Definition
+----                       ----------     ----------
+Handles                    AliasProperty  Handles = Handlecount
+Name                       AliasProperty  Name = ProcessName
+NPM                        AliasProperty  NPM = NonpagedSystemMemorySize64
+PM                         AliasProperty  PM = PagedMemorySize64
+VM                         AliasProperty  VM = VirtualMemorySize64
+WS                         AliasProperty  WS = WorkingSet64
+__NounName                 NoteProperty   string __NounName=Process
+BasePriority               Property       int BasePriority {get;}
+Container                  Property       System.ComponentModel.IContainer Container {get;}
+EnableRaisingEvents        Property       bool EnableRaisingEvents {get;set;}
+...
+```
+- -Name aanvaard wel strings ByPropertyName and de objecten zijn gelabeled als Name Property
+- Stop-service failed aangezien er processen op naam worden doorgegeven, en deze geen services zijn
+```PowerShell
+PS C:\> Get-Process -Name no* | stop-service
+```
+###### The Parenthetical - als het faalt
+- Een lijst met Computernamen (als txt) doorgeven aan Get-Service zal niet lukken
+```PowerShell
+PS S:\> Get-Content c:\names.txt | Get-Service
+```
+- -Name en -InputObject aanvaarden pipeline input ByValue, niet -computerName
+- -Name aanvaard text en dat zorgt voor de fout
+```PowerShell
+PS C:\> Get-Service -ComputerName (Get-Content c:\names.txt)
+```
+- Ander voorbeeld return hier een collection(table) van objecten
+- Oplossing returnt string contents
+```PowerShell
+PS C:\> Get-Service -ComputerName (Get-ADComputer -Filter* |
+>> Select -ExpandProperty Name)
+>>
+```
 ### Chapter 7: The Power in the Shell - Remoting
 ### Chapter 8: Getting prepared for automation
 ### Chapter 9: Automation in scale - Remoting
