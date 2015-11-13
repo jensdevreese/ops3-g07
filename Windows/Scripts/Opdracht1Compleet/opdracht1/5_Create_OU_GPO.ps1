@@ -110,6 +110,11 @@ $main_OU = "OU=AsAfdelingen,DC=Assengraaf,DC=nl"
 $profile_path = "\\AsSv1\UserFolders$\%username%"
 $password = "Test123"
 
+#We weten dat het toevoegen van een wachtwoord in het script niet bepaald veilig is.
+#Best practice is een wachtwoord zo te vragen: $secpass = Read-Host “Password” –AsSecureString
+#En dan als parameter: –AccountPassword $secpass
+#Dit doen we deze keer niet omwille van gemaksredenen bij het testen
+
 foreach ($User in Import-Csv -Delimiter $Delimiter -Path $Path)
 {
     $OU = "OU="+ $User.OU + "," +$main_OU
@@ -128,7 +133,8 @@ foreach ($User in Import-Csv -Delimiter $Delimiter -Path $Path)
 		-AccountPassword (ConvertTo-SecureString -AsPlainText $password -Force) `
 		-Path $OU `
         -ProfilePath $profile_path `
-        -HomeDrive 'Z:' `        -HomeDirectory $homedir `
+        -HomeDrive 'Z:' `
+        -HomeDirectory $homedir `
 		-PassThru | Enable-ADAccount
 
     $usr = "CN=$Name,OU="+ $User.OU + ",OU=AsAfdelingen,DC=Assengraaf,DC=nl"
