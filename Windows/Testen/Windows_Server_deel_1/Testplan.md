@@ -69,75 +69,49 @@ In onderstaand overzicht en bijgevolg onderstaande screenshots bewijzen we dat d
 
 Onderstaande screenschots zijn het bewijs dat onze setup voldoet aan de vooropgelegde specificaties opgelegd in [Opdracht 1: Windows Server](ops3-g07/Windows/Opgave/Opdracht_project_systeembeheer_-_Windows_Server_2012_deployment_met_Powershell.pdf)
 
-##### Proxy-server werkt
+##### Schijven E en F aangemaakt
 
+##### Hostname server en Ip-configuratie correct ingesteld.
 
+##### AD
 
-##### AD en OU AsAfdelingen, GPO's Gebruikers, Beheerders
+##### OU AsAfdelingen
 
+##### GPO's 
 
+##### Gebruikers (+Beheerders)
 
 ##### Gebruikers in groepen geplaatst, Beheerders lid van OU Beheer 
 
-
-
 ##### Afdelingsfolder is correct ingesteld, User profile wordt opgeslaan op de server
 
-
+##### Proxy-server werkt
 
 ##### Inbraakbeveiliging geconfigureerd 
 
-
-
 ##### Rechten van Femke van de Vorst instellen
-
-
-
 
 ##### Afdelingsmap AsSv1Data (E:) geconfigureerd 
 
-
-
-
 ##### Werkstation is opgenomen in OU AsAfdelingen
-
-
 
 ##### Printers zijn geconfigureerd
 
-
-
 ##### Backup is correct geconfigureerd
-
-
 
 ##### Updates zijn correct geconfigureerd
 
-
-
 ##### IE is correct geconfigureerd
-
-
 
 ##### Windows defender is correct geconfigureerd
 
-
-
 ##### De firewall is correct geconfigureerd
-
-
 
 ##### Custom view 24UursEvents correct ingesteld
 
-
-
 ##### Data collector is geconfigureerd en werkt correct
 
-
-
 ##### De beveiligingsaspecten zijn van kracht
-
-
 
 ##### Login-script werkt
 
