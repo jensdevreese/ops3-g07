@@ -135,7 +135,80 @@ PS C:\> Add-PSSnapin sql*
 
 ### Chapter 5: Objects for the Admin
 
+- Informatie verkrijgen die je wil:
+```PowerShell
+PS C:\> Get-Process | Get-Member
+
+
+   TypeName: System.Diagnostics.Process
+
+Name                       MemberType     Definition
+----                       ----------     ----------
+Handles                    AliasProperty  Handles = Handlecount
+Name                       AliasProperty  Name = ProcessName
+NPM                        AliasProperty  NPM = NonpagedSystemMemorySize64
+PM                         AliasProperty  PM = PagedMemorySize64
+VM                         AliasProperty  VM = VirtualMemorySize64
+WS                         AliasProperty  WS = WorkingSet64
+Disposed                   Event          System.EventHandler Disposed(System.Object, System.EventArgs)
+ErrorDataReceived          Event          System.Diagnostics.DataReceivedEventHandler ErrorDataReceived(System.Obj
+Exited                     Event          System.EventHandler Exited(System.Object, System.EventArgs)
+OutputDataReceived         Event          System.Diagnostics.DataReceivedEventHandler OutputDataReceived(System.Ob
+BeginErrorReadLine         Method         void BeginErrorReadLine()
+...
+```
+- TypeName is een unieke naam door windows toegekent
+- Toont de eigenschappen en methodes van een object
+- Properties zijn potentiële kolommen met informatie
+- Methodes zijn mogelijke acties die genomen kunnen worden
+
+- Via Sort-Object kan je sorteren op -Property met als optie -Descending (indien dalende volgorde)
+- Select-Object selecteert properties van een object
+- met -first en -last wordt er een beperking opgelegt voor de getoonde rijen
+
+##### Custom Properties
+
+```PowerShell
+PS C:\> Get-WmiObject win32_logicalDisk -Filter "deviceID='c:'" |
+>>> Select-Object -Property __Server,
+>>> @{n='FreeGB';e={$_.Freespace /1Gb -as [int]}} |
+>>> Format-Table -AutoSize
+
+__SERVER        FreeGB
+--------        ------
+DESKTOP-BGT0PSQ     16
+
+```
+##### Filter Object Out of the Pipeline
+```PowerShell
+PS C:\> Get-Service | Where-Object -FilterScript {$_.status -eq 'running'}
+zelfde als:
+PS C:\> gsv | ?{$_.status -eq 'Running'}
+
+Status   Name               DisplayName
+------   ----               -----------
+Running  AdobeARMservice    Adobe Acrobat Update Service
+Running  Appinfo            Application Information
+Running  Apple Mobile De... Apple Mobile Device Service
+Running  AudioEndpointBu... Windows Audio Endpoint Builder
+Running  Audiosrv           Windows Audio
+Running  AVGIDSAgent        AVGIDSAgent
+Running  avgwd              AVG WatchDog
+Running  BFE                Base Filtering Engine
+Running  BITS               Background Intelligent Transfer Ser...
+...
+```
+##### Vergelijkingsoperatoren
+
+- returnen True of False
+- Bij gebruik van -ceq ipv -eq dan is het case sensitive
+- voor meer uitleg:
+```PowerShell
+PS C:\> Get-Help About_Comparison_Operators
+```
+
 ### Chapter 6: The pipeline: Deeper
+
 ### Chapter 7: The Power in the Shell - Remoting
 ### Chapter 8: Getting prepared for automation
 ### Chapter 9: Automation in scale - Remoting
