@@ -209,6 +209,16 @@ PS C:\> Get-Help About_Comparison_Operators
 
 ### Chapter 6: The pipeline: Deeper
 
+##### ByValue en ByPropertyName
+```PowerShell
+PS C:\> Get-Service bits | gm
+
+  TypeName: System.ServiceProcess.ServiceController
+```
+ - Get-Service passeert ServiceController objects naar de pipeline
+ - Kijken of Stop-Service, objecten van ServiceController aanvaard
+
+
 ### Chapter 7: The Power in the Shell - Remoting
 ### Chapter 8: Getting prepared for automation
 ### Chapter 9: Automation in scale - Remoting
