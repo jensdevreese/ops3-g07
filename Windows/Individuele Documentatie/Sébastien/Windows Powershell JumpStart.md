@@ -49,12 +49,12 @@ SYNTAX
     Get-ChildItem [[-Filter] <String>] [-Exclude <String[]>] [-Force] [-Include <String[]>] [-Name] [-Recurse] -Lite
     ralPath <String[]> [-UseTransaction [<SwitchParameter>]] [<CommonParameters>]
 ```
--Betekenis Parameters
-- wijst op parameter: -
-- wijst op argumenten: <>
-- argumenten met meerdere waarden: []
-- is positioneel: [Param]
-- is optioneel: [Param Arg]
+- Betekenis Parameters
+    - wijst op parameter: -
+    - wijst op argumenten: <>
+    - argumenten met meerdere waarden: []
+    - is positioneel: [Param]
+    - is optioneel: [Param Arg]
 
 ### Chapter 3: The pipeline: Getting connected
 
@@ -76,27 +76,27 @@ AppReadiness                             Stopped
 ```
 ##### Exporteren en Importeren 
 
--CSV
+- CSV
 ```Powershell
 PS C:\> Get-Process | export-csv c:\porc.csv
 PS C:\> notepad c:\proc.csv
 PS C:\> import-csv c:\porc.csv
 ```
--XML
+- XML
 ```PowerShell
 PS C:\> Get-Process | Export-clixml c:\ref.xml
 ```
--andere bestanden en printers
+- andere bestanden en printers
 ```PowerShell
 PS C:\> Get-Service > c:\serv.txt
 PS C:\> Get-Service | Out-File c:\serv2.txt
 PS C:\> Get-Service | Out-Printer
 ```
--Informatie in GUI tonen
+- Informatie in GUI tonen
 ```PowerShell
 PS C:\> Get-Service | Out-GridView
 ```
--Webpagina met informatie maken
+- Webpagina met informatie maken
 - kan met ConvertTo-Csv en ConvertTo-Html
 ```PowerShell
 PS C:\> Get-Service | ConvertTo-Html -Property DisplayName, status |
@@ -159,7 +159,7 @@ BeginErrorReadLine         Method         void BeginErrorReadLine()
 ```
 - TypeName is een unieke naam door windows toegekent
 - Toont de eigenschappen en methodes van een object
-- Properties zijn potentiële kolommen met informatie
+- Properties zijn potentiÃ«le kolommen met informatie
 - Methodes zijn mogelijke acties die genomen kunnen worden
 
 - Via Sort-Object kan je sorteren op -Property met als optie -Descending (indien dalende volgorde)
