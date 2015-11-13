@@ -4,7 +4,7 @@
 - Belangrijk om Powershell te runnen als administrator
 - gebruik van Linux Commands, Windows Command of Commandlets
 - belangrijke basis Cmdlets:
-```
+```PowerShell
 PS C:\> Clear-Host			(cls)
 PS C:\> Set-Location		(cd)
 PS C:\> Get-Childitem		(dir, ls)
