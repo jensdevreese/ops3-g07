@@ -284,6 +284,85 @@ PS C:\> Get-Service -ComputerName (Get-ADComputer -Filter* |
 >>
 ```
 ### Chapter 7: The Power in the Shell - Remoting
+##### Remoting
+- Heel belangrijk dat Remoting enabled wordt
+- Standaard enabled in Windows Server 2012
+```PowerShell
+PS C:\> Enable-PSRemoting
+
+WinRM Quick Configuration
+Running command "Set-WSManQuickConfig" to enable remote management of this computer by using the Windows Remote
+Management (WinRM) service.
+ This includes:
+    1. Starting or restarting (if already started) the WinRM service
+    2. Setting the WinRM service startup type to Automatic
+    3. Creating a listener to accept requests on any IP address
+    4. Enabling Windows Firewall inbound rule exceptions for WS-Management traffic (for http only).
+
+Do you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): y
+```
+###### 1 op 1
+- Inloggen op Computer van op afstand
+- Tonen van vb de services op Server1 
+```PowerShell
+PS C:\> Enter-PSSesion Server1
+[Server1]: PS C:\> Get-Service
+```
+###### 1 op veel
+```PowerShell
+PS C:\> Invoke-Command -ComputerName Server1, Server2 -ScriptBlock {
+>> Get-EventLog -LogName Security -Newest 2}
+>>
+```
+- Nu zullen de 2 laatste 2 security logs van Server1 en Server 2 getoond worden
+###### Powershell Web Acces
+- Mogelijkheid om vanop elk device via browser, toegang te hebben tot machine
+- Install-WindowsFeature -Name WindowsPowerShellWebAccess
+- Install-PswaWebApplication -UseTestCertificate (testen... 90 dagen geldig)
+- Add-PswaAuthorizationRule -userName <Domain\User | Computer\User> -ComputerName <Computer> -ConfigurationName AdminsOnly
+
 ### Chapter 8: Getting prepared for automation
+- Powershell is default beveiligd
+- Voorkomt fouten die per ongeluk zouden gemaakt kunnen worden door Admins en Gebruikers
+- Om script uit te voeren moet padnaam getypd worden
+- Scripts hebben als extensie .ps1
+- Standaard runt PowerShell geen scripts => Execution policy is default restricted
+- In Group Policy kan dit aangepast worden
+  - Unrestriced (alle scripts kunnen uitgevoerd worden)
+  - AllSigned (Enkel scripts die ondertekent zijn door betrouwbare uitgever, kunnen uitgevoerd worden)
+  - RemoteSigned (Gedownloade Scripts moeten eerst ondertekent worden voor deze worden uitgevoerd)
+  - Bypass ( niets is geblokkeerd en er zijn geen waarschuwingen of prompts)
+
+##### Scripts
+- $ om variabele te creëren
+ ```PowerShell
+$mijnVariabele
+ ```
+- Types kunnen niet geforceerd worden
+- Mogelijkheid om Set en Get-Variable te gebruiken
+- verschillende quotes geven andere uitkomst
+      - " dubbele quotes lossen alle variabelen op"
+      - 'Enkele quotes voorkomen substitutie'
+      - Meer info op Get-Help About_Quoting_Rules
+
+- Input op het scherm tonen
+```PowerShell
+PS C:\> Write-Host "Powershell" -ForegroundColor Yellow -BackgroundColor Red
+
+of met pipeline
+
+PS C:\> Write-Host "Hello" | Where-object {$_.length -gt 10}
+Hello
+```
+- Write-Warning , Write-Verbose, Write-Debug, Write-Error hebben elk eigen opmaak en zullen anders weergegeven worden
+
 ### Chapter 9: Automation in scale - Remoting
+- Sessions kunnen hergebruikt worden door session op te slaan als variabele
+```PowerShell
+PS C:\> $session=New-PSSession -ComputerName Server1, Server2
+PS C:\> Invoke-Command -Session $session {Import-Module ServerManager}
+```
+- Elke keer dat $session wordt opgeroepen zullen alle aanpassingen op zowel Server 1 als Server 2 gebruiken
+
 ### Chapter 10: Introducing scripting and toolmaking
