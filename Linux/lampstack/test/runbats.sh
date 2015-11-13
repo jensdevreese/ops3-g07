@@ -15,9 +15,8 @@ set -o nounset  # abort on unbound variable
 
 test_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-bats_archive="v0.4.0.tar.gz"
-bats_url="https://github.com/sstephenson/bats/archive/${bats_archive}"
-bats_install_dir="/opt/bats"
+bats_repo_url="https://github.com/sstephenson/bats.git"
+bats_install_dir="${test_dir}/bats"
 bats="${bats_install_dir}/libexec/bats"
 
 test_file_pattern="*.bats"
@@ -28,43 +27,20 @@ Yellow='\e[0;33m'
 Reset='\e[0m'
 
 #}}}
-#{{{ Functions
-
-# Usage: install_bats_if_needed
-install_bats_if_needed() {
-  pushd "${bats_install_dir%/*}" > /dev/null
-  if [[ ! -d "${bats_install_dir}" ]]; then
-    wget "${bats_url}"
-    tar xf "${bats_archive}"
-    mv bats-* bats
-    rm "${bats_archive}"
-  fi
-  popd > /dev/null
-}
-
-# find_tests DIR [MAX_DEPTH]
-find_tests() {
-  local max_depth=""
-  if [ "$#" -eq "2" ]; then
-    max_depth="-maxdepth $2"
-  fi
-
-  local tests=$(find "$1" ${max_depth} -type f -name "${test_file_pattern}" -printf '%p\n' 2> /dev/null)
-
-  echo "${tests}"
-}
-#}}}
 # Script proper
 
-install_bats_if_needed
+# Install BATS if needed
+if [ ! -d "${bats_install_dir}" ]; then
+  git clone "${bats_repo_url}" "${bats_install_dir}"
+  rm -rf "${bats_install_dir}/.git*"
+fi
 
 # List all test cases (i.e. files in the test dir matching the test file
 # pattern)
 # Tests to be run on all hosts
-global_tests=$(find_tests "${test_dir}" 1)
-
+global_tests=$(find "${test_dir}" -maxdepth 1 -type f -name "${test_file_pattern}" -printf "%p\n")
 # Tests for individual hosts
-host_tests=$(find_tests "${test_dir}/${HOSTNAME}")
+host_tests=$(find "${test_dir}/${HOSTNAME}" -type f -name "${test_file_pattern}" -printf "%p\n")
 
 # Loop over test files
 for test_case in ${global_tests} ${host_tests}; do
