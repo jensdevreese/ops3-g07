@@ -366,3 +366,69 @@ PS C:\> Invoke-Command -Session $session {Import-Module ServerManager}
 - Elke keer dat $session wordt opgeroepen zullen alle aanpassingen op zowel Server 1 als Server 2 gebruiken
 
 ### Chapter 10: Introducing scripting and toolmaking
+- Maak Gebruik van Administrator: Windows PowerShell ISE
+- Handig Scripts aanpassen / maken en veranderen naar gewone powershell om uit te voeren van scripts gemakkelijker te maken
+
+###### Hoe een script er uit moet zien
+```PowerShell
+<#
+.Synopsis
+Hier komt de huidige disk grootte en beschikbare ruimte //korte beschrijving
+.Description
+Hier komt een lange beschrijving
+.Parameter ComputerName
+Dit is de Computer waarvan de DiskInfo wordt gehaald
+.Example
+PS C:\> .\Script.ps1 -ComputerName <Computer>
+ophalen van de diskInfo van de remote Computer.
+#>
+Function Get-DiskInfo{
+  
+  [CmdletBinding()]
+
+  Param(
+      [Parameter(Mandatory=$true)]
+      $ComputerName='localhost'
+  )
+
+  $Disk=Get-WmiObject -Class win32_LogicalDisk -Filter "DeviceID='c:'" -ComputerName $ComputerName
+
+  $Property=@{
+        'Computer'= $ComputerName;
+        'TotalSpace'= $Disk.size / 1gb -as [int];
+        'FreeSpace'= $Disk.freespace /1 gb -as [int]}
+
+
+  $obj=New-Object -TypeName PSObject -Property $Property
+  Write-Output $Obj
+}
+```
+- Mogelijkheid om scripts weg te schrijven naar een Module
+- Daarna kunnen modules geïmporteerd worden
+- Opslaan als .psm1 bestand
+```PowerShell
+Function Set-DiskInfp{}
+Function Remove-DiskInfo {}
+Function Get-DiskInfo{
+  
+  [CmdletBinding()]
+
+  Param(
+      [Parameter(Mandatory=$true)]
+      $ComputerName='localhost'
+  )
+
+  $Disk=Get-WmiObject -Class win32_LogicalDisk -Filter "DeviceID='c:'" -ComputerName $ComputerName
+
+  $Property=@{
+        'Computer'= $ComputerName;
+        'TotalSpace'= $Disk.size / 1gb -as [int];
+        'FreeSpace'= $Disk.freespace /1 gb -as [int]}
+
+
+  $obj=New-Object -TypeName PSObject -Property $Property
+  Write-Output $Obj
+}
+```
+- Wanneer deze module geïmporteerd wordt dan kunnen de functies gebruikt worden wonder dat de scripts uitgevoerd moeten worden
+
