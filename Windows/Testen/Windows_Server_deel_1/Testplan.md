@@ -99,21 +99,22 @@ Mathias x
 Mathias x
 ##### Printers zijn geconfigureerd
 Mathias x
-=> nog extra toevoegen 
+=> nog extra afbeelding (control panel) toevoegen 
 ##### Backup is correct geconfigureerd
 Mathias x
 ##### Updates zijn correct geconfigureerd
 ToDo
 ##### IE is correct geconfigureerd
-ToDo
+Jens x
 ##### Windows defender is correct geconfigureerd
 ToDo
 ##### De firewall is correct geconfigureerd
-ToDo
+Jens x
 ##### Custom view 24UursEvents correct ingesteld
-ToDo
+Jens x
+Opmerking: xml-file meegegeven, maar moet nog manueel geimporteerd worden.
 ##### Data collector is geconfigureerd en werkt correct
-ToDo
+Not done via PS. Manueel invoeren.
 ##### De beveiligingsaspecten zijn van kracht
 Jasper x
 ##### Login-script werkt
