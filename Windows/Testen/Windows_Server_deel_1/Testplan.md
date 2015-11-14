@@ -103,11 +103,11 @@ Mathias x
 ##### Backup is correct geconfigureerd
 Mathias x
 ##### Updates zijn correct geconfigureerd
-ToDo
+Not done via PS. manueel configureren
 ##### IE is correct geconfigureerd
 Jens x
 ##### Windows defender is correct geconfigureerd
-ToDo
+Not done via PS. manueel configureren.
 ##### De firewall is correct geconfigureerd
 Jens x
 ##### Custom view 24UursEvents correct ingesteld
