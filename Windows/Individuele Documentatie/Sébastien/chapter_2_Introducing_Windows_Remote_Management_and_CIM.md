@@ -2,7 +2,7 @@
 
 ### Windows Remote Management (WinRM)
 
-- bgebaseerd op het Simple Object Acces Protocol (SOAP)
+- gebaseerd op het Simple Object Acces Protocol (SOAP)
 - deze service is gedisabled by default
 - Checken van de status:
 ```PowerShell
@@ -38,7 +38,7 @@ Cmdlet          Set-WSManQuickConfig                               3.0.0.0    Mi
 Cmdlet          Test-WSMan                                         3.0.0.0    Microsoft.WSMan.Management
 ```
 - Nu kunnen we kijken of ons remote systeem WinRm geconfigureerd heeft
-- We wien dat we WinRm Listeners moeten toestaab eb zeker zijn dat WinRm klaar is om binnenkomende request te aanvaarden
+- We wien dat we WinRm Listeners moeten toestaan en zeker zijn dat WinRM klaar is om binnenkomende request te aanvaarden
 - Dit wordt getest met:
 ```PowerShell
 PS :\> Test-WSMan -ComputerName <Computer>
