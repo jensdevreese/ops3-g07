@@ -69,53 +69,75 @@ In onderstaand overzicht en bijgevolg onderstaande screenshots bewijzen we dat d
 
 Onderstaande screenschots zijn het bewijs dat onze setup voldoet aan de vooropgelegde specificaties opgelegd in [Opdracht 1: Windows Server](ops3-g07/Windows/Opgave/Opdracht_project_systeembeheer_-_Windows_Server_2012_deployment_met_Powershell.pdf)
 
-##### Schijven E en F aangemaakt
-Jens x
-##### Hostname server en Ip-configuratie correct ingesteld.
-Jens x
-##### AD
-Jens x
-##### OU AsAfdelingen
-Mathias x
-##### GPO's 
-Mathias x
-##### Gebruikers (+Beheerders)
-Mathias x
-##### Gebruikers in groepen geplaatst, Beheerders lid van OU Beheer 
-Mathias x
-##### Afdelingsfolder is correct ingesteld, User profile wordt opgeslaan op de server
-Mathias x
 ##### Proxy-server werkt
-Mathias/Jens x
+
+
+
+##### AD en OU AsAfdelingen, GPO's Gebruikers, Beheerders
+
+
+
+##### Gebruikers in groepen geplaatst, Beheerders lid van OU Beheer 
+
+
+
+##### Afdelingsfolder is correct ingesteld, User profile wordt opgeslaan op de server
+
+
+
 ##### Inbraakbeveiliging geconfigureerd 
-Jasper x
-###### Signin methode not allowed => fixen
+
+
 
 ##### Rechten van Femke van de Vorst instellen
-Jasper
+
+
+
+
 ##### Afdelingsmap AsSv1Data (E:) geconfigureerd 
-Mathias x
+
+
+
+
 ##### Werkstation is opgenomen in OU AsAfdelingen
-Mathias x
+
+
+
 ##### Printers zijn geconfigureerd
-Mathias x
-=> nog extra afbeelding (control panel) toevoegen 
+
+
+
 ##### Backup is correct geconfigureerd
-Mathias x
+
+
+
 ##### Updates zijn correct geconfigureerd
-Not done via PS. manueel configureren
+
+
+
 ##### IE is correct geconfigureerd
-Jens x
+
+
+
 ##### Windows defender is correct geconfigureerd
-Not done via PS. manueel configureren.
+
+
+
 ##### De firewall is correct geconfigureerd
-Jens x
+
+
+
 ##### Custom view 24UursEvents correct ingesteld
-Jens x
-Opmerking: xml-file meegegeven, maar moet nog manueel geimporteerd worden.
+
+
+
 ##### Data collector is geconfigureerd en werkt correct
-Not done via PS. Manueel invoeren.
+
+
+
 ##### De beveiligingsaspecten zijn van kracht
-Jasper x
+
+
+
 ##### Login-script werkt
-ToDo
+
