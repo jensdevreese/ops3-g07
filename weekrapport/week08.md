@@ -1,7 +1,12 @@
 # Voortgangsrapport week 08
 
+<<<<<<< HEAD
 * Groep: 07
 * Datum: 09/11/2015-15/11/2015
+=======
+* Groep: 08
+* Datum: 08/11/2015-15/11/2015
+>>>>>>> origin/master
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -14,15 +19,16 @@
 
 ## Wat heb je deze week gerealiseerd?
 - Deze week hebben we ons vooral bezig gehouden met Windows. We hebben de scripts van deel 1 nog eens overlopen en alle fouten eruit gehaald. Het testplan -en rapport opgesteld.
-- Iedereen is ook momenteel bezig met het lezen van hun boek en we hebben de taken van cisco verdeelt.
+- Iedereen is ook momenteel bezig met het lezen van hun boek en we hebben de taken van netwerken verdeelt.
+- Voor linux zijn Mathias en Jens nog bezig met hun eigne role van siege te schrijven.
 
 ### Algemeen
 
 Kanban week 8:
-![screenshot week8kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week8.PNG?token=AGfMluvia6iTO5jTvgTd-i7Uk9IFKnWtks5WULIhwA%3D%3D)
+![screenshot week8kanban] ()
 ### Mathias
 
-![Screen week7] ()
+![Screen week8] ()
 ### Jens
 
 ![screenshot toggleWeek8] ()
@@ -32,13 +38,15 @@ Kanban week 8:
 
 ### Jasper
 
-![week7 toggle] ()
+![week8 toggle] ()
 
 
 ## Wat plan je volgende week te doen?
 
 ### Algemeen
 ### Mathias : 
+Veerderlezen aan hoofdstuk 9 van mijn boek en dat documenteren. Dit ook mooier maken in een .md file. De siege role proberen afwerken en beide cisco oefeningen afwerken. 
+Tijdens de les projecten al een opstelling proberen maken.
 ### Jens :  
 Volgende week ga ik cisco lab '2.3.2.3 Configuring Rapid PVST+, PortFast, and BPDU Guard' uitwerken en de rol afwerken van Siege.
 Verder hou ik deze week de documentatie van het lastenboek bij en de weekrapporten van deze en volgende week.
