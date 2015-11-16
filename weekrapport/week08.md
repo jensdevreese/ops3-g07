@@ -34,7 +34,7 @@ Kanban week 8:
 ![screenshot toggleWeek8] ()
 
 ### Sebastien
-![Screenshot Toggle Week8] ()
+![Screenshot Toggle Week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week8.PNG?token=AGfNElWZW4b1xvAOGV2ibGEFnVRXdE2_ks5WUwE9wA%3D%3D)
 
 ### Jasper
 
@@ -51,6 +51,8 @@ Tijdens de les projecten al een opstelling proberen maken.
 Volgende week ga ik cisco lab '2.3.2.3 Configuring Rapid PVST+, PortFast, and BPDU Guard' uitwerken en de rol afwerken van Siege.
 Verder hou ik deze week de documentatie van het lastenboek bij en de weekrapporten van deze en volgende week.
 ### Sebastien : 
+Volgende week maak ik Cisco Labs '6.2.3.10 Lab - Troubleshooting Multiarea OSPFv2 and OSPFv3'. De documentatie van hfdst 3 en 4 moet zeker deze week af zijn van DSC zodanig dat 
+we verder kunnen met deel 2 en dit met DSC
 ### Jasper : 
 
 ## Waar hebben jullie nog problemen mee?
