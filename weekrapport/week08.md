@@ -31,14 +31,14 @@ Kanban week 8:
 ![Screen week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week8ToggleMathias.png?token=AGfMyup-xgvTGA4Zqcgw-Mlc9QyC96idks5WUuHCwA%3D%3D)
 ### Jens
 
-![screenshot toggleWeek8] ()
+![screenshot toggleWeek8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week8.PNG?token=AGfTaZByK1PxjD2qj6FxEMoOW8sCLoWiks5WU1pzwA%3D%3D)
 
 ### Sebastien
 ![Screenshot Toggle Week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week8.PNG?token=AGfNElWZW4b1xvAOGV2ibGEFnVRXdE2_ks5WUwE9wA%3D%3D)
 
 ### Jasper
 
-![week8 toggle] ()
+![week8 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%208.PNG?token=AGfTadZsddeGZkD3RZ8fM1zHa9eOtNWYks5WU1pJwA%3D%3D)
 
 
 ## Wat plan je volgende week te doen?
@@ -54,6 +54,8 @@ Verder hou ik deze week de documentatie van het lastenboek bij en de weekrapport
 Volgende week maak ik Cisco Labs '6.2.3.10 Lab - Troubleshooting Multiarea OSPFv2 and OSPFv3'. De documentatie van hfdst 3 en 4 moet zeker deze week af zijn van DSC zodanig dat 
 we verder kunnen met deel 2 en dit met DSC
 ### Jasper : 
+De Cisco labs van EIGRP begon ik al maar ondervond problemen met ipv6. Die moeten dus nog weggewerkt worden, en de vragen moeten nog gedocumenteerd worden.
+Daarnaast hou ik dezelfde planning als vorige week, het uitbreiden van de documentatie van mijn boek. Ik kwam niet zo ver als ik vooropgesteld had door voorbereiding op mijn stagegesprekken. Dit wil ik volgende week weer inhalen.
 
 ## Waar hebben jullie nog problemen mee?
 ## Feedback technisch luik
