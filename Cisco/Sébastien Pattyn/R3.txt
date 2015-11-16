@@ -1,0 +1,40 @@
+enable
+conf t
+hostname R3
+no ip domain lookup
+ipv6 unicast-routing
+enable secret class
+interface Loopback4
+ip address 192.168.4.1 255.255.255.0
+ipv6 address 2001:DB8:ACAD:4::1/64
+ipv6 ospf 1 area 3
+interface Loopback5
+ip address 192.168.5.1 255.255.255.0
+ipv6 address 2001:DB8:ACAD:5::1/64
+ipv6 ospf 1 area 3
+interface Serial0/0/1
+ip address 192.168.23.1 255.255.255.252
+ipv6 address FE80::3 link-local
+ipv6 address 2001:DB8:ACAD:23::1/64
+ipv6 ospf 1 area 3
+no shutdown
+router ospf 1
+router-id 3.3.3.3
+passive-interface Loopback4
+passive-interface Loopback5
+network 192.168.4.0 0.0.0.255 area 3
+network 192.168.5.0 0.0.0.255 area 3
+ipv6 router ospf 1
+router-id 3.3.3.3
+banner motd @
+Unauthorized Access is Prohibited! @
+line con 0
+password cisco
+logging synchronous
+login
+line vty 0 4
+password cisco
+logging synchronous
+login
+transport input all
+end

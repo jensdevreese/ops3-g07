@@ -1,0 +1,46 @@
+enable
+conf t
+hostname R1
+enable secret class
+ipv6 unicast-routing
+no ip domain lookup
+interface Loopback0
+ip address 209.165.200.225 255.255.255.252
+interface Loopback1
+ip address 192.168.1.1 255.255.255.0
+ipv6 address 2001:DB80:ACAD:1::1/64
+ipv6 ospf network point-to-point
+interface Loopback2
+ip address 192.168.2.1 255.255.255.0
+ipv6 address 2001:DB8:ACAD:2::1/64
+ipv6 ospf 1 area 1
+ipv6 ospf network point-to-point
+interface Serial0/0/0
+ip address 192.168.21.1 255.255.255.252
+ipv6 address FE80::1 link-local
+ipv6 address 2001:DB8:ACAD:12::1/64
+ipv6 ospf 1 area 0
+clock rate 128000
+shutdown
+router ospf 1
+router-id 1.1.1.1
+passive-interface Loopback1
+passive-interface Loopback2
+network 192.168.2.0 0.0.0.255 area 1
+network 192.168.12.0 0.0.0.3 area 0
+default-information originate
+ipv6 router ospf 1
+area 1 range 2001:DB8:ACAD::/61
+ip route 0.0.0.0 0.0.0.0 Loopback0
+banner motd @
+Unauthorized Access is Prohibited! @
+line con 0
+password cisco
+logging synchronous
+login
+line vty 0 4
+password cisco
+logging synchronous
+login
+transport input all
+end
