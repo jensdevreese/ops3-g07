@@ -25,7 +25,7 @@
 ### Algemeen
 
 Kanban week 8:
-![screenshot week8kanban] ()
+![screenshot week8kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week8.PNG?token=AGfMyjqWzYkL_vNnE8tVGo3qhH0yd1_Hks5WVDtdwA%3D%3D)
 ### Mathias
 
 ![Screen week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week8ToggleMathias.png?token=AGfMyup-xgvTGA4Zqcgw-Mlc9QyC96idks5WUuHCwA%3D%3D)
