@@ -58,6 +58,7 @@ De Cisco labs van EIGRP begon ik al maar ondervond problemen met ipv6. Die moete
 Daarnaast hou ik dezelfde planning als vorige week, het uitbreiden van de documentatie van mijn boek. Ik kwam niet zo ver als ik vooropgesteld had door voorbereiding op mijn stagegesprekken. Dit wil ik volgende week weer inhalen.
 
 ## Waar hebben jullie nog problemen mee?
+Op dit moment zijn er niet echt problemen.
 ## Feedback technisch luik
 
 ### Algemeen
