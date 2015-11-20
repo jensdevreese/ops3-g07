@@ -19,3 +19,5 @@ el7_repositories:
   - epel-release
 el7_firewall_allow_ports:
   - 25826/udp
+  
+#ansible-role-siege-master_concurrent: 50

@@ -34,4 +34,4 @@
   sudo: true
   roles:
     - bertvv.el7
-    - siege
+    - ansible-role-siege-master
