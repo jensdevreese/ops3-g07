@@ -18,9 +18,9 @@ Joeri Van Steen | Gespecialiseerd in Windows.
 De opdrachten voor het gedeelte Windows, zijn beschreven onder het mapje 'Opgave'. De volledige uitwerking hiervan staat onder het mapje 'Uitwerking powershell'.
 Hierin vind je ook de gestructureerde samenvatting van onze boeken. De boeken die wij gekozen hebben zijn:
 - Windows PowerShell 3.0 Step by Step. [Ed Wilson]
-- Active directory management in a month of lunches
-- Deploying and managing Active Directory with Windows PowerShell
-- Windows PowerShell Desired State Configuration Revealed
+- Active directory management in a month of lunches [Richard Siddaway]
+- Deploying and managing Active Directory with Windows PowerShell [Charlie Russel]
+- Windows PowerShell Desired State Configuration Revealed [Ravikanth Chaganti]
 
 Een overzicht van de geschreven/gekozen scripts die wij gebruiken in onze opdracht vind je onder het mapje 'Scripts'.
 
