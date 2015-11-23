@@ -114,8 +114,173 @@ PS C:\> A new process started
 A new process started
 A new process started
 ```
+- ClassName doet hetzelfde als Vroeger maar hetgene wat interessant is, is het Actionblok
+- We weten gewoon dat een process gestart is maar niet welke => oplossen met $Event
+```PowerShell
+PS C:\> Register-CimIndicationEvent -ClassName Win32_ProcessStartTrace -Action {
+>>> $Global:ProcessEvent = $Event
+>>> }
+
+Id     Name            PSJobTypeName   State         HasMoreData     Location             Command
+--     ----            -------------   -----         -----------     --------             -------
+2      c65b3b58-a9c...                 NotStarted    False                                ...
+
+PS C:\> $ProcessEvent
 
 
+ComputerName     :
+RunspaceId       : 366b30fc-452b-4708-870a-349a0face25b
+EventIdentifier  : 29
+Sender           : Microsoft.Management.Infrastructure.CimCmdlets.CimIndicationWatcher
+SourceEventArgs  : Microsoft.Management.Infrastructure.CimCmdlets.CimIndicationEventInstanceEventArgs
+SourceArgs       : {Microsoft.Management.Infrastructure.CimCmdlets.CimIndicationWatcher, }
+SourceIdentifier : c65b3b58-a9cc-4891-b0e0-684c049bd96d
+TimeGenerated    : 23-11-2015 13:36:42
+MessageData      :
+
+//Nu zoeken naar de naam van het process
+
+PS C:\> $ProcessEvent.SourceEventArgs.NewEvent
+
+
+SECURITY_DESCRIPTOR :
+TIME_CREATED        : 130927558020460950
+ParentProcessID     : 9164
+ProcessID           : 2336
+ProcessName         : conhost.exe
+SessionID           : 16
+Sid                 : {1, 5, 0, 0...}
+PSComputerName      :
+```
+- Nu willen we een gelijkaardig eventabbonement creëren van Windows Services
+```PowerShell
+PS C:\> Register-CimIndicationEvent -Query "SELECT * FROM Win32_Service" -Action { 
+	$Global:ServiceEvent = $Event 
+}
+//Dit lukt niet aangezien Win32_Service geen eventklasse is
+//hiervoor gebruiken we speciale event queries
+//gebruik van __InstanceCreationEvent, __InstanceModificationEvent of __InstanceDeletionEvent
+
+PS C:\> Register-CimIndicationEvent -Query "SELECT * FROM __InstanceModificationEvent WITHIN 1 WHERE TargetInstance ISA
+'Win32_Service'" -Action { $Global:ServiceEvent = $Event }
+
+Id     Name            PSJobTypeName   State         HasMoreData     Location             Command
+--     ----            -------------   -----         -----------     --------             -------
+5      e4e8c84d-450...                 NotStarted    False                                 $Global:ServiceEvent ...
+
+PS C:\> Stop-Service -Name Audiosrv
+PS C:\> $ServiceEvent
+
+
+ComputerName     :
+RunspaceId       : 366b30fc-452b-4708-870a-349a0face25b
+EventIdentifier  : 93
+Sender           : Microsoft.Management.Infrastructure.CimCmdlets.CimIndicationWatcher
+SourceEventArgs  : Microsoft.Management.Infrastructure.CimCmdlets.CimIndicationEventInstanceEventArgs
+SourceArgs       : {Microsoft.Management.Infrastructure.CimCmdlets.CimIndicationWatcher, }
+SourceIdentifier : e4e8c84d-4506-4f4e-a2e7-c59c5f4e7d68
+TimeGenerated    : 23-11-2015 13:48:11
+MessageData      :
+
+```
+#### Working with CIM Methods
+
+- We weten hoe we een CIM instantie kunnen oproepen, maar wat als we de methodes nodig hebben => Invoke-CimMethod
+```PowerShell
+PS C:\> Invoke-CimMethod -query "SELECT * FROM Win32_Process Where Name ='notepad.exe'" -MethodName Terminate
+// of create om te creëren
+//ander optie
+PS C:\> Get-CimInstance Win32_Process -Filter "Name='notepad.exe'" | Invoke-CimMethod -MethodName Terminate
+```
+
+#### Managed Object Format(MOF)
+ - taal die CIM standaard gebruikt om beheerde elementen te definiëren
+
+##### MOF Language Elements
+ - In UTF-8 formaat
+
+###### Compiler Directives
+ - leiden de verwerking van MOF bestanden, zoals 'using' in c#
+ - vb. #pragma Include ("C:\MOF\MyMOF.mof") specifieert dat het naar verwezen MOF bestand, deel moet zijn van de resulterend MOF compilatie eenheid
+
+###### Qualifiers
+ - bevatten informatie over hoe een klasse, instantie, eigenschap, methode en paramters moeten beschreven worden 
+ - wordt getoond in [], standaard qualifiers zijn door WMI gedefinieerd
+```
+[Dynamic]
+Class SampleClassName : ParentClass
+{
+	[key] string KeyName;
+};
+```
+
+###### Type Declarations
+- We starten van een root namespace
+- Hier kunnen we een custom Namespace in aanmaken, en daar vervolgens een klasse in maken
+```
+#pragma namespace("\\\\.\\Root\\MyCustomNamespace")
+class My_CN_MyClass
+{
+	[key] sting KeyName;
+	sting MyValue;
+	boolean UseValidation = True;
+}
+```
+ - Hier kunnen dan ook kinderen van gemaakt worden die erfen van deze klasse
+
+###### Instances
+ - beschrijft een speciefiek object van een beheerd element
+```
+instance of MyCN_MyClass
+{
+	KeyName = "PowerShell";
+	MyValue = "4,0";
+	UseValidation = True;
+}
+```
+
+###### Comments
+ - Commentaar kan aangeduid worden met // of lange stukken test met /*   */
+
+####Compiling MOF
+ - mofcomp.exe voegt MOf bestand toe aan WMI repo
+ - MOF bestand:
+ ```
+ $mof =@'
+ #pragma namespace ("\\\\.\\Root")
+
+ Instance of __Namespace
+ {
+ 	Name = "MyCustomNamespace"
+};
+
+#pragma namespace("\\\\.\\Root\\MyCustomNamespace")
+class My_CN_MyClass
+{
+	[key] sting KeyName;
+	sting MyValue;
+	boolean UseValidation = True;
+};
+
+instance of MyCN_MyClass
+{
+	KeyName = "PowerShell";
+	MyValue = "4,0";
+	UseValidation = True;
+};
+'@
+$mof | Out-file -Encoding ascii $env:TMP\myMOF.mof
+
+mofcomp.exe $env:TMP\myMOF.mof
+ ```
+ - CIM cmdlets kunnen dit nu verifiëren
+```PowerShell
+PS C:\> Get-CimInstance -Namespace root\MyCustomNamespace -ClassName MyCN_MyClass
+
+KeyName					MyValue							UseValidation PSComputerName
+-------					-------							------------- --------------
+Powershell 				4.0 									 True
+```
 
 
 
