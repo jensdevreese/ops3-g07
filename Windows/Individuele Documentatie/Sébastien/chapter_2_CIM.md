@@ -74,9 +74,49 @@ ProcessId Name       HandleCount WorkingSetSize VirtualSize
  - onderdeel van de ANSI-SQL met set van sleutelwoorden en operators en ondersteunt 3 types van queries: data, event en schema queries
 
  ##### WQL Keywords
-- net zoals bij sql, worden wql sleutelwoorden gebruikt om data op te halen. Er zijn er 19
+ - net zoals bij sql, worden wql sleutelwoorden gebruikt om data op te halen. Er zijn er 19
 ![screenshot WQL1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/WQL_Keywords_1.PNG?token=AGfNEisTDyS64H3d5LG6qpMsvxtYiRPAks5WXDrVwA%3D%3D)
 ![screenshot WQL2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/WQL_Keywords_2.PNG?token=AGfNEqvCDrDMkYD-jlTWfCx47VGqWjHDks5WXDrnwA%3D%3D)
+
+##### WQL Operators
+ - redelijk gelijkaardig aan andere operatoren: "=,>,<,>=,<=,<> of !="
+ - sommige WQL Sleutelwoorden kunnen ook als operator gebruikt worden
+
+##### WQL queries schrijven
+- Voorbeeld van een data query
+```PowerShell
+PS C:\>Get-CimInstance -Query "SELECT * FROM Win32_Process WHERE (Name='Chrome.exe' OR Name='iexplore.exe') AND HandleCount > 150"
+
+ProcessId Name       HandleCount WorkingSetSize VirtualSize
+--------- ----       ----------- -------------- -----------
+10428     chrome.exe 1106        100102144      481574912
+9864      chrome.exe 256         31076352       237023232
+9648      chrome.exe 219         100433920      289779712
+9548      chrome.exe 289         94105600       392355840
+
+```
+ - hier selecteren we alles van chrome of iexplore processen in Win32_Process, je kan * ook vernaderen door wat je wil te zien krijgen
+ - gebruik van Reguliere Expressies kan door LIKE '[A-C]hrome%' toe te voegen
+ - Bij AND en OR moeten haakjes gezet worden
+ - In CIM standaard specificatie, worden events voorgesteld als indicaties, kan gedefinieerd worden als een verandering van status
+ - Vb van play naar pause gaan => Elke staat is stelt een event voor
+ - Mogelijkheid om te abonneren op CIM indicaties 
+```PowerShell
+PS C:\> Register-CimIndicationEvent -ClassName Win32_ProcessStartTrace -Action {
+>>> Write-Host "A new process started"
+>>> }
+
+Id     Name            PSJobTypeName   State         HasMoreData     Location             Command
+--     ----            -------------   -----         -----------     --------             -------
+3      e09443c7-71f...                 NotStarted    False                                ...
+
+PS C:\> A new process started
+A new process started
+A new process started
+```
+
+
+
 
 
 
