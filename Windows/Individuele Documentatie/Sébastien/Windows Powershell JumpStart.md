@@ -406,6 +406,7 @@ Function Get-DiskInfo{
 - Mogelijkheid om scripts weg te schrijven naar een Module
 - Daarna kunnen modules geïmporteerd worden
 - Opslaan als .psm1 bestand
+- alle zelf gemaakte modules komen in map C:\Users\Program Files (86)\WindowsPowerShell\Modules
 ```PowerShell
 Function Set-DiskInfp{}
 Function Remove-DiskInfo {}
