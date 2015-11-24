@@ -1,12 +1,7 @@
 # Voortgangsrapport week 09
 
-<<<<<<< HEAD
 * Groep: 07
 * Datum: 15/11/2015-22/11/2015
-=======
-* Groep: 07
-* Datum: 15/11/2015-22/11/2015
->>>>>>> origin/master
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -31,7 +26,7 @@ Kanban week 9:
 ![Screen week9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week9ToggleMathias.png?token=AGfMykbd72Z2NA6ITHcRSVuJiintt_C7ks5WWtqwwA%3D%3D)
 ### Jens
 
-![screenshot toggleWeek9] ()
+![screenshot toggleWeek9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week9.PNG?token=AGfMlgsGoPvt1joNmej6GX6APS3xCbGzks5WXXWEwA%3D%3D)
 
 ### Sebastien
 ![Screenshot Toggle Week9] ()
@@ -46,7 +41,10 @@ Kanban week 9:
 ### Mathias : 
 De documentatie van mijn boek verder overzetten van docx naar een .md file. Kijken om opstelling 2 van linux al voor een del op te zetten.
 Voor windows de nog kleine fouten die er waren in de scripten eruit halen en eventuele documentatie erbij schrijven.
-### Jens :  
+### Jens :
+Vorige twee weken waren vooral cisco en Linux, deze week gaan we trachten zo ver mogelijk te geraken voor het Windows-gedeelte.
+Ik ga proberen mijn documentatie van mijn boek af te hebben, en ondertussen de jumpstart nog eens heropfrissen voor de evaluatie.
+Hoofdstukken 6,7 en 8 zouden zeker af moeten zijn uit mijn boek. Ondertussen ga ik de documentatie van Mathias testen.
 
 ### Sebastien : 
 
