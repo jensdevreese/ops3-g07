@@ -13,6 +13,7 @@
 - Hoofdstuk 19: Handling Errors
 - Hoofdstuk 20: Managing Exchange Server
 - Extra: Cheatsheet
+
 ## Inleiding
 Dit boek is geschreven door Ed Wilson. Het is de bedoeling van dit boek dat je een goede kennis opdoet van Windows PowerShell 3.0 technologie. Als je nieuw bent voor Windows Powershell, dan wordt er van je verwacht dat je je voornamelijk concentreert op de hoofdstukken 1 tot en met 3 en 5 tot en met 9. Aangezien wij beginnen vanaf nul, gaan wij deze volgorde nemen. Wij zullen de eerste 9 hoofdstukken, met uitzondering van hoofdstuk 4, doornemen en goed bijhouden wat belangrijk is voor dat hoofdstuk. Op deze manier krijgen we een bondige samenvatting voor beginnend powershellgebruik.
 ## Hoofdstuk 1: Overview of Windows PowerShell 3.0
