@@ -33,7 +33,7 @@ Kanban week 9:
 
 ### Jasper
 
-![week9 toggle] ()
+![week9 toggle] (Images/Toggle/Tijdregistratie\ Jasper/Week\ 9.PNG)
 
 ## Wat plan je volgende week te doen?
 
@@ -49,7 +49,7 @@ Hoofdstukken 6,7 en 8 zouden zeker af moeten zijn uit mijn boek. Ondertussen ga 
 ### Sebastien : 
 
 ### Jasper : 
- Dit wil ik volgende week weer inhalen.
+ Windows deel 1 gpo's laatste probleempje wegwerken. Starten met onderzoek naar desired state configuratie voor deel 2. Daarnaast afbeeldingen plaatsen bij tekst hoofdstuk 11 en 12 van boek + hoofdstuk 13/14
 
 ## Waar hebben jullie nog problemen mee?
 Op dit moment zijn er niet echt problemen.
