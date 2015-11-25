@@ -20,7 +20,7 @@
 ### Algemeen
 
 Kanban week 9:
-![screenshot week9kanban] (Images/Trello/Kanbanweek9.png)
+![screenshot week9kanban] (Images/Trello/Kanban week9.png)
 ### Mathias
 
 ![Screen week9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week9ToggleMathias.png?token=AGfMykbd72Z2NA6ITHcRSVuJiintt_C7ks5WWtqwwA%3D%3D)
