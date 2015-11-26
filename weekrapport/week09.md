@@ -1,12 +1,7 @@
 # Voortgangsrapport week 09
 
-<<<<<<< HEAD
 * Groep: 07
 * Datum: 15/11/2015-22/11/2015
-=======
-* Groep: 07
-* Datum: 15/11/2015-22/11/2015
->>>>>>> origin/master
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -25,20 +20,20 @@
 ### Algemeen
 
 Kanban week 9:
-![screenshot week9kanban] ()
+![screenshot week9kanban] (Images/Trello/Kanban week9.PNG)
 ### Mathias
 
 ![Screen week9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week9ToggleMathias.png?token=AGfMykbd72Z2NA6ITHcRSVuJiintt_C7ks5WWtqwwA%3D%3D)
 ### Jens
 
-![screenshot toggleWeek9] ()
+![screenshot toggleWeek9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week9.PNG?token=AGfMlgsGoPvt1joNmej6GX6APS3xCbGzks5WXXWEwA%3D%3D)
 
 ### Sebastien
 ![Screenshot Toggle Week9] ()
 
 ### Jasper
 
-![week9 toggle] ()
+![week9 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%209.PNG?token=AGfTaRe0OI6KXyBJ02kH08ljLay-txkfks5WXs79wA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 
@@ -46,12 +41,16 @@ Kanban week 9:
 ### Mathias : 
 De documentatie van mijn boek verder overzetten van docx naar een .md file. Kijken om opstelling 2 van linux al voor een del op te zetten.
 Voor windows de nog kleine fouten die er waren in de scripten eruit halen en eventuele documentatie erbij schrijven.
-### Jens :  
+### Jens :
+Vorige twee weken waren vooral cisco en Linux, deze week gaan we trachten zo ver mogelijk te geraken voor het Windows-gedeelte.
+Ik ga proberen mijn documentatie van mijn boek af te hebben, en ondertussen de jumpstart nog eens heropfrissen voor de evaluatie.
+Hoofdstukken 6,7 en 8 zouden zeker af moeten zijn uit mijn boek. Ondertussen ga ik de documentatie van Mathias testen.
 
 ### Sebastien : 
 
 ### Jasper : 
- Dit wil ik volgende week weer inhalen.
+ Windows deel 1 gpo's laatste probleempje wegwerken. Starten met onderzoek naar desired state configuratie voor deel 2. Dit waarschijnlijk door de MVA cursus Getting started with DSC te volgen.
+ Daarnaast afbeeldingen plaatsen bij tekst hoofdstuk 11 en 12 van boek + hoofdstuk 13/14
 
 ## Waar hebben jullie nog problemen mee?
 Op dit moment zijn er niet echt problemen.
