@@ -1,4 +1,4 @@
-# Voortgangsrapport week 09
+﻿# Voortgangsrapport week 09
 
 * Groep: 07
 * Datum: 15/11/2015-22/11/2015
@@ -29,7 +29,7 @@ Kanban week 9:
 ![screenshot toggleWeek9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week9.PNG?token=AGfMlgsGoPvt1joNmej6GX6APS3xCbGzks5WXXWEwA%3D%3D)
 
 ### Sebastien
-![Screenshot Toggle Week9] ()
+![Screenshot Toggle Week9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week9.PNG?token=AGfNErdkXFN_wNtgJ9ggIjiKbdsRLY37ks5WYFE0wA%3D%3D)
 
 ### Jasper
 
@@ -47,6 +47,7 @@ Ik ga proberen mijn documentatie van mijn boek af te hebben, en ondertussen de j
 Hoofdstukken 6,7 en 8 zouden zeker af moeten zijn uit mijn boek. Ondertussen ga ik de documentatie van Mathias testen.
 
 ### Sebastien : 
+Deel 2 van windows opdracht met DSC uitwerken. Op virtual academy lessen ivm DSC bekijken en uiteindelijk Documentatie van DSC maken.
 
 ### Jasper : 
  Windows deel 1 gpo's laatste probleempje wegwerken. Starten met onderzoek naar desired state configuratie voor deel 2. Dit waarschijnlijk door de MVA cursus Getting started with DSC te volgen.
