@@ -6,11 +6,11 @@
 - gebruik van Linux Commands, Windows Command of Commandlets
 - belangrijke basis Cmdlets:
 ```PowerShell
-PS C:\> Clear-Host			(cls)
-PS C:\> Set-Location		(cd)
-PS C:\> Get-Childitem		(dir, ls)
-PS C:\> Get-Content			(type, cat)
-PS C:\> copy-item			(copy, cp)
+PS C:\> Clear-Host			(cls)         //Dit commando maakt het scherm volledig leeg
+PS C:\> Set-Location		(cd)          //Met dit commando kan je naar een andere locatie gaan op je pc
+PS C:\> Get-Childitem		(dir, ls)     //Dit toont een lijst van files en directories van je directory
+PS C:\> Get-Content			(type, cat)   //Dit toont de inhoud van een bestand
+PS C:\> copy-item			(copy, cp)      // Met dit commando can je files of directories kopiëren
 
 ```
 
@@ -24,6 +24,7 @@ PS C:\> copy-item			(copy, cp)
 - Help <cmdlet> -Full
 - Help <cmdlet> -Online
 - Help <cmdlet> -ShowWindow (opent een apart venster)
+
 ```PowerShell
 PS C:\> Get-Help *Process*
 Name                              Category  Module                    Synopsis
@@ -38,6 +39,9 @@ Stop-Process                      Cmdlet    Microsoft.PowerShell.M... Stops one 
 Wait-Process                      Cmdlet    Microsoft.PowerShell.M... Waits for the processes to be stopped befor...
 
 ```
+
+- Als we de volledige help (-Full) bekijken zien we ook voorbeelden van hoe een Cmdlet moet gebruikt worden. Wanneer we -ShowWindow gebruiken, wordt de volledige help getoont maar in een apart venster. Als we als parameter -Online gebruiken, wordt er in de internetbrowser de helppagina geladen.
+
 ##### Syntax
 
 - Parameter Sets
@@ -59,6 +63,7 @@ SYNTAX
 ### Chapter 3: The pipeline: Getting connected
 
 - Pipeline symbool: |
+- de Pipeline maakt het mogelijk om meerdere commando's na elkaar uit te voeren en telkens een object mee te geven aan het volgende commando. In volgende code vragen we alle services op en selecteren maar een aantal eigenschappen en sorteren deze dan op ObjectName.
 ```Powershell
 PS C:\> Get-Service | Select-Object name, status | Sort-Object name
 
@@ -76,23 +81,26 @@ AppReadiness                             Stopped
 ```
 ##### Exporteren en Importeren 
 
-- CSV
+- Het is mogelijk om via pipelining de uitvoer van een commando te exporteren naar een bestand en deze dan later weer op te halen om eventueel andere cmdlets op uit te voeren. Er zijn ingebouwde CmdLets voor het Exporteren en Importeren naar CSV of XML, maar natuurlijk is het ook mogelijk om te exporteren naar bestanden met andere extensies.
+
+###### CSV
 ```Powershell
 PS C:\> Get-Process | export-csv c:\porc.csv
 PS C:\> notepad c:\proc.csv
 PS C:\> import-csv c:\porc.csv
 ```
-- XML
+###### XML
 ```PowerShell
 PS C:\> Get-Process | Export-clixml c:\ref.xml
 ```
-- andere bestanden en printers
+###### andere bestanden en printers
 ```PowerShell
 PS C:\> Get-Service > c:\serv.txt
 PS C:\> Get-Service | Out-File c:\serv2.txt
 PS C:\> Get-Service | Out-Printer
 ```
-- Informatie in GUI tonen
+###### Informatie in GUI tonen
+- De informatie kan ook getoont worden in een Gui, Hier tonen we alle services in een GUI.
 ```PowerShell
 PS C:\> Get-Service | Out-GridView
 ```
@@ -104,12 +112,15 @@ PS C:\> Get-Service | ConvertTo-Html -Property DisplayName, status |
 >>
 ```
 ##### Cmdlets that kill
-- Stop-Process / kill
-- Stop-service
-- extra opties: -Confirm 		-Whatif
+
+- Volgende commando's laten een process of service stoppen. Aangezien dit soms fataal kan zijn, kunnen we extra opties gebruiken.
+  - Stop-Process / kill
+  - Stop-service
+  - extra opties: -Confirm 		-Whatif
 
 ### Chapter 4: Extending the shell
-- Modules
+##### Modules
+- Een Module is een set van gerelateerde PowerShell Functionaliteit die dynamisch of vast zijn op een schijf. Het importeren van een module zorgt dus voor een hele hoop nieuwe commando's die dan ter beschikking staan.
 ```PowerShell
 PS C:\> Get-Module -ListAvailable
 ModuleType Version    Name                                ExportedCommands
@@ -126,7 +137,8 @@ Manifest   1.0.0.0    BranchCache                         {Add-BCDataCacheExtens
 PS C:\> Import-Module act*
 
 ```
-- Snap-in
+##### Snap-in
+- Een Snap-in verwijst naar een object dat aan een ander object kan vastgemaakt worden en dat zal dan functioneren als deel van het geheel. 
 ```PowerShell
 PS C:\> Get-PSSnapin -Registered
 
