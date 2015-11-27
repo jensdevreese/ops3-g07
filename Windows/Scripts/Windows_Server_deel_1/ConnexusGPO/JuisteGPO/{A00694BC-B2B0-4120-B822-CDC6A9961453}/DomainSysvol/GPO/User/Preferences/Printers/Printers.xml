@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Printers clsid="{1F577D12-3D1B-471e-A1B7-060317597B9C}"><SharedPrinter clsid="{9A5E9697-9095-436d-A0EE-4D128FDFBCE5}" name="PFPR1" status="PFPR1" image="2" changed="2014-10-13 13:40:40" uid="{A9398F9B-D4B6-4E0D-BA68-0F958553AED3}"><Properties action="U" comment="" path="\\ASSV1\PFPR1" location="" default="1" skipLocal="0" deleteAll="0" persistent="0" deleteMaps="0" port=""/></SharedPrinter>
+	<SharedPrinter clsid="{9A5E9697-9095-436d-A0EE-4D128FDFBCE5}" name="PFPR2" status="PFPR2" image="2" changed="2014-10-13 13:40:35" uid="{F327B115-6423-4B25-B5B9-9F7D78264BAB}"><Properties action="U" comment="" path="\\ASSV1\PFPR2" location="" default="0" skipLocal="0" deleteAll="0" persistent="0" deleteMaps="0" port=""/></SharedPrinter>
+	<SharedPrinter clsid="{9A5E9697-9095-436d-A0EE-4D128FDFBCE5}" name="PFPR1" status="PFPR1" image="2" changed="2015-11-18 10:17:50" uid="{ABC11C0D-625F-40E8-B147-6E1ED646BC87}"><Properties action="U" comment="" path="\\ASSV1\PFPR1" location="" default="1" skipLocal="0" deleteAll="0" persistent="0" deleteMaps="0" port=""/></SharedPrinter>
+</Printers>
