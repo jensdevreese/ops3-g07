@@ -6,11 +6,11 @@
 - gebruik van Linux Commands, Windows Command of Commandlets
 - belangrijke basis Cmdlets:
 ```PowerShell
-PS C:\> Clear-Host			(cls)         //Dit commando maakt het scherm volledig leeg
-PS C:\> Set-Location		(cd)          //Met dit commando kan je naar een andere locatie gaan op je pc
-PS C:\> Get-Childitem		(dir, ls)     //Dit toont een lijst van files en directories van je directory
-PS C:\> Get-Content			(type, cat)   //Dit toont de inhoud van een bestand
-PS C:\> copy-item			(copy, cp)      // Met dit commando can je files of directories kopiëren
+PS C:\> Clear-Host			(cls)         #Dit commando maakt het scherm volledig leeg
+PS C:\> Set-Location		(cd)          #Met dit commando kan je naar een andere locatie gaan op je pc
+PS C:\> Get-Childitem		(dir, ls)     #Dit toont een lijst van files en directories van je directory
+PS C:\> Get-Content			(type, cat)   #Dit toont de inhoud van een bestand
+PS C:\> copy-item			(copy, cp)      #Met dit commando can je files of directories kopiëren
 
 ```
 
@@ -194,7 +194,7 @@ DESKTOP-BGT0PSQ     16
 ##### Filter Object Out of the Pipeline
 ```PowerShell
 PS C:\> Get-Service | Where-Object -FilterScript {$_.status -eq 'running'}
-zelfde als:
+#zelfde als:
 PS C:\> gsv | ?{$_.status -eq 'Running'}
 
 Status   Name               DisplayName
