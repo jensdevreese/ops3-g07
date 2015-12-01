@@ -6,10 +6,7 @@
 
 # Download en unzip Siege en zet hem in de Home directory van de vagrant host.
 - name: Download Siege
-#  get_url: url=http://download.joedog.org/siege/siege-3.1.0.tar.gz dest=/home/vagrant/ mode=0777
-  copy:
-    src: siege-3.1.0.tar.gz
-    dest: /home/vagrant/
+  get_url: url=http://download.joedog.org/siege/siege-3.1.0.tar.gz dest=/home/vagrant/ mode=0777
 # unzippen
 - unarchive: src=/home/vagrant/siege-3.1.0.tar.gz dest=/home/vagrant/ copy=no
 
@@ -22,10 +19,10 @@
     - ./configure
     - make
     - make install
-- name: copy .siegerc
+- name: copy .siegerc mode=0777
   copy:
     src: .siegerc
-    dest: /home/vagrant
+    dest: /home/vagrant mode=0777
   tags: .siegerc
 
 - name: Make var-directory
