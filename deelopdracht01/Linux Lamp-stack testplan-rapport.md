@@ -56,7 +56,7 @@ Uitvoer na het runnen van de test:
 
 
 ### Testscript inhoud: LAMP.bats
-
+```
 #! /usr/bin/env bats
 #
 # Author: Bert Van Vreckem <bert.vanvreckem@gmail.com>
@@ -163,4 +163,4 @@ wordpress_password=root
   result=$(mysql -uroot -p${mariadb_root_password} --execute "select * from user where user='';" mysql)
   [ -z "${result}" ]
 }
-
+```
