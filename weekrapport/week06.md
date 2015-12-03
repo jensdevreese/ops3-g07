@@ -21,12 +21,12 @@ In het algemeen hebben we ook een duidelijkere structuur gemaakt op onze github 
 ### Algemeen
 
 Kanban week 6:
-![screenshot week6kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week6ToggleMathias.png?token=AGfMlgTxT0c2KS_zuBMuVi7wgjd4O7z-ks5WaTRywA%3D%3D)
+![screenshot week6kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week6.PNG?token=AGfMlgqRZaiBPCdtxYJ5F6L-BrXPdEPMks5WaTSRwA%3D%3D)
 
 
 ### Mathias
 
-![Screen week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week6ToggleMathias.png?token=AGfMli4ANBHLRJvum5bXMyfiCOSNrCcwks5WaTQcwA%3D%3DD)
+![Screen week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week6ToggleMathias.png?token=AGfMlgTxT0c2KS_zuBMuVi7wgjd4O7z-ks5WaTRywA%3D%3D)
 
 ### Jens
 
