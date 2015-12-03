@@ -1,7 +1,7 @@
 # Voortgangsrapport week 02
 
 * Groep: 07
-* Datum: 28/09/2015
+* Datum: 28/09/2015 - 04/10/2015
 
 
 | Student  | Aanw. | Opmerking |
@@ -13,7 +13,7 @@
 
 ## Trello
 
-![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfMlsoo3_RvOmrZPqB9N8LGzaNsUVPhks5WTX-FwA%3D%3D)
+![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfMllCAOONgKs6FMZB8XMOob9kyv1Peks5WaTIPwA%3D%3D)
 
 ## Wat heb je deze week gerealiseerd?
 We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack.
@@ -24,18 +24,18 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 ### Algemeen
 
 ### Mathias
-![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMllJEcAfx_N9gX_FxKHQ9uQz1rEFTks5WTX-jwA%3D%3D)
+![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMln1OlG5tl419AezxvqFGa2w2hrrDks5WaTKPwA%3D%3D)
 
 ### Jens
-![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlgnX5gcpFeR-MqCqQuWi5R0S06d-ks5WTX_DwA%3D%3D)
+![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlgSQQYzgOMspk1V47e6bBXkldNhNks5WaTJLwA%3D%3D)
 
 ### Sebastien
 
- ![screenshot Sebastien week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfMlhdjYszYBxbbDcKUca0_p96Wnfldks5WTX_8wA%3D%3D)
+ ![screenshot Sebastien week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfMlp2zLOjGtCRKnvgCmTLktoUoNmxgks5WaTJewA%3D%3D)
 
 ### Jasper
 
-![screenschot JasperToggleweek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%202.PNG?token=AGfMlpOOLXZV7DvX8jOehwTf6cs5WAJxks5WTX_UwA%3D%3D)
+![screenschot JasperToggleweek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%202.PNG?token=AGfMlrf1giO2QLhABQ-JX6ijjhK0Jzmqks5WaTKAwA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 

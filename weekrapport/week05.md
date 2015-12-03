@@ -19,7 +19,7 @@ Ook hebben we onze individuele tijdsregistratie bijgevoegd in de documentatie. W
 ### Algemeen
 
 Begin van de week:
-![screenschot trelloweek5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week5.PNG?token=AGfMljlXf0xpVSvDNe6imEckkx7_Lwjfks5WTYEWwA%3D%3D)
+![screenschot trelloweek5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week5.PNG?token=AGfMlsP7NaQOdktNbwGXzZilj9JOlUBTks5WaTOcwA%3D%3D)
 
 Voor het gedeelte van linux  hebben we ons deze week bezig gehouden met: 
 - het zoeken naar om onze lampstack te montoren. Met andere woorden we gaan op zoek naar load-testingtools.
@@ -38,18 +38,18 @@ Tijdens het uitwerken van deze opdracht, lezen we onze boeken verder en schrijve
 
 ### Mathias
 
-![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week5ToggleMathias.png?token=AGfMlsM-wibTvTNKdXQbnqjAMM7o8rdrks5WTYEjwA%3D%3D)
+![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week5ToggleMathias.png?token=AGfMlleD8SFOJCCakw3Q8a_tRLi4O_VIks5WaTO6wA%3D%3D)
 
 ### Jens
 
-![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week5.PNG?token=AGfMlkyv-S5xqerhfle3ozwkXMZi061aks5WTYE-wA%3D%3D)
+![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week5.PNG?token=AGfMltoh7u5dSWrw203pn6Q8Pp07h5miks5WaTPEwA%3D%3D)
 
 ### Sebastien
-![Screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week5.PNG?token=AGfMlnOE4Hg0BE7USDpVhJKczeCJZS_Dks5WTYFOwA%3D%3D)
+![Screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week5.PNG?token=AGfMlijWhaoUcrxHvO3rXmkgGH3EnBNzks5WaTPSwA%3D%3D)
 
 ### Jasper
 
-![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%205.PNG?token=AGfMlodzhdwZu1PeHKHWTwJ8j604tE-6ks5WTYFkwA%3D%3D)
+![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%205.PNG?token=AGfMloVVw9VDR4rU6TvgaThMW5pe-Rr1ks5WaTPdwA%3D%3D)
 
 
 

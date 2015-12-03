@@ -1,4 +1,4 @@
-# Voortgangsrapport week 01
+# Voortgangsrapport week 10
 
 * Groep: 07
 * Datum: 23/11/2015-29/11/2015
@@ -11,23 +11,23 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-![screenschot TrelloWeek10] ()
+![screenschot TrelloWeek10] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/KanbanWeek10.PNG?token=AGfMls6UIwPVs1V96mvNwIxedjLUonU3ks5WaSlFwA%3D%3D)
 
 
 ## Wat heb je deze week gerealiseerd?
-
+Deze week hebben we nog enkele fouten uit de scripts gehaald in verband met de gpo's. Jasper en Sébastien zijn begonnen met Deel 2 van de windows server opdracht, maar dan met Desired State Configuration.
+Voor linux zijn we begonnen alles goed te noteren wat we tot hier toe hebben.
+De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat we al kunnen tonen van kijk, dit hebben we tot nu toe al gerealiseerd.
 
 
 ### Algemeen
-
-
 ### Mathias
 
 ![screenschot Mathias week10] ()
 
 ### Jens
 
-![screenschot Jens week10] ()
+![screenschot Jens week10] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week10.PNG?token=AGfMlk6rKPXzXFeYG1KOPawRGCPlhfzMks5WaSkgwA%3D%3D)
 
 ### Sébastien
 
@@ -43,8 +43,8 @@
 ### Algemeen
 - Mathias
 
-- Jens
-
+- Jens.
+ Mathias en ik gaan alles documenteren van wat we hebben voor het linux-gedeelte. We gaan alles testen en zorgen dat we data kunnen voorbrengen waar we conclusies kunnen uit trekken.
 - Sebastien
 
 - Jasper

@@ -21,25 +21,23 @@ In het algemeen hebben we ook een duidelijkere structuur gemaakt op onze github 
 ### Algemeen
 
 Kanban week 6:
-![screenshot week6kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week6.PNG?token=AGfMlsocijS4NqBdA-sZpP6C8yZN72wVks5WTYG-wA%3D%3D)
-
-
+![screenshot week6kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week6.PNG?token=AGfMlgqRZaiBPCdtxYJ5F6L-BrXPdEPMks5WaTSRwA%3D%3D)
 
 
 ### Mathias
 
-![Screen week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week6ToggleMathias.png?token=AGfMlr8zDfxa0_dtCxRBRqkKYCOx8URjks5WTYHUwA%3D%3D)
+![Screen week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week6ToggleMathias.png?token=AGfMlgTxT0c2KS_zuBMuVi7wgjd4O7z-ks5WaTRywA%3D%3D)
 
 ### Jens
 
-![screenshot toggleWeek6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week6.PNG?token=AGfMloLFXx0EOQuFdcCAs6nBCpJh81kXks5WTYJGwA%3D%3D)
+![screenshot toggleWeek6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week6.PNG?token=AGfMllN7BrdO6fDgmWxRLuNmy1eZTWueks5WaTQdwA%3D%3D)
 
 ### Sebastien
-![Screenshot Toggle Week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week6.PNG?token=AGfMlv2rG-WaqNTKiSPeeP8lJU-1PK99ks5WTYJ1wA%3D%3D)
+![Screenshot Toggle Week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week6.PNG?token=AGfMljlRgyM5wbWZ3DQQ4JRqPOKtMrqSks5WaTQfwA%3D%3D)
 
 ### Jasper
 
-![week6 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%206.PNG?token=AGfMlt26ZYGU6XhpHbXVhwIiutOK22b2ks5WTYJlwA%3D%3D)
+![week6 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%206.PNG?token=AGfMluKGd72Mz0R-k2hboNLE-RYNVF8Iks5WaTQgwA%3D%3D)
 
 
 

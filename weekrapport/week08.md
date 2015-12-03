@@ -1,12 +1,7 @@
 # Voortgangsrapport week 08
 
-<<<<<<< HEAD
-* Groep: 07
-* Datum: 09/11/2015-15/11/2015
-=======
 * Groep: 08
 * Datum: 08/11/2015-15/11/2015
->>>>>>> origin/master
 
 | Student  | Aanw. | Opmerking |
 | :---     | :---  | :---      |
@@ -25,20 +20,20 @@
 ### Algemeen
 
 Kanban week 8:
-![screenshot week8kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week8.PNG?token=AGfMyjqWzYkL_vNnE8tVGo3qhH0yd1_Hks5WVDtdwA%3D%3D)
+![screenshot week8kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week8.PNG?token=AGfMliKW7cwQWMS7fiKHDacNxqQKbamHks5WaTVMwA%3D%3D)
 ### Mathias
 
-![Screen week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week8ToggleMathias.png?token=AGfMyup-xgvTGA4Zqcgw-Mlc9QyC96idks5WUuHCwA%3D%3D)
+![Screen week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week8ToggleMathias.png?token=AGfMlqkreOQwB4K9t82YX7MbawpVI0gZks5WaTVOwA%3D%3D)
 ### Jens
 
-![screenshot toggleWeek8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week8.PNG?token=AGfTaZByK1PxjD2qj6FxEMoOW8sCLoWiks5WU1pzwA%3D%3D)
+![screenshot toggleWeek8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week8.PNG?token=AGfMloms0QiOFlMRzv0oScy7LrlaJBZKks5WaTVQwA%3D%3D)
 
 ### Sebastien
-![Screenshot Toggle Week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week8.PNG?token=AGfNElWZW4b1xvAOGV2ibGEFnVRXdE2_ks5WUwE9wA%3D%3D)
+![Screenshot Toggle Week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week8.PNG?token=AGfMlqcf3lWvMNJYrDLR88YWKvnPp7eEks5WaTVSwA%3D%3D)
 
 ### Jasper
 
-![week8 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%208.PNG?token=AGfTadZsddeGZkD3RZ8fM1zHa9eOtNWYks5WU1pJwA%3D%3D)
+![week8 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%208.PNG?token=AGfMlh6D4JNsAcP_VDhGMVuEv2Kpiyyxks5WaTVTwA%3D%3D)
 
 
 ## Wat plan je volgende week te doen?

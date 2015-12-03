@@ -1,4 +1,4 @@
-## Testplan en -rapport taak 1: Opzetten CollectD server
+## Testplan en -rapport taak 1: Opzetten Yomoni
 
 * Verantwoordelijke uitvoering: Jens De Vreese
 * Verantwoordelijke testen: Mathias Van Rumst

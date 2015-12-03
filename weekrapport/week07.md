@@ -18,22 +18,22 @@
 ### Algemeen
 
 Kanban week 7:
-![screenshot week7kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week7.PNG?token=AGfMlpXLRQ7YdkYfupsfqx6OC38PJXiIks5WTYL7wA%3D%3D)
+![screenshot week7kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week7.PNG?token=AGfMluqSkxPjc0S4nbRhuCIh2IQWxCGYks5WaTSswA%3D%3D)
 
 ### Mathias
 
-![Screen week7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week7ToggleMathias.png?token=AGfMlkyB3Vx9FTSXFUJ-OfLl0cmZ59stks5WTYMRwA%3D%3D)
+![Screen week7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week7ToggleMathias.png?token=AGfMlmoUeBH38v9v3b4Vbz2JkyN3QFUvks5WaTSuwA%3D%3D)
 
 ### Jens
 
-![screenshot toggleWeek7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week7.PNG?token=AGfMlhOdmPrDA1n3AN_HPmMLcgpSTIyZks5WTYLYwA%3D%3D)
+![screenshot toggleWeek7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week7.PNG?token=AGfMloVYOi3ldJKgUf1YpFGtA5UPWu6Aks5WaTSvwA%3D%3D)
 
 ### Sebastien
-![Screenshot Toggle Week7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week7.PNG?token=AGfNEjf1LsmsTEX-KrenEe49FNEFWlG2ks5WTZ16wA%3D%3D)
+![Screenshot Toggle Week7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week7.PNG?token=AGfMlvxFHjDIZT11ezi746QhhQLCWTJEks5WaTSxwA%3D%3D)
 
 ### Jasper
 
-![week7 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%207.PNG?token=AGfTaQOA2pWgE92xw3FhcfMcTrn1SEsIks5WTgJ4wA%3D%3D)
+![week7 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%207.PNG?token=AGfMlu5JyXl-ahjeHvPLSAP_uufO_Ft_ks5WaTSywA%3D%3D)
 
 
 
