@@ -20,20 +20,20 @@
 ### Algemeen
 
 Kanban week 9:
-![screenshot week9kanban] (Images/Trello/Kanban week9.PNG)
+![screenshot week9kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/KanbanWeek9.PNG?token=AGfMlvb3CK5o8mq9pznrygXAQpeMNIJhks5WaTWkwA%3D%3D)
 ### Mathias
 
-![Screen week9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week9ToggleMathias.png?token=AGfMykbd72Z2NA6ITHcRSVuJiintt_C7ks5WWtqwwA%3D%3D)
+![Screen week9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week9ToggleMathias.png?token=AGfMljQSOKHsWCcNzjgIXrNrq_uKhEInks5WaTWmwA%3D%3D)
 ### Jens
 
-![screenshot toggleWeek9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week9.PNG?token=AGfMlgsGoPvt1joNmej6GX6APS3xCbGzks5WXXWEwA%3D%3D)
+![screenshot toggleWeek9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week9.PNG?token=AGfMluUBmvinaiFCFH0cNXBQxn1f47VEks5WaTWnwA%3D%3D)
 
 ### Sebastien
-![Screenshot Toggle Week9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week9.PNG?token=AGfNErdkXFN_wNtgJ9ggIjiKbdsRLY37ks5WYFE0wA%3D%3D)
+![Screenshot Toggle Week9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week9.PNG?token=AGfMlnmKl8aWUB5os9kCbaRoo-nAxJkvks5WaTWpwA%3D%3D)
 
 ### Jasper
 
-![week9 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%209.PNG?token=AGfTaRe0OI6KXyBJ02kH08ljLay-txkfks5WXs79wA%3D%3D)
+![week9 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%209.PNG?token=AGfMlutAw3uxY14h0dI5VH2nfZUzy0i_ks5WaTWrwA%3D%3D)
 
 ## Wat plan je volgende week te doen?
 
