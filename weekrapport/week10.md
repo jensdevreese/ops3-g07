@@ -23,7 +23,7 @@ De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat
 ### Algemeen
 ### Mathias
 
-![screenschot Mathias week10] ()
+![screenschot Mathias week10] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week10TogglMathias.png?token=AGfMytqS0Drx2_rlK9FtxTVihRy84P-qks5WaTZIwA%3D%3D)
 
 ### Jens
 
@@ -42,7 +42,7 @@ De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat
 
 ### Algemeen
 - Mathias
-
+ Jens en ik gaan alles documenteren wat we hebben voor het linux gedeelte. We gaan alles testen en zorgen dat we data kunnen voorbrengen waar we conclusies kunnen uit trekken. Ik ga mijn boek verder documenteren ( laatste hoofdstukken).
 - Jens.
  Mathias en ik gaan alles documenteren van wat we hebben voor het linux-gedeelte. We gaan alles testen en zorgen dat we data kunnen voorbrengen waar we conclusies kunnen uit trekken.
 - Sebastien
