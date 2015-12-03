@@ -15,12 +15,12 @@
 
 
 ## Wat heb je deze week gerealiseerd?
-
+Deze week hebben we nog enkele fouten uit de scripts gehaald in verband met de gpo's. Jasper en Sébastien zijn begonnen met Deel 2 van de windows server opdracht, maar dan met Desired State Configuration.
+Voor linux zijn we begonnen alles goed te noteren wat we tot hier toe hebben.
+De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat we al kunnen tonen van kijk, dit hebben we tot nu toe al gerealiseerd.
 
 
 ### Algemeen
-
-
 ### Mathias
 
 ![screenschot Mathias week10] ()

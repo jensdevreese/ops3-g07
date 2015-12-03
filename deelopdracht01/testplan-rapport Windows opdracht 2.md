@@ -1,12 +1,11 @@
 ## Testplan en -rapport taak 1: Opzetten LAMPstack
 
-* Verantwoordelijke uitvoering: Jens De Vreese
-* Verantwoordelijke testen: Mathias Van Rumst
+* Verantwoordelijke uitvoering: Sébastien Pattyn
+* Verantwoordelijke testen: Jasper Cottenie
 
 ### Testplan
 
-Auteur(s) testplan: Jens De Vreese & Sébastien Pattyn
-Voor de het opzetten van een lampstack, maken we gebruik van de lampstack die op de githubrepository staat van de heer Bert Van Vreckem.
+Auteur(s) testplan: Jasper Cottenie & Sébastien Pattyn
 
 - ...
 
