@@ -43,8 +43,8 @@ De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat
 ### Algemeen
 - Mathias
 
-- Jens
-Mathias en ik gaan alles documenteren van wat we hebben voor het linux-gedeelte. We gaan alles testen en zorgen dat we data kunnen voorbrengen waar we conclusies kunnen uit trekken.
+- Jens.
+ Mathias en ik gaan alles documenteren van wat we hebben voor het linux-gedeelte. We gaan alles testen en zorgen dat we data kunnen voorbrengen waar we conclusies kunnen uit trekken.
 - Sebastien
 
 - Jasper
