@@ -11,7 +11,7 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfMlpaKuG0cSsqW-OBPkRRNDhDZMqbRks5WTX69wA%3D%3D)
+![screenschot TrelloWeek1] (ops3-g07/Images/Trello/Kanban week1.PNG)
 
 
 ## Wat heb je deze week gerealiseerd?
