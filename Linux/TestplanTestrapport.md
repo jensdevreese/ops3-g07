@@ -68,29 +68,29 @@ Testrapport
 Bewijs dat de de stappen in het testplan gelukt zijn:
 
 1. 
-![screenschot stap 1] ()
+![screenschot stap 1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/1.%20Vagrant%20Destroy%20and%20up.PNG?token=AGfMylGgIfcbEqo4aOjTvPCAKscqQnHKks5WaqN4wA%3D%3D)
 2. 
-![screenschot stap 2] ()
+![screenschot stap 2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/2.VagrantUpCorrect.PNG?token=AGfMysSsxKyqALnhBSbLLBKY4VR-0Eigks5WaqOWwA%3D%3D)
 3. 
-![screenschot stap 3] ()
+![screenschot stap 3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/3.Lampstack_CreateWordpress.PNG?token=AGfMyhSoiqj7eZzTuTe-VuzlNn_9a-Cbks5WaqOxwA%3D%3D)
 4. 
-![screenschot stap 4] ()
+![screenschot stap 4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/4.%20Lampstack_LoginWordpress.PNG?token=AGfMyonu39-XTDprQm9Kmeb2rs9mYMp1ks5WaqPiwA%3D%3D)
 5. 
-![screenschot stap 5] ()
+![screenschot stap 5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/5.%20Lampstack_Wordpress_DataCreator.PNG?token=AGfMyqXL_XfGMFwgMH2QotN6HVqLltKZks5WaqQCwA%3D%3D)
 6. 
-![screenschot stap 6] ()
+![screenschot stap 6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/6.%20Lampstack_Wordpress_DataCreator_Works.PNG?token=AGfMymKmojMWihBPji2T8uyHvica6j75ks5WaqQYwA%3D%3D)
 7. 
-![screenschot stap 7] ()
+![screenschot stap 7] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/7.Monitor_CollectD.PNG?token=AGfMyjIOQQ2lFTzkHz8t4LbrtVRcH4Fmks5WaqQtwA%3D%3D)
 8. 
-![screenschot stap 8] ()
+![screenschot stap 8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/8.Monitor_CollectD_Memory.PNG?token=AGfMygTGHLUxxIfYAws2Py8lGzatuIZRks5WaqRHwA%3D%3D)
 9. 
-![screenschot stap 9] ()
+![screenschot stap 9] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/9_Loadtester_Siege_Target.PNG?token=AGfMypQnTinlf3MqEizXBFNLWcmhnPcQks5WaqRmwA%3D%3D)
 10. 
-![screenschot stap 10] ()
+![screenschot stap 10] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/10_Loadtester_Yomoni_Init.PNG?token=AGfMyty9AygaNSXou8AEeWfQ-FMzvA-xks5WaqSGwA%3D%3D)
 11. 
-![screenschot stap 11] ()
+![screenschot stap 11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/11_Loadtester_Yomoni_SiegeTest.PNG?token=AGfMygAY2J5v-N18f3KLdWta6UP8M7_rks5WaqSqwA%3D%3D)
 12. 
-![screenschot stap 12] ()
+![screenschot stap 12] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20linux/12_Loadtester_yomoni_logfile.PNG?token=AGfMypJfwbsvrvZF-CZF8PW_DJmtfufQks5WaqTDwA%3D%3D)
 13. 
 ![screenschot stap 13] ()
 14. 
