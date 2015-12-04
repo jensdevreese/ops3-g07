@@ -5,45 +5,24 @@ Deeltaken + testplan
 ---------------------
 
 1. Via ansible het mogelijk maken om meerdere hosts op te starten (automatiseren).
-
 2. Geen errors bij het uppen van de hosts.
-
 3. Surfen naar de wordpress website die is aangemaakt met de lampstack host.
-
 4. Kunnen inloggen en dingen aanpassen aan de wordpress website.
-
 5. De data creator plugin is beschikbaar.
-
 6. Via de data creator plugin users en posts kunnen aanmaken.
-
 7. Surfen naar de collectd website die is aangemaakt met de monitor host.
-
 8. Voorbeeld van memory op collectd werkt ook met de door data creator pluging toegoevoegde users en posts.
-
 9. Siege heeft de wordpress website in zijn configuratie staan om daar op te loadtesten.
-
 10. De loadtester wordt geïnitialiseerd door middel van een script.
-
 11. Siege test de loadtesting op de wordpress website.
-
 12. De logfile van siege is beschikbaar.
-
 13. 
-
 14. 
-
-14. 
-
 15.
-
 16. 
-
 17. 
-
 18. 
-
 19. 
-
 
 
 Deliverables
@@ -60,8 +39,6 @@ Uitvoerder en tester.
 Mathias Van Rumst
 
 Jens De Vreese
-
-
 
 Testrapport
 ---------------------
