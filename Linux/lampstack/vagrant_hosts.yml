@@ -37,6 +37,6 @@
 - name: monitor
   ip: 192.168.56.80
 - name: loadtester
-  ip: 192.168.56.81
+  ip: 192.168.56.120
 
 
