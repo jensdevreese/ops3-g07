@@ -16,13 +16,6 @@ Deeltaken + testplan
 10. De loadtester wordt geïnitialiseerd door middel van een script.
 11. Siege test de loadtesting op de wordpress website.
 12. De logfile van siege is beschikbaar.
-13. 
-14.
-15.
-16. 
-17. 
-18. 
-19. 
 
 
 Deliverables
