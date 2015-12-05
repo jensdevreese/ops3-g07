@@ -35,7 +35,7 @@ De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat
 
 ### Jasper
 
-![screenschot week10] ()
+![screenschot week10] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%2010.PNG?token=AGfTaSDWnb_pF-CMSio-yVcQoj2dEUYBks5WbBE_wA%3D%3D)
 
 
 ## Wat plan je volgende week te doen?
@@ -48,7 +48,7 @@ De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat
 - Sebastien
 
 - Jasper
-
+De documentatie van alle scripts voor windows deel 1. Alles nog eens testen op een clean install zonder dat er nog aanpassingen aan moeten te pas komen. Daarnaast verder werken aan het documenteren van mijn boek.
 
 ## Waar hebben jullie nog problemen mee?
 
