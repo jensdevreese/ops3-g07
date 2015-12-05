@@ -14,7 +14,7 @@ Deze samenvatting is bedoeld voor mensen met enige voorkennis van Windows server
 - Inleiding tot Windows PowerShell
 - Windows PowerShell commando's
 - Windows PowerShell providers
-- Scripting en job
+- Jobs
 - Remoting
 - Functies
 - Modules
