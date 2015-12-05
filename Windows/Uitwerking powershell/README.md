@@ -21,6 +21,3 @@ Daarom hebben wij gekozen om onze samenvatting op te delen in 5 categoriën:
 2. Configuartie van AD DS, geschreven door Mathias en Jasper
 3. Scripting, geschreven door Jens
 4. Desired State Configuartie, geschreven door Sebastien
-5. [Optioneel] Exchange server, geschreven door Jens. 
-
-Dit laatste zal enkel aan bod komen als er tijd over is om deze sectie volledig te kunnen afwerken.
