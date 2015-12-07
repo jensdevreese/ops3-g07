@@ -29,6 +29,9 @@ PS C:\> Get-HotFix -Id KB2883200
 ```
 #### Create WinRM Listener Using Group Policy
 - GPMC feature moet geïnstalleerd zijn
-
+- installeren door middel van volgende commando:
+```PowerShell
+PS C:\> Add-WindowsFeature -Name GPMC -Verbose
+```
 
  
