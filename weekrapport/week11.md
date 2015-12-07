@@ -44,7 +44,9 @@
 - Mathias
 Alle documentatie omzetten naar 1 goed overzichtelijk document. Linux testplan en testrapport afwerken. Alles nakijken van weekverslagen. Lastenboek afwerken. Voorbereiden voor het groepslabo in week 13.
 - Jens
-
+Voor het linux gedeelte hebben we alles nog eens opnieuw binnengehaald om te controleren of alles goed werkt. We zijn een fout tegengekomen in onze loadtester (rol van Yomoni). Deze fout hebben we kunnen oplossen.
+We hebben een testplan en rapport uitgeschreven.
+Voor het windows gedeelte hebben ik de laatste loodjes aan mijn samenvatting afgewerkt. Nu moet alles nog mooi in een markdown-document geplaatst worden voor de uiteindelijke versie.
 - Sebastien
 
 - Jasper
