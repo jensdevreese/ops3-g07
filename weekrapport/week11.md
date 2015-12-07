@@ -11,7 +11,7 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-![screenschot TrelloWeek11] ()
+![screenschot TrelloWeek11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/KanbanWeek11.PNG?token=AGfMytgpurbhGvhzYvCkAJW1yyp7j7pXks5WbpiAwA%3D%3D)
 
 
 ## Wat heb je deze week gerealiseerd?
@@ -35,7 +35,7 @@
 
 ### Jasper
 
-![screenschot week11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/KanbanWeek11.PNG?token=AGfMytgpurbhGvhzYvCkAJW1yyp7j7pXks5WbpiAwA%3D%3D)
+![screenschot week11] ()
 
 
 ## Wat plan je volgende week te doen?
