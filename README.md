@@ -22,10 +22,11 @@ Johan Decorte  | Gespecialiseerd in Analyse, agile werking.
 
 ## Windows
 ### Opgave
-Voor de opgave van het windows-gedeelte kan u navigeren naar [hier] (Windows/Uitwerking powershell)
+Voor de opgave van het windows-gedeelte kan u navigeren naar [hier] ()
 ### Einddocument
-De samengevoegde 
+De samengevoegde samenvatting kan u via [deze link] (Windows/Uitwerking powershell) bekijken 
 ### Scripts
+U kan de scripts [hier] () bekijken voor windows server deel 1. En [hier] () voor windows server deel 2.
 ### Testplan en testrapport
 
 ## Linux
