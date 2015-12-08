@@ -12,3 +12,4 @@ Hier komt de uitwerking van configuratie van AD DS. Hieronder kan u op een simpe
 - [1. Inleiding](1. Inleiding.md)
 - [2. DSC Configuration Management Architecture](2. DSC Configuration Management Architecture.md)
 - [3. PUSH en PULL Mode](3. PUSH en PULL Mode.md)
+- [4. Built-in DSC Resources](4. Built-In DSC Resources.md)
