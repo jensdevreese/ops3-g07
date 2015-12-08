@@ -19,3 +19,16 @@ Johan Decorte  | Gespecialiseerd in Analyse, agile werking.
 ## Gebruikte tools
 * Trello-bord: <https://trello.com/connexusv30>
 * Tijdregistratie: <https://toggl.com/app/dashboard/team/1135392/period/thisYear>
+
+## Windows
+### Opgave
+### Einddocument
+### Scripts
+### Testplan en testrapport
+
+## Linux
+### Opgave
+### Ansible-omgeving
+### Testplan en testrapport
+
+## Lastenboek
