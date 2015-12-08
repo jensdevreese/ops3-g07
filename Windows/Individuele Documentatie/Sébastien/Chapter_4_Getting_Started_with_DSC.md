@@ -8,12 +8,12 @@
  		- Configuration Authoring and Staging
  		- Configuration Enacting
 
-! [] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/DSC_Architecture.PNG)
+![] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/DSC_Architecture.PNG)
 
- ### Configuration Authoring and Staging
+### Configuration Authoring and Staging
  - In deze eerst fase schrijven we de configuratie scripts die definiëren wat en hoe de resources moeten geconfigureerd worden en hoe de configuratie klaar wordt gezet voor enacting. Het zijn wel 2 aspecten maar aangezien de staging fase net na de authorign komt, kunnen deze perfect samen besproken worden. Hou in het achterhoofd dat het mogelijk is om een een configuratie MOF(Managed Object Format) te genereren zonder PowerShell.
 
- #### Authoring
+#### Authoring
 - De Configuration Authoring bevat Powershell Declarative Scripting. De language extension die we hiervoor gebruiken zijn een deel van de DSC Powershell Module. Om deze Language Extension te verstaan kijken we eerst naar een configuratie script. We gebruiken dit voorbeeld om door de verschillende DSC sleutelwoorden te gaan en de verschillende componenten in de Authoring fase.
 
 ```PowerShell
@@ -231,8 +231,19 @@ instance of OMI_ConfigurationDocument
 ´´´PowerShell
 Configuration WebsiteConfig{}
 WebsiteConfig -OutputPath c:\DSCMOFS
-```
 
+##### Requirements for configuration Authoring
+- We weten dat er een aantal vereisten zijn om met Language Extensions te werken in PowerShell en om configuratiescripts te authoren en MOF objecten te genereren. Bovendien moeten ook alle DSCResources gedownload zijn. Belangrijk om te onthouden in DSC is dat eenmaal een MOF gegenereerd is, we het Configuratiecript niet meer nodig hebben tot we er wijzigingen in willen aanbrengen en dan weer een nieuwe MOF maken. Het is van essentieel belang dat dit MOF bestand op een toegankelijke plaats staat op het systeem. Dit noemen we 'Configuration Staging'. De locatie hangt af van hoe we plannen om de configuratie af te leveren. Dit verwijst naar hoe het bestemmingsysteem de MOF ontvangt voor enacting.
+
+###### Staging and Delivery
+- Dit is het natuurlijke gevolg achter authoring. Hierbij gebruikten we het Configuration keyword and genereerde we ene MOF representatie van de aanpassingen die moeten gebeuren. Je kan dit MOF bestand ook opslaan op een andere server mits je daar permissies voor hebt. Dit is vooral handig Wanneer er gewerkt wordt met een centrale locatie waar  "version-control" gebruikt wordt. Dankzij "Version Control" kan je altijd naar een vorige situatie gaan van de configuratie. Hier hebben we Het MOF bestand opgeslaan op een netwerklocatie maar dit alleen is niet voldoende. Het MOF bestand moet eerst toekomen op het Systeem en kan dan pas enacten. DSC ondersteunten 2 methodes van configuratie levering: PUSH en PULL.
+
+##### Push Mode
+![push mode] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/PUSH.PNG)
+
+
+##### Pull mode
+![pull mode] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/PULL.PNG)
 
 
 ### Configuration Enacting

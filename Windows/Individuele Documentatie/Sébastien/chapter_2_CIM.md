@@ -75,8 +75,8 @@ ProcessId Name       HandleCount WorkingSetSize VirtualSize
 
  ##### WQL Keywords
  - net zoals bij sql, worden wql sleutelwoorden gebruikt om data op te halen. Er zijn er 19
-![screenshot WQL1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/WQL_Keywords_1.PNG?token=AGfNEisTDyS64H3d5LG6qpMsvxtYiRPAks5WXDrVwA%3D%3D)
-![screenshot WQL2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/WQL_Keywords_2.PNG?token=AGfNEqvCDrDMkYD-jlTWfCx47VGqWjHDks5WXDrnwA%3D%3D)
+![screenshot WQL1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/WQL_Keywords_1.PNG)
+![screenshot WQL2] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/WQL_Keywords_2.PNG)
 
 ##### WQL Operators
  - redelijk gelijkaardig aan andere operatoren: "=,>,<,>=,<=,<> of !="
