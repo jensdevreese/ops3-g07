@@ -233,6 +233,18 @@ Configuration WebsiteConfig{}
 WebsiteConfig -OutputPath c:\DSCMOFS
 ```
 
+##### Requirements for configuration Authoring
+- We weten dat er een aantal vereisten zijn om met Language Extensions te werken in PowerShell en om configuratiescripts te authoren en MOF objecten te genereren. Bovendien moeten ook alle DSCResources gedownload zijn. Belangrijk om te onthouden in DSC is dat eenmaal een MOF gegenereerd is, we het Configuratiecript niet meer nodig hebben tot we er wijzigingen in willen aanbrengen en dan weer een nieuwe MOF maken. Het is van essentieel belang dat dit MOF bestand op een toegankelijke plaats staat op het systeem. Dit noemen we 'Configuration Staging'. De locatie hangt af van hoe we plannen om de configuratie af te leveren. Dit verwijst naar hoe het bestemmingsysteem de MOF ontvangt voor enacting.
+
+###### Staging and Delivery
+- Dit is het natuurlijke gevolg achter authoring. Hierbij gebruikten we het Configuration keyword and genereerde we ene MOF representatie van de aanpassingen die moeten gebeuren. Je kan dit MOF bestand ook opslaan op een andere server mits je daar permissies voor hebt. Dit is vooral handig Wanneer er gewerkt wordt met een centrale locatie waar  "version-control" gebruikt wordt. Dankzij "Version Control" kan je altijd naar een vorige situatie gaan van de configuratie. Hier hebben we Het MOF bestand opgeslaan op een netwerklocatie maar dit alleen is niet voldoende. Het MOF bestand moet eerst toekomen op het Systeem en kan dan pas enacten. DSC ondersteunten 2 methodes van configuratie levering: PUSH en PULL.
+
+##### Push Mode
+
+
+
+##### Pull mode
+
 
 
 ### Configuration Enacting
