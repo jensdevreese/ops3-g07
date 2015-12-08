@@ -231,7 +231,6 @@ instance of OMI_ConfigurationDocument
 ´´´PowerShell
 Configuration WebsiteConfig{}
 WebsiteConfig -OutputPath c:\DSCMOFS
-```
 
 ##### Requirements for configuration Authoring
 - We weten dat er een aantal vereisten zijn om met Language Extensions te werken in PowerShell en om configuratiescripts te authoren en MOF objecten te genereren. Bovendien moeten ook alle DSCResources gedownload zijn. Belangrijk om te onthouden in DSC is dat eenmaal een MOF gegenereerd is, we het Configuratiecript niet meer nodig hebben tot we er wijzigingen in willen aanbrengen en dan weer een nieuwe MOF maken. Het is van essentieel belang dat dit MOF bestand op een toegankelijke plaats staat op het systeem. Dit noemen we 'Configuration Staging'. De locatie hangt af van hoe we plannen om de configuratie af te leveren. Dit verwijst naar hoe het bestemmingsysteem de MOF ontvangt voor enacting.
