@@ -31,7 +31,7 @@ De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat
 
 ### Sébastien
 
-![screenshot Sebastien Week10] ()
+![screenshot Sebastien Week10] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week10.PNG?token=AGfNElNm8MRIk8YGgnfENa--SbpHWfT_ks5Wb9cCwA%3D%3D)
 
 ### Jasper
 
@@ -46,7 +46,7 @@ De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat
 - Jens.
  Mathias en ik gaan alles documenteren van wat we hebben voor het linux-gedeelte. We gaan alles testen en zorgen dat we data kunnen voorbrengen waar we conclusies kunnen uit trekken.
 - Sebastien
-
+Verder werken aan powershell DSC en windows deel 2 beginnen uit te werken met DSC of AD. Documentatie van mijn boek moet ook nog verder aan gewerkt worden.
 - Jasper
 De documentatie van alle scripts voor windows deel 1. Alles nog eens testen op een clean install zonder dat er nog aanpassingen aan moeten te pas komen. Daarnaast verder werken aan het documenteren van mijn boek.
 
