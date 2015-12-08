@@ -239,11 +239,11 @@ WebsiteConfig -OutputPath c:\DSCMOFS
 - Dit is het natuurlijke gevolg achter authoring. Hierbij gebruikten we het Configuration keyword and genereerde we ene MOF representatie van de aanpassingen die moeten gebeuren. Je kan dit MOF bestand ook opslaan op een andere server mits je daar permissies voor hebt. Dit is vooral handig Wanneer er gewerkt wordt met een centrale locatie waar  "version-control" gebruikt wordt. Dankzij "Version Control" kan je altijd naar een vorige situatie gaan van de configuratie. Hier hebben we Het MOF bestand opgeslaan op een netwerklocatie maar dit alleen is niet voldoende. Het MOF bestand moet eerst toekomen op het Systeem en kan dan pas enacten. DSC ondersteunten 2 methodes van configuratie levering: PUSH en PULL.
 
 ##### Push Mode
-
+![push mode] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/PUSH.PNG)
 
 
 ##### Pull mode
-
+![pull mode] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/PULL.PNG)
 
 
 ### Configuration Enacting
