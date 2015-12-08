@@ -22,7 +22,9 @@ Johan Decorte  | Gespecialiseerd in Analyse, agile werking.
 
 ## Windows
 ### Opgave
+Voor de opgave van het windows-gedeelte kan u navigeren naar [hier] (Windows/Uitwerking powershell)
 ### Einddocument
+De samengevoegde 
 ### Scripts
 ### Testplan en testrapport
 
@@ -32,3 +34,4 @@ Johan Decorte  | Gespecialiseerd in Analyse, agile werking.
 ### Testplan en testrapport
 
 ## Lastenboek
+## Weekrapporten
