@@ -34,7 +34,7 @@ Het testplan en rapport over het [tweede gedeelte] (Windows/Testen/Windows_Serve
 ### Opgave
 Voor de opgave van het linux-gedeelte kan u navigeren naar [deze pagina] (Linux/Opgave/opgave-linux.pdf).
 ### Ansible-omgeving
-Onze uitwerking van de opdrach in ansible omgeving kan u [hier](Linux/Lampstack) raadplegen.
+Onze uitwerking van de opdrach in ansible omgeving kan u [hier] (Linux/lampstack) raadplegen.
 ### Testplan en testrapport
 Het testplan en rapport van het linux gedeelte kan u nalezen op de [deze] (Linux/TestplanTestrapport.md) pagina.
 ## Lastenboek
