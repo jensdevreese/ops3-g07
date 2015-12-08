@@ -8,12 +8,12 @@
  		- Configuration Authoring and Staging
  		- Configuration Enacting
 
-! [] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/DSC_Architecture.PNG)
+![] (https://github.com/HoGentTIN/ops3-g07/blob/master/Windows/Individuele%20Documentatie/S%C3%A9bastien/Images/DSC_Architecture.PNG)
 
- ### Configuration Authoring and Staging
+### Configuration Authoring and Staging
  - In deze eerst fase schrijven we de configuratie scripts die definiëren wat en hoe de resources moeten geconfigureerd worden en hoe de configuratie klaar wordt gezet voor enacting. Het zijn wel 2 aspecten maar aangezien de staging fase net na de authorign komt, kunnen deze perfect samen besproken worden. Hou in het achterhoofd dat het mogelijk is om een een configuratie MOF(Managed Object Format) te genereren zonder PowerShell.
 
- #### Authoring
+#### Authoring
 - De Configuration Authoring bevat Powershell Declarative Scripting. De language extension die we hiervoor gebruiken zijn een deel van de DSC Powershell Module. Om deze Language Extension te verstaan kijken we eerst naar een configuratie script. We gebruiken dit voorbeeld om door de verschillende DSC sleutelwoorden te gaan en de verschillende componenten in de Authoring fase.
 
 ```PowerShell
