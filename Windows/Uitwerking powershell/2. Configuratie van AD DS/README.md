@@ -9,4 +9,5 @@ Mathias Van Rumst | [Mathias Van Rumst](https://github.com/mathias27)
 
 ## Wegwijzer
 - Hier komt de uitwerking van configuratie van AD DS
-[Inleiding!](1.Inleiding.md)
+
+[Inleiding!](1. Inleiding.md)
