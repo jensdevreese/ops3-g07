@@ -27,7 +27,7 @@
 
 ### Jens
 
-![screenschot Jens week11] ()
+![screenschot Jens week11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week11.PNG?token=AGfMllOSUlO-zdKY0dSZponqtVqlxMBvks5WcHkJwA%3D%3D)
 
 ### Sébastien
 
