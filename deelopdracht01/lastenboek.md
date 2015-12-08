@@ -632,18 +632,30 @@ Wij hebben gekozen om gebruik te maken van Siege. (http://sysadmindesk.com/web-s
 ## Kanban-bord
 
 week 1:
-[screenschot TrelloWeek1] (Images/Trello/Kanban week1.PNG)
+![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfMlmq1is_l07e7RFvn0fHC0vS-haS2ks5WcHgTwA%3D%3D)
 week 2:
-![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfNEhhz_MP8eEIDAwEbo6wvELt9w2Eqks5WRcODwA%3D%3D)
+![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfMlsdNY9s2vQOhnIIJpzeJm1BMtCN9ks5WcHgVwA%3D%3D)
 week 3:
-![screenschot KanbanWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week3.PNG?token=AGfNEnHimVhQbTQew6vMgTdVcnyiPP4-ks5WRcOTwA%3D%3D)
+![screenschot KanbanWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week3.PNG?token=AGfMlunK6C-9Q6Ouy3oPmJp1qPLTTGmpks5WcHgZwA%3D%3D)
 week 4:
-![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfNEvhY5CJBQ5gKqxt2zzOtsRT0vxGrks5WRcOnwA%3D%3D)
+![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfMljBhtbBi4mV5oZDryP-R2whZCCi9ks5WcHgZwA%3D%3D)
 week 5:
-![screenshot TrelloWeek5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week5.PNG?token=AGfNEq98cDkdsuUSmVcfe5Q2FttIpjjrks5WRcO6wA%3D%3D)
+![screenshot TrelloWeek5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week5.PNG?token=AGfMlmh_n9XqoNp4-RnlvyL2cUuEcpsiks5WcHgZwA%3D%3D)
 week 6:
-![screenshot week6kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week6.PNG?token=AGfMlovXtiaIxhH_BCbP2BednWsjzA4kks5WQwkUwA%3D%3D)
+![screenshot week6kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week6.PNG?token=AGfMlvwpF4iQ97I1W-ddNA5tsXy3K88Yks5WcHgbwA%3D%3D)
 week 7:
+![screenshot week7kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week7.PNG?token=AGfMlih9lrpU1z_t2mqSxDwo1WCpNUrSks5WcHgdwA%3D%3D)
+week 8:
+![screenshot week7kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week8.PNG?token=AGfMlg1KutfhL08TDLoTsggntQjl4AcQks5WcHgfwA%3D%3D)
+week 9:
+![screenshot week7kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/KanbanWeek9.PNG?token=AGfMlrno6nyqaWoGs-z8c1GHkBb6mKPyks5WcHghwA%3D%3D)
+week 10:
+![screenshot week7kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/KanbanWeek10.PNG?token=AGfMlvRl1twJHrnasXn8CokYjZYpHjl6ks5WcHgiwA%3D%3D)
+week 11:
+![screenshot week7kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/KanbanWeek11.PNG?token=AGfMluMNMBHN4bt-RwG3w3wIxRomTfE6ks5WcHgkwA%3D%3D)
+week 12:
+![screenshot week7kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/KanbanWeek12.PNG?token=AGfMljAdw0OH0ndRWPk82iIDVoCkf_Owks5WcHglwA%3D%3D)
+
 
 
 
