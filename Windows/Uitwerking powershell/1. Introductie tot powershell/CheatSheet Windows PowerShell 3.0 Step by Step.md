@@ -34,3 +34,8 @@
 | Read-Host                                                                        |                               | Vraagt input van de gebruiker. Opmerking: het werkwoord Read gaat dus geen bestand lezen                                                                                                                                               |
 | Get-TextStatistics                                                               | `"C\test.txt"`                | Geeft content van het bestand test.txt                                                                                                                                                                                                 |
 | Get-service                                                                      |                               | geeft je een lijst van alle services die draaien op het systeem                                                                                                                                                                        |
+| Get-Module |   | Geeft een lijst van geladen modules terug |
+| Get-Module | -ListAvailable | Geeft een lijst van alle beschikbare modules binnen het systeem |
+| Import-Module | -Name <ModuleNaam> | Laad de module met de naam die ja als parameter meegeeft |
+| `Get-Module <ModuleNaam> | Select -expand *comm*` |   | Geeft de functies terug die vrijkomen na het importeren van een module |
+
