@@ -5,124 +5,16 @@
 
 ## Deliverables
 
-###Windows Powershell:
+### Windows Powershell:
 
-* Documentatie van elk boek staat op github in /Windows/Individuele Documentatie
+* Documentatie van elk boek staat op github in [Deze] (Windows/Uitwerking powershell)
 * Cheatsheets aangemaakt van Powershell, Is een document dat continu zal aangepast worden:
 
-####Cheatsheets
-#####basic commands:
-```
-cls -> clear-host
-cd -> set-location
-dir, ls -> get-childitem
-type, cat -> get-content
-copy, cp -> copy - item
-get-alias ->>>
-gal >
-gal g* -> all get commands
-man -> help
-update-help -Force
-save help
-get-help
-* -> wildcard
-get-help get-service (-Detailed) (-full) (-online) (-showwindow)
-```
-#####advanced (parameters):
-```
-Get-Service -Name b*, c*
-Get-Service -Name bits, bfe -> gsv bits,bfe
-Get-EventLog -LogName system -Newest 3 -EntryType error
-Get-Service | Export-Csv C:\Users\Nick\Desktop\service.csv
-notepad C:\Users\Nick\Desktop\service.csv
-
-bv: malware bestrijden
-get-process | export-climxml -Path c:\good.xml
-notepad
-calc
-compare-Object -ReferenceObject (import-climxl c:\good.xml) -Difference (get-process) -propery name
-Get-Context c:\test.txt
-get-service | converto-html -property name,status | out-file c:\test.html
-get-service | converto-html -property name,status | kan ook verder mee werken
-export = convert + export
-
-get-service | stop-service -whatif
-get-service | stop-service -confirm
-
-V2 problems
-cd\
-get-Module -> currently loaded modules
-get-adcomputer - filer *
-get-Module -> automaticly loaded module activeDirectory
-```
-#####greater then, select property's, info about property's, extra property's, sorting:
-```
-Get-Process |  where handles -gt 999
-Get-Process |  where handles -gt 999 | sort handles
-Get-Service -name BITS | get-member -> gives info like property's or methods
-get-service | select -propery name,status  -> just select certain property's
-Get-ChildItem | select -Property name, length | sort length (-Descending)
-Get-EventLog -LogName System -Newest 5 | select -Property EventID, TimeWritten, Message
-
-get a file like romeo and julia
-
-$x = [xml](cat .\romeoandjulia.xml)
-
-cast to xml, work with xml files
-
-$x.play -> overview of xml
-$x.play.act -> overview of acts
-$x.play.act[0].scene[0].speech
-$x.play.act.scene.speech | group speaker | sort count
-
-filters ( before sort)
-
-get-service | where {$_.status -eq "Running" -and $_.name -like "b*"}
-get-service | where {$PSitem.status -eq "Running"}
-each service is assigned in $_ or PSitem
-
-```
-#####pipelining inputs like serviceController in gm can be used in stop-process
-```
-get-service | gm vs get-help get-service -full
-bv get-process calc | dir
-
-Get-AdComputer -filter * | select -Property name, @{name='computername'; expression={$PSitem.name}}
-Get-AdComputer -filter * | select -Property name, @{n='computername'; e={$PSitem.name}}
-
-make existing "name" change to computername so it accepts 
-soooooo...
-
-Get-AdComputer -filter * | select -Property @{n='computername'; e={$PSitem.name}} | get-service -name bits
-
-CAST adcomputer to a string
-
-Get-adcomputer -filter * | select -ExpandProperty name
-Get-WmiObject -class win32_bios -computerName (get-adcomputer -filter * | select -ExpandProperty name)
-Get-WmiObject -class win32_bios -computerName (get-adcomputer -filter * ).name
-Get-ADcomputer -filter * | get-wmiobject win32_bios -computerName {$_.Name}
-```
-#####Remoting
-```
-enter-PSSession -ComputerName dc
-invoke-command -computerName cd,s1,s2 {get-eventlog -logname system -new 3}
-install-windowsFeature WindowsPowerShellwebAcces
-install -PsawaWebapplication -UsetestCertificate
-add -PswaAuthorizationRule * * *
-everyone can do anything
-start iexplore https://pwa/pswa -> put in credentials and dc
-Get-Volume
-icm dc,s1,s2 {Get-Volume} | sort sizeremaining
-```
-
-* EindDocument komt in ops3-g07/Windows/Uitwerking, als alle boeken uit zijn
-
-
-###Windows Deployment:
-####Scripts:
+### Windows Deployment:
+#### Scripts:
 ##### 0_Create_Disk:
 Opmerking: Als je in virtualbox werkt, moet je zorgen dat er 2 harde schijven aanwezig zijn in de box.
-```
+```PowerShell
 ########################
 # Initialize the disks #
 ########################
@@ -143,8 +35,8 @@ Format-Volume -DriveLetter F -Force
 
 ```
 
-#####1_rename_PC:
-```
+##### 1_rename_PC:
+```PowerShell
 #############################
 # Change Name of the Server #
 #############################
@@ -163,8 +55,8 @@ Set-DnsClientServerAddress -InterfaceAlias "Ethernet 2" -ServerAddresses 127.0.0
 Restart-Computer
 ```
 
-#####2_Create_Domain:
-```
+##### 2_Create_Domain:
+```PowerShell
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 
 ###########################
@@ -197,8 +89,8 @@ Install-ADDSForest `
 -Force
 ```
 
-#####3_Configure_DHCP_DNS
-```
+##### 3_Configure_DHCP_DNS
+```PowerShell
 #####################
 # Install DHCP role #
 #####################
@@ -223,8 +115,8 @@ Set-DhcpServerv4OptionValue -OptionId 3 -value 192.168.10.5 #Default Gateway
 Add-DnsServerForwarder -IPAddress 8.8.8.8
 Add-DnsServerForwarder -IPAddress 8.8.4.4
 ```
-#####4_Set_Proxy
-````
+##### 4_Set_Proxy
+```PowerShell
 #################################
 # Install proxy server Services #
 #################################
@@ -239,8 +131,8 @@ netsh -f RAS.txt
 Restart-Service RemoteAccess
 netsh -f RAS.txt
 ````
-#####5_Create_OU_GPO
-````
+##### 5_Create_OU_Users.ps1
+```PowerShell
 ###############################
 # Create Userfolder directory #
 ###############################
@@ -346,13 +238,17 @@ foreach ($share_name in $shares)
 ################
 # Create Users #
 ################
-#### Opmerking: We geven het csv-bestand mee met het script. In dit csv-bestand staan de gebruikers die we gaan toevoegen.
 $Path = ".\5_werknemers.csv"
 $Delimiter = ","
 $principal = "@ASSENGRAAF.NL"
 $main_OU = "OU=AsAfdelingen,DC=Assengraaf,DC=nl"
 $profile_path = "\\AsSv1\UserFolders$\%username%"
 $password = "Test123"
+
+#We weten dat het toevoegen van een wachtwoord in het script niet bepaald veilig is.
+#Best practice is een wachtwoord zo te vragen: $secpass = Read-Host “Password” –AsSecureString
+#En dan als parameter: –AccountPassword $secpass
+#Dit doen we deze keer niet omwille van gemaksredenen bij het testen
 
 foreach ($User in Import-Csv -Delimiter $Delimiter -Path $Path)
 {
@@ -415,29 +311,24 @@ foreach ($printer in $printers)
     Add-Printer -DriverName "HP Color LaserJet 2500 PS Class Driver" -Name $printer -PortName $port -Published -Shared -ShareName $printer     
 }
 .\pause_printers.vbs
-
-################
-# Create GPO's #
-################
-
-##### Opmerking: We geven 1 map 'GPO' mee met daarin de backupId's die we importeren in het script. In deze mappen staan de ##### te installeren eigenschappen van de group policy's. 
-
-Import-GPO -BackupId BE233678-6586-4572-87F8-FFE93F5C53F3 -TargetName "GPOGebruikers" -Path "C:\Users\Administrator\Desktop\opdracht1\GPO\" -CreateIfNeeded
+````
+##### 5_1_GPO.ps1
+```PowerShell
+Import-GPO -BackupId 4FAD1344-F018-4E8C-A12E-E3C9A06F9555 -TargetName "GPOGebruikers" -Path ".\ConnexusGPO\JuisteGPO" -CreateIfNeeded
 Get-GPO -Name "GPOGebruikers" | New-GPLink -Target "OU=AsAfdelingen,DC=ASSENGRAAF,DC=NL"
 
-Import-GPO -BackupId 7A6D71AA-5DC3-43D9-872E-8FEDC144805C -TargetName "GPOBeheerders" -Path "C:\Users\Administrator\Desktop\opdracht1\GPO\" -CreateIfNeeded
-Get-GPO -Name "GPOBeheerders" | New-GPLink -Target "OU=Beheer,OU=AsAfdelingen,DC=ASSENGRAAF,DC=NL" -Enforced Yes
+Import-GPO -BackupId C3E4A3E3-4B88-4AFB-89FB-4537654BDE7C -TargetName "GPOBeheerders" -Path ".\ConnexusGPO\JuisteGPO" -CreateIfNeeded
+Get-GPO -Name "GPOBeheerders" | New-GPLink -Target "OU=AsAfdelingen,DC=ASSENGRAAF,DC=NL"
 
-Import-GPO -BackupId 26F1E35D-F9F9-4A5A-845E-04115BFDC529 -TargetName "Default Domain Policy" -Path "C:\Users\Administrator\Desktop\opdracht1\GPO\" -CreateIfNeeded
-Get-GPO -Name "Default Domain Policy" | Set-GPLink -Enforced Yes -Target "DC=ASSENGRAAF,DC=NL"
+Import-GPO -BackupId A00694BC-B2B0-4120-B822-CDC6A9961453 -TargetName "Default Domain Policy" -Path ".\ConnexusGPO\JuisteGPO" -CreateIfNeeded
+Get-GPO -Name "Default Domain Policy" | New-GPLink -Enforced Yes -Target "DC=ASSENGRAAF,DC=NL"
 
-Import-GPO -BackupId A799151D-70B9-43D0-A41C-7F3890F1AB95 -TargetName "Default Domain Controllers Policy" -Path "C:\Users\Administrator\Desktop\opdracht1\GPO\" -CreateIfNeeded
+Import-GPO -BackupId 7F683349-41D6-4842-9323-DFCB1B06AA19 -TargetName "Default Domain Controllers Policy" -Path ".\ConnexusGPO\JuisteGPO" -CreateIfNeeded
 
 gpupdate /force
-````
-######6_Backup
-````
-######################
+```
+##### 6_Backup
+```PowerShell
 # Add Backup feature #
 ######################
 Add-WindowsFeature Windows-Server-Backup -IncludeManagementTools
@@ -456,13 +347,12 @@ Add-WBBackupTarget -Policy $policy -Target $BackupTargetVolume
 # Run backup #
 ##############
 Start-WBBackup -Policy $policy
-````
-
-###Linux LAMP Stack:
+```
+### Linux LAMP Stack:
 - Zorg dat er gelijk wanneer in elk bestand gebruik gemaakt wordt van spaties en geen tabs. Overbodige spaties zorgen ook voor errors, dus verwijder deze ook!!
 
 - Overzicht van alle vagrant hosts:
-=> vagrant_hosts.yml
+#### vagrant_hosts.yml
 ```
 - name: lampstack
   ip: 192.168.56.77
@@ -476,10 +366,12 @@ Start-WBBackup -Policy $policy
 - name: monitor
   ip: 192.168.56.80
 - name: loadtester
-  ip: 192.168.56.81
+  ip: 192.168.56.120
 ```
-=> site.yml
+#### site.yml
 ```
+# site.yml
+---
 - hosts: lampstack
   sudo: true
   roles:
@@ -514,44 +406,14 @@ Start-WBBackup -Policy $policy
   sudo: true
   roles:
     - bertvv.el7
-    - siege
+    - bertvv.httpd
+    - Siege
 ```
-
--Vagrant Up problemen bij aanmaken boxen
+#### Group_Vars/all.yml
 ```
-! heel belangrijk bij het clonen => probleem met inventory.py !
- => destroy box
- => verwijder lampstack in directory
- => $ git clone --config core.autocrlf=input https://github.com/bertvv/lampstack
- => $ cd lampstack
- => $ ./scripts/role-deps.sh
- => vagrant up
- ```
-- Alle gegevens met nodige Roles
-
-- all.yml
+collectd_server: 192.168.56.80
 ```
-el7_repositories:
-  - epel-release
-el7_install_packages:
-  - bash-completion
-  - git
-  - bind-utils
-  - nano
-  - tree
-  - vim-enhanced
-  - wget
-el7_user_groups:
-  - wheel
-el7_users:
-  - name: jens
-    comment: Administrator
-    groups:
-    - wheel
-    password: []
-el7_motd: true
-```
- - Lampstack.yml
+#### Host_Vars/Lampstack.yml
 ```
 # host_vars/lampstack.yml
 ---
@@ -595,20 +457,11 @@ wordpress_plugins:
     version: 1.4.5
   - name: demo-data-creator
 ```
--Probleem gehad met github en syncen is opgelost door volgende manier.
- - Map LAMPstack volledig verwijderen en de laatste versie van github(lampstack map) kopiëren in repository
- - zorg dat er geen Lampstack box bestaat!!
- - zorg dat alle roles uit ansible/roles verwijderd zijn
- - uitvoeren van script role_deps.sh vanuit lampstack directory
- - collectd role manueel gedownload en in ansible/roles geplaatst
- - dependencies aanpassen
- - vagrant_host voeg je de nieuwe VM toe
- - in host_vars een monitor.yml aanmaken
- - in site.yml de monitor toevoegen met nodige rollen
- - vagrant up lampstack
 
--Monitor.yml
+#### Host_Vars/Monitor.yml
 ```
+# host_vars/monitor.yml
+---
 el7_firewall_allow_services:
   - http
   - https
@@ -617,31 +470,7 @@ el7_install_packages:
   - bash-completion
   - git
   - tree
-  - policycoreutils
-  - setroubleshoot-server
-
-el7_user_groups:
-  - wheel
-   
-el7_repositories:
-  - epel-release
-el7_firewall_allow_ports:
-  - 25827/udp
-```
-- Loading tool siege
-- loadtester.yml
-```
-# host_vars/loadtester.yml
----
-el7_firewall_allow_services:
-  - http
-  - https
-  - ssh
-el7_install_packages:
-  - bash-completion
-  - git
   - vim
-  - tree
   - policycoreutils
   - setroubleshoot-server
 
@@ -653,8 +482,113 @@ el7_repositories:
 el7_firewall_allow_ports:
   - 25826/udp
 ```
--Automatisatie van siege dmv aanmaken role => siege
+#### Host_Vars/loadtester.yml
+```
+# host_vars/loadtester.yml
+---
+el7_repositories:
+  - epel-release
 
+el7_install_packages:
+  - bash-completion
+  - policycoreutils
+  - setroubleshoot-server
+  - tree
+  - vim-enhanced
+
+el7_firewall_allow_services:
+  - http
+  - https
+  - ssh
+
+el7_firewall_allow_ports:
+  - 25826/udp
+
+el7_user_groups:
+  - wheel
+
+siege_targets:
+  - 192.168.56.77/wordpress 
+```
+### Rollen
+#### Loadtesting tool: Siege
+Deze hebben we in ons lastenboek opgenomen, omdat we deze rol zelf gemaakt hebben.
+```
+# roles/siege/tasks/main.yml
+---
+
+# Download en unzip Siege en zet hem in de Home directory van de vagrant host.
+#- name: Download Siege
+#  get_url: url=http://download.joedog.org/siege/siege-3.1.0.tar.gz dest=/home/vagrant/ mode=0777
+# unzippen
+
+- name: copy siege tar
+  copy:
+    src: siege-3.1.0.tar.gz
+    dest: /home/vagrant
+  tags: tarcopy
+
+- unarchive: src=/home/vagrant/siege-3.1.0.tar.gz dest=/home/vagrant/ copy=no
+
+- name: install the 'Development tools' package group
+  yum: name="@Development tools" state=present
+
+- name: Configure and complete the installation process
+  command: sudo {{ item }} chdir="/home/vagrant/siege-3.1.0"
+  with_items:
+    - ./configure
+    - make
+    - make install
+    
+- name: copy .siegerc
+  copy:
+    src: .siegerc
+    dest: /home/vagrant
+  tags: siege
+
+- name: Make var-directory
+  file: path=/usr/local/var state=directory mode=0777
+
+- name: Make siegelog-file 
+  file: path=/usr/local/var/siege.log state=touch mode=0777
+  tags: siege
+
+- name: copy yomoni tar
+  copy:
+    src: Yomoni.tar.gz
+    dest: /home/vagrant
+  tags: siege
+
+- unarchive: src=/home/vagrant/Yomoni.tar.gz dest=/home/vagrant copy=no
+
+- name: copy targets
+  template: 
+    src: urls.txt
+    dest: /usr/local/etc/
+  tags: siege
+
+- name: extracting website tar to /var/www/html
+  copy:
+    src: Website.tar.gz
+    dest: /var/www/html/
+  tags: siege
+
+- unarchive: src=/var/www/html/Website.tar.gz dest=/var/www/html/ copy=no
+
+- name: setting permissions
+  command: sudo chmod -R 777 /var/www/html
+
+- name: cleaning up yomoni-tar
+  command: sudo rm /home/vagrant/Yomoni.tar.gz
+
+- name: cleaning up siege-tar
+  command: sudo rm /home/vagrant/siege-3.1.0.tar.gz
+
+- name: cleaning up html-folder
+  command: sudo rm /var/www/html/Website.tar.gz
+```
+#### Overige rollen
+De overige rollen die wij gebruiken voor in onze collectd server en de lampstack kan u [hier] (Linux/lampstack/ansible/roles/) raadplegen
 
 
 ## Deeltaken
@@ -681,7 +615,7 @@ el7_firewall_allow_ports:
 * 1 van de vorige opdrachten uitwerken met windows Powershell
 * extra video's en tutorials hierover bekijken op virtual academy of technet labs
 
-###Linux LAMP Stack:
+### Linux LAMP Stack:
 * Opzetten Werkomgeving CentOS 7 door middel van Ansible en Vagrant
 * Downloaden en installeren van nodige Roles
 * Opstelling 1:
@@ -698,7 +632,7 @@ Wij hebben gekozen om gebruik te maken van Siege. (http://sysadmindesk.com/web-s
 ## Kanban-bord
 
 week 1:
-![screenschot TrelloWeek1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week1.PNG?token=AGfNEuAkU6IujkKQP1Zmg342XIHKXM9jks5WRcN0wA%3D%3D)
+[screenschot TrelloWeek1] (Images/Trello/Kanban week1.PNG)
 week 2:
 ![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfNEhhz_MP8eEIDAwEbo6wvELt9w2Eqks5WRcODwA%3D%3D)
 week 3:
