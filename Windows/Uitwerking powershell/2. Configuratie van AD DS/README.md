@@ -11,7 +11,7 @@ Mathias Van Rumst | [Mathias Van Rumst](https://github.com/mathias27)
 - Hier komt de uitwerking van configuratie van AD DS
 - Hieronder kan u op een simpele manier navigeren naar de verschillende hoofdstukken!
 
-- [1.Inleiding](1. Inleiding.md)
+- [1. Inleiding](1. Inleiding.md)
 - [2. Deploy your first forest and domain](2. Deploy your first forest and domain.md)
 - [3. Manage DNS and DHCP](3. Manage DNS and DHCP.md)
 - [4. Create and manage users and groups](4. Create and manage users and groups.md)
