@@ -1,7 +1,7 @@
 # Lastenboek Taak 1: opdracht 1
 
 * Verantwoordelijke uitvoering: `Sébastien Pattyn`
-* Verantwoordelijke testen: `Jens De Vreese`
+* Verantwoordelijke testen: `Jens De Vreese` , `Jasper Cottenie` , ` Mathias Van Rumst`
 
 ## Deliverables
 

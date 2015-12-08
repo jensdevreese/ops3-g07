@@ -1,7 +1,7 @@
-## Testplan en -rapport taak 1: Opzetten LAMPstack
+## Testplan en -rapport windows deel 2
 
-* Verantwoordelijke uitvoering: Sébastien Pattyn
-* Verantwoordelijke testen: Jasper Cottenie
+* Verantwoordelijke uitvoering: `Sébastien Pattyn` , `Jasper Cottenie`
+* Verantwoordelijke testen: `Jasper Cottenie` , `Sébastien Pattyn`
 
 ### Testplan
 
