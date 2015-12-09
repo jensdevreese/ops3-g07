@@ -59,7 +59,7 @@ Uitvoerder(s) test: `Jasper Cottenie`
 
 - Script 7: GPO
 
-![screenschot 7.1] ()
+![screenschot 7.1] (https://github.com/HoGentTIN/ops3-g07/blob/master/deelopdracht01/Printscreens%20testplan%20windows/script71.PNG)
 
 - Script 8: Backup
 
