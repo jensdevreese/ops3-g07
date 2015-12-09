@@ -20,6 +20,10 @@ Johan Decorte  | Gespecialiseerd in Analyse, agile werking.
 * Trello-bord: <https://trello.com/connexusv30>
 * Tijdregistratie: <https://toggl.com/app/dashboard/team/1135392/period/thisYear>
 
+
+## Cisco
+### Opgave
+Voor de opgave van het cisco-gedeelte kan u navigeren naar [hier] (Cisco/README.md)
 ## Windows
 ### Opgave
 Voor de opgave van het windows-gedeelte kan u navigeren naar [hier] (Windows/Opgave/Opdracht_project_systeembeheer_-_Powershell.pdf)
