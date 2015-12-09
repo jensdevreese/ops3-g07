@@ -103,7 +103,7 @@ foreach ($share_name in $shares)
 ################
 # Create Users #
 ################
-$Path = ".\5_werknemers.csv"
+$Path = ".\6_werknemers.csv"
 $Delimiter = ","
 $principal = "@ASSENGRAAF.NL"
 $main_OU = "OU=AsAfdelingen,DC=Assengraaf,DC=nl"
