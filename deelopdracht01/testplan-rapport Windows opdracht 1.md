@@ -7,7 +7,20 @@
 
 Auteur(s) testplan: `Jasper Cottenie`
 
-- ...
+We hebben 8 scripts voor deze opdracht. Na het uitvoeren van deze scripts moeten volgende zaken ingesteld zijn:
+* DC
+* DNS
+* DHCP
+* Proxy server
+* OU's
+* Users
+* Usergroups
+* Shares
+* GPO's
+* Backup
+* Printers
+
+Acceptatiecriteria van dit testplan is het onmiddellijk slagen van al deze scripts.
 
 ### Testrapport
 
