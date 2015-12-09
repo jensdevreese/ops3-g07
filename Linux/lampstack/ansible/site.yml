@@ -7,7 +7,7 @@
     - bertvv.httpd
     - bertvv.mariadb
     - bertvv.wordpress
-    - { role: bertvv.collectd,
+    - { role: collectd,
              collectd_plugins:
              [{ plugin: "cpu "},
               {plugin: "logfile"},
