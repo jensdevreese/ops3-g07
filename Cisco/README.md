@@ -20,10 +20,15 @@ De opdrachten voor het gedeelte Cisco, kunt u terug vinden in de pdf. Ieder groe
 Overzicht:
 
 Jasper EIGRP IPV4
+
 Jasper EIGRP IPV6
-Jens Configuring Rapid PVST, PortFast, and BPDU Guard
+
+Jens Configuring Rapid PVST, PortFast, and BPDU 
+
 Mathias MultiArea OSPFv2
+
 Mathias MultiArea OSPFv3
+
 Sebastien Troubleshooting MultiArea OSPFv2
 
 
