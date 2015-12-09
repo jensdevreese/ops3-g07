@@ -35,7 +35,7 @@
 
 ### Jasper
 
-![screenschot week11] ()
+![screenschot week11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%2011.PNG?token=AGfTaeENpFIbfuRD0m1wAozweH8lfXqxks5WcX2qwA%3D%3D)
 
 
 ## Wat plan je volgende week te doen?
@@ -50,7 +50,8 @@ Voor het windows gedeelte hebben ik de laatste loodjes aan mijn samenvatting afg
 - Sebastien
 Tegen volgende week moet alles af. De documentatie van Powershell DSC en dan ook alles in een eindbestand steken. Windows Deel 2 moet verder uitgewerkt worden. Dit zal met AD gebruiken. Hierna zal ook de voorbereiding voor het groepslabo van week 13 plaatsvinden.
 - Jasper
-
+Verder uitwerken documentatie boek had wat vertraging door voorbereiding van hackathon. Dat staat dus nog zeker op de agenda.
+Daarnaast een volledig testplan/rapport afleveren voor windows deel 1 samen met het uitwerken van windows deel 2 + testplan/rapport.
 
 ## Waar hebben jullie nog problemen mee?
 
