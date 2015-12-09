@@ -21,6 +21,7 @@ We hebben 8 scripts voor deze opdracht. Na het uitvoeren van deze scripts moeten
 * Printers
 
 Acceptatiecriteria van dit testplan is het onmiddellijk slagen van al deze scripts.
+De scripts bevinden zich [hier] (https://github.com/HoGentTIN/ops3-g07/tree/master/Windows/Scripts/Windows_Server_deel_1).
 
 ### Testrapport
 
