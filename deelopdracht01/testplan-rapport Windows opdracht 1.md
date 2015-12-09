@@ -15,7 +15,7 @@ Uitvoerder(s) test: `Jasper Cottenie`
 
 - Script 1: Create disks
 
-![screenschot 1.1] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20windows/script01.PNG?token=AGfTaegpC918QQLRSwtchWfsQ6k9OuBfks5WcKJtwA%3D%3D)
+![screenschot 1.1] (https://github.com/HoGentTIN/ops3-g07/blob/master/deelopdracht01/Printscreens%20testplan%20windows/script01.PNG)
 
 ![screenschot 1.2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/deelopdracht01/Printscreens%20testplan%20windows/script02.PNG?token=AGfTaZ0zeKtnnI3AqbMaORrom_NxEQk4ks5WcKNBwA%3D%3D)
 
