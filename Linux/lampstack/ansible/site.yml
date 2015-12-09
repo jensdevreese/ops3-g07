@@ -21,7 +21,7 @@
   sudo: true
   roles:
     - bertvv.el7
-    - { role: bertvv.collectd,
+    - { role: collectd,
              collectd_plugins:
               [{plugin: "logfile"}],
 
