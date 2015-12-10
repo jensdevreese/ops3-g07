@@ -11,7 +11,8 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-![screenschot KanbanWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week3.PNG?token=AGfMlrrpNtfqWuktIi_quDpnzL7b1dqpks5WaTLGwA%3D%3D)
+
+![screenschot week3] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Trello/Kanban%20week3.PNG)
 
 ## Wat heb je deze week gerealiseerd?
 
@@ -22,19 +23,20 @@ De github repo werd opgeschoond en er werden al een aantal startscripts voor pow
 
 ### Algemeen
 ### Mathias
-![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week3ToggleMathias.png?token=AGfMloxPs2Le4LymxaDKMwqzuetUYAYZks5WaTLdwA%3D%3D)
+
+![screenschot Mathias week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Mathias/Week3ToggleMathias.png)
 
 ### Jens
 
-![screenschot ToggleWeek3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week3.PNG?token=AGfMltFedVQTFvtzFY2su3z7bkMeAzdQks5WaTLtwA%3D%3D)
+![screenschot Jens week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week3.PNG)
 
-### Sebastien
+### Sébastien
 
-![screenshot Toggle week3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week3.PNG?token=AGfMlnMtyKaLraxpPVP8nw1mnDtnRBUzks5WaTMCwA%3D%3D)
+![screenshot Sebastien Week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week3.PNG)
 
 ### Jasper
 
-![screenschot week3] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%203.PNG?token=AGfMlgbPucz2KnywRFX9xYn40MDdTeP9ks5WaTMYwA%3D%3D)
+![screenschot week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%203.PNG)
 
 ## Wat plan je volgende week te doen?
 
