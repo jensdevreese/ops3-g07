@@ -23,19 +23,19 @@
 
 ### Mathias
 
-![screenschot Mathias week11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week11ToggleMathias.png?token=AGfMynn5afrbLkJEKUVOvfFj3W5JCzsWks5WbpfYwA%3D%3D)
+![screenschot Mathias week5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Mathias/Week11ToggleMathias.png)
 
 ### Jens
 
-![screenschot Jens week11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week11.PNG?token=AGfMllOSUlO-zdKY0dSZponqtVqlxMBvks5WcHkJwA%3D%3D)
+![screenschot Jens week5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week11.PNG)
 
 ### Sébastien
 
-![screenshot Sebastien Week11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week11.PNG?token=AGfNEiLLG5xMBZNr-iF5gj3E0Al6_0R2ks5Wb9dZwA%3D%3D)
+![screenshot Sebastien Week5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week11.PNG)
 
 ### Jasper
 
-![screenschot week11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%2011.PNG?token=AGfTaeENpFIbfuRD0m1wAozweH8lfXqxks5WcX2qwA%3D%3D)
+![screenschot week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%2011.PNG)
 
 
 ## Wat plan je volgende week te doen?
