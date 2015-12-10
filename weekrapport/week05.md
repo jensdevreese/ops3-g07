@@ -19,7 +19,7 @@ Ook hebben we onze individuele tijdsregistratie bijgevoegd in de documentatie. W
 ### Algemeen
 
 Begin van de week:
-![screenschot trelloweek5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week5.PNG?token=AGfMlsP7NaQOdktNbwGXzZilj9JOlUBTks5WaTOcwA%3D%3D)
+![screenschot trelloweek5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Trello/Kanban%20week5.PNG)
 
 Voor het gedeelte van linux  hebben we ons deze week bezig gehouden met: 
 - het zoeken naar om onze lampstack te montoren. Met andere woorden we gaan op zoek naar load-testingtools.
@@ -34,22 +34,21 @@ Tijdens het uitwerken van deze opdracht, lezen we onze boeken verder en schrijve
 
 
 
-[Afbeelding teamoverzicht tijdregistratie onderverdeeld per deelopdracht]
-
 ### Mathias
 
-![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week5ToggleMathias.png?token=AGfMlleD8SFOJCCakw3Q8a_tRLi4O_VIks5WaTO6wA%3D%3D)
+![screenschot Mathias week5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Mathias/Week5ToggleMathias.png)
 
 ### Jens
 
-![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week5.PNG?token=AGfMltoh7u5dSWrw203pn6Q8Pp07h5miks5WaTPEwA%3D%3D)
+![screenschot Jens week5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week5.PNG)
 
-### Sebastien
-![Screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week5.PNG?token=AGfMlijWhaoUcrxHvO3rXmkgGH3EnBNzks5WaTPSwA%3D%3D)
+### Sébastien
+
+![screenshot Sebastien Week5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week5.PNG)
 
 ### Jasper
 
-![screenshot week5] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%205.PNG?token=AGfMloVVw9VDR4rU6TvgaThMW5pe-Rr1ks5WaTPdwA%3D%3D)
+![screenschot week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%205.PNG)
 
 
 
