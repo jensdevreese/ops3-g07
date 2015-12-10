@@ -63,7 +63,7 @@ Stap 6.
 
 Stap 7. 
 
-![screenschot stap 7] https://github.com/HoGentTIN/ops3-g07/blob/master/Testplannen/Printscreens%20testplan%20linux/7.Monitor_CollectD.PNG)
+![screenschot stap 7] (https://github.com/HoGentTIN/ops3-g07/blob/master/Testplannen/Printscreens%20testplan%20linux/7.Monitor_CollectD.PNG)
 
 Stap 8. 
 
