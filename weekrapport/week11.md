@@ -11,12 +11,13 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-![screenschot TrelloWeek11] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/KanbanWeek11.PNG?token=AGfMytgpurbhGvhzYvCkAJW1yyp7j7pXks5WbpiAwA%3D%3D)
+![screenschot TrelloWeek11] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Trello/KanbanWeek11.PNG)
 
 
 ## Wat heb je deze week gerealiseerd?
-
-
+De laatste aanpassingen gedaan aan onze opstelling van Linux en van Windows.
+We zijn zo goed als klaar met het samenvatten van onze boeken, en zijn deze nu samen aan het gieten in een repository.
+We gaan ooks alles nog eens een laatste keer testen om zeker geen fouten te hebben. Testplan en rapport van linux is zo goed als klaar
 
 ### Algemeen
 
