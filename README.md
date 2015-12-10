@@ -32,8 +32,8 @@ De samengevoegde samenvatting kan u via [deze link] (Windows/Uitwerking powershe
 ### Scripts
 U kan de scripts [hier] (Windows/Scripts/Windows_Server_deel_1) bekijken voor windows server deel 1. En [hier] (Windows/Scripts/Windows_Server_deel_2/) voor windows server deel 2.
 ### Testplan en testrapport
-Het testplan en rapport over het [eerste gedeelte] (Windows/Testen/Windows_Server_deel_1).
-Het testplan en rapport over het [tweede gedeelte] (Windows/Testen/Windows_Server_deel_2).
+Het testplan en rapport over het [eerste gedeelte] (ops3-g07/Testplannen/testplan-rapport Windows opdracht 1.md).
+Het testplan en rapport over het [tweede gedeelte] (ops3-g07/Testplannen/testplan-rapport Windows opdracht 2.md).
 ## Linux
 ### Opgave
 Voor de opgave van het linux-gedeelte kan u navigeren naar [deze pagina] (Linux/Opgave/opgave-linux.pdf).
