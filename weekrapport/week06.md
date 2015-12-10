@@ -21,24 +21,24 @@ In het algemeen hebben we ook een duidelijkere structuur gemaakt op onze github 
 ### Algemeen
 
 Kanban week 6:
-![screenshot week6kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week6.PNG?token=AGfMlgqRZaiBPCdtxYJ5F6L-BrXPdEPMks5WaTSRwA%3D%3D)
+![screenshot week6kanban] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Trello/Kanban%20week6.PNG)
 
 
 ### Mathias
 
-![Screen week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week6ToggleMathias.png?token=AGfMlgTxT0c2KS_zuBMuVi7wgjd4O7z-ks5WaTRywA%3D%3D)
+![screenschot Mathias week6] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Mathias/Week6ToggleMathias.png)
 
 ### Jens
 
-![screenshot toggleWeek6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week6.PNG?token=AGfMllN7BrdO6fDgmWxRLuNmy1eZTWueks5WaTQdwA%3D%3D)
+![screenschot Jens week6] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week6.PNG)
 
-### Sebastien
-![Screenshot Toggle Week6] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week6.PNG?token=AGfMljlRgyM5wbWZ3DQQ4JRqPOKtMrqSks5WaTQfwA%3D%3D)
+### Sébastien
+
+![screenshot Sebastien Week6] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week6.PNG)
 
 ### Jasper
 
-![week6 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%206.PNG?token=AGfMluKGd72Mz0R-k2hboNLE-RYNVF8Iks5WaTQgwA%3D%3D)
-
+![screenschot week6] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%206.PNG)
 
 
 ## Wat plan je volgende week te doen?
