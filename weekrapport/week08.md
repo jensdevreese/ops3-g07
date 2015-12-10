@@ -20,20 +20,22 @@
 ### Algemeen
 
 Kanban week 8:
-![screenshot week8kanban] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week8.PNG?token=AGfMliKW7cwQWMS7fiKHDacNxqQKbamHks5WaTVMwA%3D%3D)
+![screenshot week8kanban] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Trello/Kanban%20week8.PNG)
 ### Mathias
 
-![Screen week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week8ToggleMathias.png?token=AGfMlqkreOQwB4K9t82YX7MbawpVI0gZks5WaTVOwA%3D%3D)
+![screenschot Mathias week5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Mathias/Week8ToggleMathias.png)
+
 ### Jens
 
-![screenshot toggleWeek8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week8.PNG?token=AGfMloms0QiOFlMRzv0oScy7LrlaJBZKks5WaTVQwA%3D%3D)
+![screenschot Jens week5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week8.PNG)
 
-### Sebastien
-![Screenshot Toggle Week8] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week8.PNG?token=AGfMlqcf3lWvMNJYrDLR88YWKvnPp7eEks5WaTVSwA%3D%3D)
+### Sébastien
+
+![screenshot Sebastien Week5] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week8.PNG)
 
 ### Jasper
 
-![week8 toggle] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%208.PNG?token=AGfMlh6D4JNsAcP_VDhGMVuEv2Kpiyyxks5WaTVTwA%3D%3D)
+![screenschot week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%208.PNG)
 
 
 ## Wat plan je volgende week te doen?
