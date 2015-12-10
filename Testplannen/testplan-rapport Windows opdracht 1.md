@@ -1,6 +1,6 @@
 ## Testplan en -rapport windows deel 1
 
-* Verantwoordelijke uitvoering: `Jasper Cottenie` , `Mathias Van Rumst`, `Sébastien Pattyn`
+* Verantwoordelijke uitvoering: `Jasper Cottenie` , `Mathias Van Rumst`, `Sébastien Pattyn`, `Jens De Vreese`
 * Verantwoordelijke testen: `Jasper Cottenie`, `Sébastien Pattyn`
 
 ### Testplan
