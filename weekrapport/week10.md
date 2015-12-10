@@ -11,7 +11,7 @@
 | Jasper   |  Ja   |           |
 
 ## Trello
-![screenschot TrelloWeek10] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Trello/Kanban%20week10.PNG)
+![screenschot TrelloWeek10] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Trello/KanbanWeek10.PNG)
 
 
 ## Wat heb je deze week gerealiseerd?
@@ -23,7 +23,7 @@ De bedoeling is dat we bij onze volgende meeting al een eerste versie hebben dat
 ### Algemeen
 ### Mathias
 
-![screenschot Mathias week10] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Mathias/Week10ToggleMathias.png)
+![screenschot Mathias week10] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Mathias/Week10TogglMathias.png)
 
 ### Jens
 
