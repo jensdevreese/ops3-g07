@@ -15,8 +15,8 @@ Mathias Van Rumst | [Mathias Van Rumst](https://github.com/mathias27)
 Joeri Van Steen | Gespecialiseerd in Windows.
 
 ## Wegwijzer
-De opdrachten voor het gedeelte Windows, zijn beschreven onder het mapje 'Opgave'. De volledige uitwerking hiervan staat onder het mapje 'Uitwerking powershell'.
-Hierin vind je ook de gestructureerde samenvatting van onze boeken. De boeken die wij gekozen hebben zijn:
+De opdrachten voor het gedeelte Windows, zijn beschreven onder het mapje 'Opgave'. De volledige documentatie hiervan staat onder het mapje 'Uitwerking powershell'.
+Hierin vind je een gestructureerde samenvatting van PowerShell Active Directory. De boeken die wij gekozen hebben om dit te kunnen maken zijn:
 - Windows PowerShell 3.0 Step by Step. [Ed Wilson]
 - Active directory management in a month of lunches [Richard Siddaway]
 - Deploying and managing Active Directory with Windows PowerShell [Charlie Russel]
