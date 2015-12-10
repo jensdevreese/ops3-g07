@@ -42,4 +42,6 @@ Onze uitwerking van de opdrach in ansible omgeving kan u [hier] (Linux/lampstack
 ### Testplan en testrapport
 Het testplan en rapport van het linux gedeelte kan u nalezen op de [deze] (Linux/TestplanTestrapport.md) pagina.
 ## Lastenboek
+Het lastenboek kan je nalezen [hier] (ops3-g07/Testplannen/lastenboek.md)
 ## Weekrapporten
+De weekrapporten bevinden zich [hier] (ops3-g07/weekrapport) 
