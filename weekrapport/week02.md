@@ -13,7 +13,7 @@
 
 ## Trello
 
-![screenschot week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week2.PNG?token=AGfMllCAOONgKs6FMZB8XMOob9kyv1Peks5WaTIPwA%3D%3D)
+![screenschot week2] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Trello/Kanban%20week2.PNG)
 
 ## Wat heb je deze week gerealiseerd?
 We zijn momenteel bezig met het leren van PowerShell en wat uit te proberen met een LAMP Stack.
@@ -24,18 +24,20 @@ Iedereen heeft ook zijn boeken besteld in verband met powershell.
 ### Algemeen
 
 ### Mathias
-![screenschot MathiasToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png?token=AGfMln1OlG5tl419AezxvqFGa2w2hrrDks5WaTKPwA%3D%3D)
+
+![screenschot Mathias week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Mathias/Week2ToggleMathias.png)
 
 ### Jens
-![screenschot JensToggleWeek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG?token=AGfMlgSQQYzgOMspk1V47e6bBXkldNhNks5WaTJLwA%3D%3D)
 
-### Sebastien
+![screenschot Jens week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week2.PNG)
 
- ![screenshot Sebastien week2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG?token=AGfMlp2zLOjGtCRKnvgCmTLktoUoNmxgks5WaTJewA%3D%3D)
+### Sébastien
+
+![screenshot Sebastien Week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week2.PNG)
 
 ### Jasper
 
-![screenschot JasperToggleweek2] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%202.PNG?token=AGfMlrf1giO2QLhABQ-JX6ijjhK0Jzmqks5WaTKAwA%3D%3D)
+![screenschot week1] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%202.PNG)
 
 ## Wat plan je volgende week te doen?
 
