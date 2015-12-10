@@ -12,26 +12,27 @@
 
 ## Trello
 
-![screenschot TrelloWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Trello/Kanban%20week4.PNG?token=AGfMlukxYj1Jn33ka7mDr4eiReK7MVuqks5WaTM2wA%3D%3D)
+
+![screenschot week4] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Trello/Kanban%20week4.PNG)
 
 ## Wat heb je deze week gerealiseerd?
 Het opgezochte loadtestingtool (Siege) configuren op de lampstack & scripts schrijven voor het opstellen van DNS/AD/DHCP voor windows server 2012.
 ### Algemeen
-
 ### Mathias
-![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png?token=AGfMlt4w2tNF8zGqHT_uCVU1vhIZEQnOks5WaTNLwA%3D%3D)
+
+![screenschot Mathias week4] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Mathias/Week4ToggleMathias.png)
 
 ### Jens
 
-![screenschot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week4.PNG?token=AGfMlvzgtRJktS9FlF7oGXGKJwmC7QKsks5WaTNewA%3D%3D)
+![screenschot Jens week4] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdregistratie%20Jens/Toggle%20week4.PNG)
 
-### Sebastien
+### Sébastien
 
-![screenshot ToggleWeek4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week4.PNG?token=AGfMlo10S8XHN6KSbxscP8W-VhALg274ks5WaTNwwA%3D%3D)
+![screenshot Sebastien Week4] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20S%C3%A9bastien/Toggle%20week4.PNG)
 
 ### Jasper
 
-![screenschot week4] (https://raw.githubusercontent.com/HoGentTIN/ops3-g07/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG?token=AGfMlldo0Ne2syVl9NTjtizDI6MoQ-JUks5WaTN7wA%3D%3D)
+![screenschot week4] (https://github.com/HoGentTIN/ops3-g07/blob/master/Images/Toggle/Tijdsregistratie%20Jasper/Week%204.PNG)
 
 ## Wat plan je volgende week te doen?
 We maken deze week alles in orde qua organisatie! Ieder weekrapport correct invullen en tijdsregistraties bijhouden en weergeven op de weekopdrachten. Voor het linux-gedeelte gaan we op zoek naar lazyloadingTools terwijl we voor windows gaan proberen om volledig de opdracht van windows server deel 1 in powershell te maken.
